@@ -1,0 +1,188 @@
+{
+  "Beginner": [
+    {
+      "question": "Quel est le plus grand mammifère terrestre ?",
+      "correctAnswer": "Éléphant",
+      "choices": ["Éléphant", "Girafe", "Rhinocéros", "Hippopotame"],
+      "anecdote": "L'éléphant est le plus grand mammifère terrestre, atteignant parfois 4 mètres de haut."
+    },
+    {
+      "question": "Quel animal est connu pour changer de couleur ?",
+      "correctAnswer": "Caméléon",
+      "choices": ["Caméléon", "Pieuvre", "Calamar", "Lézard"],
+      "anecdote": "Le caméléon est célèbre pour sa capacité à changer de couleur pour se camoufler."
+    },
+    {
+      "question": "Quel oiseau ne peut pas voler ?",
+      "correctAnswer": "Pingouin",
+      "choices": ["Pingouin", "Moineau", "Hirondelle", "Faucon"],
+      "anecdote": "Les pingouins sont des oiseaux incapables de voler mais excellents nageurs."
+    },
+    {
+      "question": "Quel mammifère est le plus rapide sur terre ?",
+      "correctAnswer": "Guépard",
+      "choices": ["Guépard", "Lion", "Tigre", "Léopard"],
+      "anecdote": "Le guépard est le mammifère terrestre le plus rapide, capable d'atteindre des vitesses de 100 km/h."
+    },
+    {
+      "question": "Quel est le plus grand oiseau volant ?",
+      "correctAnswer": "Albatros",
+      "choices": ["Albatros", "Aigle", "Autruche", "Condor"],
+      "anecdote": "L'albatros a la plus grande envergure de tous les oiseaux, atteignant jusqu'à 3,5 mètres."
+    },
+    {
+      "question": "Quel est le plus gros animal marin ?",
+      "correctAnswer": "Baleine bleue",
+      "choices": ["Baleine bleue", "Requin blanc", "Orque", "Dauphin"],
+      "anecdote": "La baleine bleue est le plus gros animal vivant sur Terre, pouvant atteindre plus de 30 mètres de long."
+    },
+    {
+      "question": "Quel animal est connu pour sa lenteur ?",
+      "correctAnswer": "Paresseux",
+      "choices": ["Paresseux", "Tortue", "Escargot", "Koala"],
+      "anecdote": "Le paresseux est un mammifère arboricole connu pour son déplacement extrêmement lent."
+    },
+    {
+      "question": "Quel animal est le roi de la savane ?",
+      "correctAnswer": "Lion",
+      "choices": ["Lion", "Tigre", "Guépard", "Éléphant"],
+      "anecdote": "Le lion est souvent appelé le roi de la savane en raison de sa position dominante dans la chaîne alimentaire."
+    },
+    {
+      "question": "Quel est le plus grand reptile ?",
+      "correctAnswer": "Crocodile marin",
+      "choices": ["Crocodile marin", "Anaconda", "Alligator", "Varan de Komodo"],
+      "anecdote": "Le crocodile marin peut atteindre plus de 7 mètres de long et peser plus de 1000 kg."
+    },
+    {
+      "question": "Quel animal peut se vanter d'avoir la meilleure mémoire ?",
+      "correctAnswer": "Dauphin",
+      "choices": ["Dauphin", "Chien", "Éléphant", "Chimpanzé"],
+      "anecdote": "Les dauphins ont une mémoire exceptionnelle et peuvent se souvenir des sons et des signaux sur de longues périodes."
+    }
+  ],
+  "Confirmed": [
+    {
+      "question": "Quel animal a la langue la plus longue par rapport à sa taille ?",
+      "correctAnswer": "Caméléon",
+      "choices": ["Caméléon", "Fourmilier", "Girafe", "Grenouille"],
+      "anecdote": "La langue du caméléon peut mesurer jusqu'à deux fois la longueur de son corps."
+    },
+    {
+      "question": "Quelle est la durée de vie moyenne d'une tortue des Galápagos ?",
+      "correctAnswer": "100 ans",
+      "choices": ["50 ans", "75 ans", "100 ans", "150 ans"],
+      "anecdote": "Les tortues des Galápagos sont parmi les animaux les plus vieux, certaines vivant plus de 100 ans."
+    },
+    {
+      "question": "Quel est le plus grand reptile vivant ?",
+      "correctAnswer": "Crocodile marin",
+      "choices": ["Crocodile marin", "Anaconda", "Alligator", "Varan de Komodo"],
+      "anecdote": "Le crocodile marin peut atteindre plus de 7 mètres de long et peser plus de 1000 kg."
+    },
+    {
+      "question": "Quel est l'animal terrestre le plus lourd ?",
+      "correctAnswer": "Éléphant africain",
+      "choices": ["Éléphant africain", "Rhinocéros blanc", "Hippopotame", "Bison"],
+      "anecdote": "L'éléphant africain est l'animal terrestre le plus lourd, pesant jusqu'à 12 000 kg."
+    },
+    {
+      "question": "Quel mammifère marin est connu pour ses chants ?",
+      "correctAnswer": "Baleine à bosse",
+      "choices": ["Baleine à bosse", "Dauphin", "Orque", "Phoque"],
+      "anecdote": "Les baleines à bosse sont célèbres pour leurs chants longs et complexes, utilisés pour communiquer et attirer les partenaires."
+    },
+    {
+      "question": "Quel oiseau a la plus grande envergure de tous les oiseaux ?",
+      "correctAnswer": "Albatros hurleur",
+      "choices": ["Albatros hurleur", "Condor des Andes", "Aigle royal", "Pélican"],
+      "anecdote": "L'albatros hurleur a la plus grande envergure de tous les oiseaux, atteignant jusqu'à 3,5 mètres."
+    },
+    {
+      "question": "Quel animal est connu pour sa capacité à se régénérer ?",
+      "correctAnswer": "Axolotl",
+      "choices": ["Axolotl", "Étoile de mer", "Lézard", "Triton"],
+      "anecdote": "L'axolotl est un amphibien capable de régénérer des parties de son corps, y compris des membres, des organes et même des parties de son cerveau."
+    },
+    {
+      "question": "Quel animal possède le venin le plus puissant ?",
+      "correctAnswer": "Méduse-boîte",
+      "choices": ["Méduse-boîte", "Serpent Taipan", "Araignée veuve noire", "Scorpion"],
+      "anecdote": "La méduse-boîte, aussi appelée cuboméduse, possède un venin potentiellement mortel pour l'homme."
+    },
+    {
+      "question": "Quel est le seul mammifère capable de voler ?",
+      "correctAnswer": "Chauve-souris",
+      "choices": ["Chauve-souris", "Écureuil volant", "Colugo", "Petaurus"],
+      "anecdote": "La chauve-souris est le seul mammifère capable de voler activement grâce à ses ailes membraneuses."
+    },
+    {
+      "question": "Quel poisson est capable de produire de l'électricité ?",
+      "correctAnswer": "Anguille électrique",
+      "choices": ["Anguille électrique", "Raie manta", "Poisson-globe", "Poisson-perroquet"],
+      "anecdote": "L'anguille électrique peut produire des décharges électriques pour se défendre et chasser."
+    }
+  ],
+  "Expert": [
+    {
+      "question": "Quelle espèce de baleine est connue pour ses chants complexes ?",
+      "correctAnswer": "Baleine à bosse",
+      "choices": ["Baleine à bosse", "Baleine bleue", "Orque", "Baleine grise"],
+      "anecdote": "Les baleines à bosse sont célèbres pour leurs chants longs et complexes, utilisés pour communiquer et attirer les partenaires."
+    },
+    {
+      "question": "Quelle est la seule espèce de manchot vivant au nord de l'équateur ?",
+      "correctAnswer": "Manchot des Galápagos",
+      "choices": ["Manchot des Galápagos", "Manchot empereur", "Manchot royal", "Manchot de Magellan"],
+      "anecdote": "Le manchot des Galápagos est la seule espèce de manchot à vivre près de l'équateur, sur les îles Galápagos."
+    },
+    {
+      "question": "Quel est le nom scientifique du loup ?",
+      "correctAnswer": "Canis lupus",
+      "choices": ["Canis lupus", "Canis latrans", "Canis aureus", "Canis familiaris"],
+      "anecdote": "Le nom scientifique du loup est Canis lupus, une espèce de mammifère carnivore de la famille des Canidés."
+    },
+    {
+      "question": "Quel animal est le plus bruyant ?",
+      "correctAnswer": "Cachalot",
+      "choices": ["Cachalot", "Éléphant", "Gorille", "Lion"],
+      "anecdote": "Le cachalot est l'animal le plus bruyant, capable de produire des clics allant jusqu'à 230 décibels."
+    },
+    {
+      "question": "Quel animal possède le plus de cœurs ?",
+      "correctAnswer": "Poulpe",
+      "choices": ["Poulpe", "Ver de terre", "Escargot", "Étoile de mer"],
+      "anecdote": "Le poulpe possède trois cœurs, deux pompent le sang vers les branchies et le troisième vers le reste du corps."
+    },
+    {
+      "question": "Quel est le seul mammifère ovipare ?",
+      "correctAnswer": "Ornithorynque",
+      "choices": ["Ornithorynque", "Échidné", "Chauve-souris", "Lémurien"],
+      "anecdote": "L'ornithorynque est l'un des rares mammifères à pondre des œufs."
+    },
+    {
+      "question": "Quel est le plus grand invertébré du monde ?",
+      "correctAnswer": "Calmar colossal",
+      "choices": ["Calmar colossal", "Méduse", "Crabe araignée", "Pieuvre géante"],
+      "anecdote": "Le calmar colossal est le plus grand invertébré connu, avec des spécimens atteignant jusqu'à 14 mètres de long."
+    },
+    {
+      "question": "Quel oiseau peut voler en arrière ?",
+      "correctAnswer": "Colibri",
+      "choices": ["Colibri", "Aigle", "Faucon", "Mésange"],
+      "anecdote": "Le colibri est le seul oiseau capable de voler en arrière grâce à la structure unique de ses ailes."
+    },
+    {
+      "question": "Quel est le plus grand carnivore terrestre ?",
+      "correctAnswer": "Ours polaire",
+      "choices": ["Ours polaire", "Tigre de Sibérie", "Lion", "Loup gris"],
+      "anecdote": "L'ours polaire est le plus grand carnivore terrestre, pesant jusqu'à 700 kg."
+    },
+    {
+      "question": "Quel mammifère possède la plus grande densité de fourrure ?",
+      "correctAnswer": "Loutre de mer",
+      "choices": ["Loutre de mer", "Castor", "Renard arctique", "Vison"],
+      "anecdote": "La loutre de mer possède la plus grande densité de fourrure de tous les mammifères, avec environ 100 000 poils par centimètre carré."
+    }
+  ]
+}

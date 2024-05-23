@@ -1,0 +1,11 @@
+{
+  "results": [
+    {
+      "question": "What is the capital of France?",
+      "correctAnswer": "Paris",
+      "choices": ["Paris", "London", "Berlin", "Madrid"],
+      "anecdote": "Paris is the capital city of France.",
+      "wikipedia": "https://en.wikipedia.org/wiki/Paris"
+    }
+  ]
+}
