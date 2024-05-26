@@ -30,6 +30,7 @@ class QuizPage extends StatefulWidget {
 
 class _QuizPageState extends State<QuizPage> with SingleTickerProviderStateMixin {
   late Future<List<QuizQuestion>> _quizQuestions;
+  List<QuizQuestion> _questions = [];
   int _currentQuestionIndex = 0;
   int _score = 0;
   bool _isAnswered = false;
@@ -57,12 +58,21 @@ class _QuizPageState extends State<QuizPage> with SingleTickerProviderStateMixin
     _questionStartTime = DateTime.now(); // Initialize the start time for the first question
   }
 
-  void _loadQuizQuestions() {
-    _quizQuestions = QuizService().fetchQuizQuestions(
-      widget.theme.name,
-      widget.language,
-      widget.difficulty,
-    );
+  Future<void> _loadQuizQuestions() async {
+    try {
+      List<QuizQuestion> questions = await QuizService().fetchQuizQuestions(
+        widget.theme.name,
+        widget.language,
+        widget.difficulty,
+      );
+      questions.shuffle(); // Shuffle the questions to randomize the order
+      _questions = questions.take(widget.numQuestions).toList(); // Limit to the desired number of questions
+      _shuffleChoices(); // Shuffle choices for the first question
+      setState(() {}); // Trigger a rebuild to display the questions
+    } catch (e) {
+      print('Error loading quiz questions: $e');
+      _questions = [];
+    }
   }
 
   void _startTimer() {
@@ -79,15 +89,13 @@ class _QuizPageState extends State<QuizPage> with SingleTickerProviderStateMixin
     });
   }
 
-  void _handleAnswer(String answer) async {
+  void _handleAnswer(String answer) {
     if (_isAnswered) return;
-
-    List<QuizQuestion> questions = await _quizQuestions;
 
     setState(() {
       _isAnswered = true;
       _selectedAnswer = answer;
-      _isCorrect = answer.isNotEmpty && questions[_currentQuestionIndex].correctAnswer == answer;
+      _isCorrect = answer.isNotEmpty && _questions[_currentQuestionIndex].correctAnswer == answer;
       if (_isCorrect) {
         _score++;
       }
@@ -105,7 +113,7 @@ class _QuizPageState extends State<QuizPage> with SingleTickerProviderStateMixin
       builder: (BuildContext context) {
         return ResultDialog(
           isCorrect: _isCorrect,
-          question: questions[_currentQuestionIndex],
+          question: _questions[_currentQuestionIndex],
           onNext: () {
             Navigator.of(context).pop();
             _loadNextQuestion();
@@ -117,24 +125,24 @@ class _QuizPageState extends State<QuizPage> with SingleTickerProviderStateMixin
   }
 
   void _loadNextQuestion() {
-    setState(() {
-      _currentQuestionIndex++;
-      if (_currentQuestionIndex >= widget.numQuestions) {
-        Navigator.pushReplacement(
-          context,
-          MaterialPageRoute(
-            builder: (context) => ResultPage(
-              score: _score,
-              total: widget.numQuestions,
-              successRate: (_score / widget.numQuestions) * 100,
-              averageTime: _responseTimes.isNotEmpty
-                  ? _responseTimes.reduce((a, b) => a + b) / _responseTimes.length
-                  : 0,
-              fastAnswers: _responseTimes.where((time) => time < 5).length,
-            ),
+    if (_currentQuestionIndex >= _questions.length - 1) {
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(
+          builder: (context) => ResultPage(
+            score: _score,
+            total: widget.numQuestions,
+            successRate: (_score / widget.numQuestions) * 100,
+            averageTime: _responseTimes.isNotEmpty
+                ? _responseTimes.reduce((a, b) => a + b) / _responseTimes.length
+                : 0,
+            fastAnswers: _responseTimes.where((time) => time < 5).length,
           ),
-        );
-      } else {
+        ),
+      );
+    } else {
+      setState(() {
+        _currentQuestionIndex++;
         _isAnswered = false;
         _selectedAnswer = '';
         _timeLeft = widget.timePerQuestion.toDouble();
@@ -144,16 +152,17 @@ class _QuizPageState extends State<QuizPage> with SingleTickerProviderStateMixin
         }
         _shuffleChoices();
         _questionStartTime = DateTime.now(); // Reset start time for the next question
-      }
-    });
+      });
+    }
   }
 
-  void _shuffleChoices() async {
-    List<QuizQuestion> questions = await _quizQuestions;
-    setState(() {
-      _shuffledChoices = List.from(questions[_currentQuestionIndex].choices);
-      _shuffledChoices.shuffle();
-    });
+  void _shuffleChoices() {
+    if (_questions.isNotEmpty && _currentQuestionIndex < _questions.length) {
+      setState(() {
+        _shuffledChoices = List.from(_questions[_currentQuestionIndex].choices);
+        _shuffledChoices.shuffle();
+      });
+    }
   }
 
   @override
@@ -173,23 +182,9 @@ class _QuizPageState extends State<QuizPage> with SingleTickerProviderStateMixin
         ),
         backgroundColor: Color(0xFF151729),
       ),
-      body: FutureBuilder<List<QuizQuestion>>(
-        future: _quizQuestions,
-        builder: (context, snapshot) {
-          if (snapshot.connectionState == ConnectionState.waiting) {
-            return Center(child: CircularProgressIndicator());
-          } else if (snapshot.hasError) {
-            return Center(child: Text('Failed to load quiz questions: ${snapshot.error}'));
-          } else if (!snapshot.hasData || snapshot.data!.isEmpty) {
-            return Center(child: Text('No questions available'));
-          } else {
-            var question = snapshot.data![_currentQuestionIndex];
-            if (_shuffledChoices.isEmpty) {
-              _shuffledChoices = List.from(question.choices);
-              _shuffledChoices.shuffle();
-            }
-            _questionStartTime ??= DateTime.now(); // Initialize start time if null
-            return Padding(
+      body: _questions.isEmpty
+          ? Center(child: CircularProgressIndicator())
+          : Padding(
               padding: const EdgeInsets.all(16),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -202,7 +197,7 @@ class _QuizPageState extends State<QuizPage> with SingleTickerProviderStateMixin
                     ),
                   QuestionWidget(
                     questionIndex: _currentQuestionIndex,
-                    question: question,
+                    question: _questions[_currentQuestionIndex],
                   ),
                   ChoicesWidget(
                     choices: _shuffledChoices,
@@ -210,10 +205,7 @@ class _QuizPageState extends State<QuizPage> with SingleTickerProviderStateMixin
                   ),
                 ],
               ),
-            );
-          }
-        },
-      ),
+            ),
     );
   }
 }
