@@ -5,8 +5,14 @@ class ResultDialog extends StatelessWidget {
   final bool isCorrect;
   final QuizQuestion question;
   final VoidCallback onNext;
+  final bool isLastQuestion;
 
-  ResultDialog({required this.isCorrect, required this.question, required this.onNext});
+  ResultDialog({
+    required this.isCorrect,
+    required this.question,
+    required this.onNext,
+    required this.isLastQuestion,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -26,14 +32,35 @@ class ResultDialog extends StatelessWidget {
               style: TextStyle(color: Colors.white, fontSize: 24, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 10),
-            Text('Question:', style: TextStyle(color: Colors.white, fontSize: 18)),
-            Text(question.question, style: TextStyle(color: Colors.white)),
+            Text(
+              'Question:',
+              style: TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold),
+            ),
+            SizedBox(height: 5),
+            Text(
+              question.question,
+              style: TextStyle(color: Colors.white, fontSize: 16),
+            ),
             SizedBox(height: 10),
-            Text('Correct answer:', style: TextStyle(color: Colors.white, fontSize: 18)),
-            Text(question.correctAnswer, style: TextStyle(color: Colors.white)),
+            Text(
+              'Correct answer:',
+              style: TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold),
+            ),
+            SizedBox(height: 5),
+            Text(
+              question.correctAnswer,
+              style: TextStyle(color: Colors.white, fontSize: 16),
+            ),
             SizedBox(height: 10),
-            Text('Anecdote:', style: TextStyle(color: Colors.white, fontSize: 18)),
-            Text(question.anecdote, style: TextStyle(color: Colors.white)),
+            Text(
+              'Anecdote:',
+              style: TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold),
+            ),
+            SizedBox(height: 5),
+            Text(
+              question.anecdote,
+              style: TextStyle(color: Colors.white, fontSize: 16),
+            ),
             SizedBox(height: 20),
             Center(
               child: ElevatedButton(
@@ -43,7 +70,7 @@ class ResultDialog extends StatelessWidget {
                   padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                   textStyle: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                 ),
-                child: Text('Next Question'),
+                child: Text(isLastQuestion ? 'View Results' : 'Next Question'),
               ),
             ),
           ],

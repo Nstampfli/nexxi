@@ -39,6 +39,8 @@ class _QuizPageState extends State<QuizPage> with SingleTickerProviderStateMixin
   Timer? _timer;
   late AnimationController _controller;
   List<String> _shuffledChoices = [];
+  List<double> _responseTimes = [];
+  DateTime? _questionStartTime;
 
   @override
   void initState() {
@@ -52,6 +54,7 @@ class _QuizPageState extends State<QuizPage> with SingleTickerProviderStateMixin
     if (widget.isTimed) {
       _startTimer();
     }
+    _questionStartTime = DateTime.now(); // Initialize the start time for the first question
   }
 
   void _loadQuizQuestions() {
@@ -91,6 +94,9 @@ class _QuizPageState extends State<QuizPage> with SingleTickerProviderStateMixin
       if (widget.isTimed) {
         _timer?.cancel();
       }
+      if (_questionStartTime != null) {
+        _responseTimes.add(DateTime.now().difference(_questionStartTime!).inSeconds.toDouble());
+      }
     });
 
     showDialog(
@@ -104,6 +110,7 @@ class _QuizPageState extends State<QuizPage> with SingleTickerProviderStateMixin
             Navigator.of(context).pop();
             _loadNextQuestion();
           },
+          isLastQuestion: _currentQuestionIndex == widget.numQuestions - 1,
         );
       },
     );
@@ -116,7 +123,15 @@ class _QuizPageState extends State<QuizPage> with SingleTickerProviderStateMixin
         Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (context) => ResultPage(score: _score, total: widget.numQuestions),
+            builder: (context) => ResultPage(
+              score: _score,
+              total: widget.numQuestions,
+              successRate: (_score / widget.numQuestions) * 100,
+              averageTime: _responseTimes.isNotEmpty
+                  ? _responseTimes.reduce((a, b) => a + b) / _responseTimes.length
+                  : 0,
+              fastAnswers: _responseTimes.where((time) => time < 5).length,
+            ),
           ),
         );
       } else {
@@ -128,6 +143,7 @@ class _QuizPageState extends State<QuizPage> with SingleTickerProviderStateMixin
           _startTimer();
         }
         _shuffleChoices();
+        _questionStartTime = DateTime.now(); // Reset start time for the next question
       }
     });
   }
@@ -151,7 +167,10 @@ class _QuizPageState extends State<QuizPage> with SingleTickerProviderStateMixin
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Quiz'),
+        title: Text(
+          'Question ${_currentQuestionIndex + 1} / ${widget.numQuestions}',
+          style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold, color: Colors.white),
+        ),
         backgroundColor: Color(0xFF151729),
       ),
       body: FutureBuilder<List<QuizQuestion>>(
@@ -169,6 +188,7 @@ class _QuizPageState extends State<QuizPage> with SingleTickerProviderStateMixin
               _shuffledChoices = List.from(question.choices);
               _shuffledChoices.shuffle();
             }
+            _questionStartTime ??= DateTime.now(); // Initialize start time if null
             return Padding(
               padding: const EdgeInsets.all(16),
               child: Column(
