@@ -1,11 +1,1184 @@
 {
-  "results": [
+  "Beginner": [
     {
-      "question": "What is the capital of France?",
-      "correctAnswer": "Paris",
-      "choices": ["Paris", "London", "Berlin", "Madrid"],
-      "anecdote": "Paris is the capital city of France.",
-      "wikipedia": "https://en.wikipedia.org/wiki/Paris"
+        "question": "What is the largest land mammal?",
+        "correctAnswer": "Elephant",
+        "choices": ["Elephant", "Giraffe", "Rhinoceros", "Hippopotamus"],
+        "anecdote": "The African elephant is the largest land mammal, with some individuals weighing up to 12,000 pounds."
+    },
+    {
+        "question": "Which bird is known for its colorful feathers and ability to mimic sounds?",
+        "correctAnswer": "Parrot",
+        "choices": ["Parrot", "Crow", "Sparrow", "Robin"],
+        "anecdote": "Parrots are known for their bright plumage and their ability to imitate human speech and other sounds."
+    },
+    {
+        "question": "Which animal is known for its long neck and spots?",
+        "correctAnswer": "Giraffe",
+        "choices": ["Giraffe", "Leopard", "Cheetah", "Zebra"],
+        "anecdote": "Giraffes have the longest necks of any animal, which helps them reach leaves high in trees."
+    },
+    {
+        "question": "What is the fastest land animal?",
+        "correctAnswer": "Cheetah",
+        "choices": ["Cheetah", "Lion", "Tiger", "Leopard"],
+        "anecdote": "The cheetah can reach speeds of up to 70 miles per hour in short bursts covering distances up to 500 meters."
+    },
+    {
+        "question": "Which mammal is known for having a pouch to carry its young?",
+        "correctAnswer": "Kangaroo",
+        "choices": ["Kangaroo", "Koala", "Opossum", "Wallaby"],
+        "anecdote": "Kangaroos are marsupials, meaning they carry and nurse their young in a pouch on their belly."
+    },
+    {
+        "question": "Which marine animal is known for its intelligence and playful behavior?",
+        "correctAnswer": "Dolphin",
+        "choices": ["Dolphin", "Shark", "Whale", "Seal"],
+        "anecdote": "Dolphins are highly intelligent and social animals, often seen playing and interacting with humans and other marine life."
+    },
+    {
+        "question": "What is the largest bird in the world?",
+        "correctAnswer": "Ostrich",
+        "choices": ["Ostrich", "Eagle", "Albatross", "Pelican"],
+        "anecdote": "The ostrich is the largest bird in the world, with males standing up to 9 feet tall and weighing as much as 320 pounds."
+    },
+    {
+        "question": "Which animal is known as the 'king of the jungle'?",
+        "correctAnswer": "Lion",
+        "choices": ["Lion", "Tiger", "Leopard", "Elephant"],
+        "anecdote": "Lions are often called the 'king of the jungle' due to their powerful build and dominance in their habitat."
+    },
+    {
+        "question": "Which insect is known for producing honey?",
+        "correctAnswer": "Bee",
+        "choices": ["Bee", "Ant", "Butterfly", "Beetle"],
+        "anecdote": "Honey bees are known for producing honey and playing a crucial role in pollinating flowers and crops."
+    },
+    {
+        "question": "Which animal is known for its black and white stripes?",
+        "correctAnswer": "Zebra",
+        "choices": ["Zebra", "Tiger", "Panda", "Skunk"],
+        "anecdote": "Zebras are known for their distinctive black and white striped coats, which are unique to each individual."
+    },
+    {
+        "question": "Which animal is known to be the tallest in the world?",
+        "correctAnswer": "Giraffe",
+        "choices": ["Giraffe", "Elephant", "Lion", "Rhino"],
+        "anecdote": "Giraffes are the tallest animals in the world, with adult males standing up to 18 feet tall."
+    },
+    {
+        "question": "Which bird is famous for its ability to mimic human speech?",
+        "correctAnswer": "Parrot",
+        "choices": ["Parrot", "Crow", "Magpie", "Canary"],
+        "anecdote": "Parrots are known for their ability to mimic human speech and sounds from their environment."
+    },
+    {
+        "question": "What is the only mammal capable of true flight?",
+        "correctAnswer": "Bat",
+        "choices": ["Bat", "Flying squirrel", "Eagle", "Butterfly"],
+        "anecdote": "Bats are the only mammals capable of sustained flight, thanks to their wing structure."
+    },
+    {
+        "question": "Which mammal has a trunk?",
+        "correctAnswer": "Elephant",
+        "choices": ["Elephant", "Rhino", "Hippo", "Giraffe"],
+        "anecdote": "Elephants use their trunks for various functions, including breathing, smelling, drinking, and grabbing objects."
+    },
+    {
+        "question": "Which animal is known for its ability to regenerate lost limbs?",
+        "correctAnswer": "Starfish",
+        "choices": ["Starfish", "Octopus", "Lizard", "Crab"],
+        "anecdote": "Starfish can regenerate lost arms, making them remarkable examples of regenerative biology."
+    },
+    {
+        "question": "Which mammal is famous for its hibernation during the winter?",
+        "correctAnswer": "Bear",
+        "choices": ["Bear", "Rabbit", "Deer", "Fox"],
+        "anecdote": "Bears hibernate during the winter months to conserve energy when food is scarce."
+    },
+    {
+        "question": "Which animal is known for changing its color to blend in with its surroundings?",
+        "correctAnswer": "Chameleon",
+        "choices": ["Chameleon", "Octopus", "Frog", "Snake"],
+        "anecdote": "Chameleons can change their skin color to blend in with their environment, helping them avoid predators."
+    },
+    {
+        "question": "Which marine animal has eight arms?",
+        "correctAnswer": "Octopus",
+        "choices": ["Octopus", "Squid", "Jellyfish", "Crab"],
+        "anecdote": "Octopuses have eight arms lined with suckers, which they use for moving, capturing prey, and exploring their environment."
+    },
+    {
+        "question": "Which mammal is known for its spines and rolling into a ball when threatened?",
+        "correctAnswer": "Hedgehog",
+        "choices": ["Hedgehog", "Porcupine", "Armadillo", "Pangolin"],
+        "anecdote": "Hedgehogs are known for their spiny coats and their ability to roll into a tight ball to protect themselves from predators."
+    },
+    {
+        "question": "Which animal is known for its unique black and white coat and is native to China?",
+        "correctAnswer": "Panda",
+        "choices": ["Panda", "Zebra", "Skunk", "Penguin"],
+        "anecdote": "The giant panda is native to China and is known for its distinctive black and white fur and its diet of bamboo."
+    },
+    {
+        "question": "What is the only mammal that lays eggs?",
+        "correctAnswer": "Platypus",
+        "choices": ["Platypus", "Kangaroo", "Koala", "Echidna"],
+        "anecdote": "The platypus is one of only five species of monotremes, mammals that lay eggs instead of giving birth to live young."
+    },
+    {
+        "question": "Which animal is known for its incredible memory and problem-solving skills?",
+        "correctAnswer": "Elephant",
+        "choices": ["Elephant", "Dolphin", "Chimpanzee", "Parrot"],
+        "anecdote": "Elephants are known for their remarkable memory and problem-solving abilities, which help them survive in the wild."
+    },
+    {
+        "question": "Which bird is known for its impressive ability to mimic sounds, including human speech?",
+        "correctAnswer": "Parrot",
+        "choices": ["Parrot", "Mockingbird", "Lyrebird", "Starling"],
+        "anecdote": "Parrots are famous for their ability to imitate a wide range of sounds, including human speech, making them popular pets."
+    },
+    {
+        "question": "What is the largest species of shark?",
+        "correctAnswer": "Whale shark",
+        "choices": ["Whale shark", "Great white shark", "Hammerhead shark", "Tiger shark"],
+        "anecdote": "The whale shark is the largest species of shark, growing up to 12 meters long and weighing as much as 21.5 metric tons."
+    },
+    {
+        "question": "Which animal is known for building dams and lodges?",
+        "correctAnswer": "Beaver",
+        "choices": ["Beaver", "Otter", "Muskrat", "Capybara"],
+        "anecdote": "Beavers are known for their engineering skills, constructing dams and lodges to create habitats for themselves."
+    },
+    {
+        "question": "What is the primary diet of a panda?",
+        "correctAnswer": "Bamboo",
+        "choices": ["Bamboo", "Eucalyptus", "Leaves", "Fruit"],
+        "anecdote": "Pandas primarily eat bamboo, consuming up to 38 kilograms of it each day to meet their nutritional needs."
+    },
+    {
+        "question": "Which animal is the fastest marine creature?",
+        "correctAnswer": "Sailfish",
+        "choices": ["Sailfish", "Marlin", "Dolphin", "Shark"],
+        "anecdote": "The sailfish is the fastest marine creature, capable of swimming at speeds up to 68 miles per hour."
+    },
+    {
+        "question": "Which insect is known for its role in pollination and producing honey?",
+        "correctAnswer": "Bee",
+        "choices": ["Bee", "Butterfly", "Ant", "Wasp"],
+        "anecdote": "Bees are essential for pollination and are known for producing honey, a valuable natural resource."
+    },
+    {
+        "question": "Which mammal is known for its spiny armor and ability to curl into a ball?",
+        "correctAnswer": "Armadillo",
+        "choices": ["Armadillo", "Porcupine", "Hedgehog", "Pangolin"],
+        "anecdote": "Armadillos have a hard, spiny armor and can curl into a ball to protect themselves from predators."
+    },
+    {
+        "question": "What is the smallest bird in the world?",
+        "correctAnswer": "Bee hummingbird",
+        "choices": ["Bee hummingbird", "Sparrow", "Finch", "Warbler"],
+        "anecdote": "The bee hummingbird is the smallest bird in the world, measuring just 5-6 centimeters in length and weighing around 2 grams."
+    },
+    {
+        "question": "Which mammal is known for its long hibernation period during the winter?",
+        "correctAnswer": "Bear",
+        "choices": ["Bear", "Hedgehog", "Squirrel", "Bat"],
+        "anecdote": "Bears hibernate for several months during the winter to conserve energy when food is scarce."
+    },
+    {
+        "question": "What is the primary food source for koalas?",
+        "correctAnswer": "Eucalyptus leaves",
+        "choices": ["Eucalyptus leaves", "Bamboo", "Grass", "Fruit"],
+        "anecdote": "Koalas feed almost exclusively on eucalyptus leaves, which provide them with both food and water."
+    },
+    {
+        "question": "Which animal is known for its ability to change colors for camouflage?",
+        "correctAnswer": "Chameleon",
+        "choices": ["Chameleon", "Octopus", "Frog", "Gecko"],
+        "anecdote": "Chameleons can change their skin color to blend into their surroundings, aiding in camouflage and communication."
+    },
+    {
+        "question": "Which bird is known for its elaborate courtship dances and displays?",
+        "correctAnswer": "Bird of paradise",
+        "choices": ["Bird of paradise", "Peacock", "Albatross", "Swan"],
+        "anecdote": "Birds of paradise are known for their intricate courtship dances and stunning plumage used to attract mates."
+    },
+    {
+        "question": "Which mammal is known for its ability to glide through the air using a membrane called the patagium?",
+        "correctAnswer": "Flying squirrel",
+        "choices": ["Flying squirrel", "Bat", "Sugar glider", "Lemur"],
+        "anecdote": "Flying squirrels have a membrane called the patagium that allows them to glide between trees to escape predators and find food."
+    },
+    {
+        "question": "Which animal is known for its complex vocalizations and ability to communicate underwater?",
+        "correctAnswer": "Dolphin",
+        "choices": ["Dolphin", "Whale", "Seal", "Walrus"],
+        "anecdote": "Dolphins use a variety of complex vocalizations to communicate with each other, including clicks, whistles, and squeaks."
+    },
+    {
+        "question": "Which bird has the largest wingspan of any living bird?",
+        "correctAnswer": "Wandering albatross",
+        "choices": ["Wandering albatross", "Condor", "Eagle", "Pelican"],
+        "anecdote": "The wandering albatross has the largest wingspan of any living bird, reaching up to 11 feet across."
+    },
+    {
+        "question": "Which animal is known for its ability to regenerate lost limbs?",
+        "correctAnswer": "Starfish",
+        "choices": ["Starfish", "Octopus", "Crab", "Newt"],
+        "anecdote": "Starfish can regenerate lost limbs, making them remarkable examples of regenerative biology."
+    },
+    {
+        "question": "What is the largest species of cat?",
+        "correctAnswer": "Tiger",
+        "choices": ["Tiger", "Lion", "Leopard", "Jaguar"],
+        "anecdote": "The tiger is the largest species of cat, with some individuals weighing over 600 pounds and measuring up to 10 feet in length."
+    },
+    {
+        "question": "Which animal is known for its ability to play dead as a defense mechanism?",
+        "correctAnswer": "Opossum",
+        "choices": ["Opossum", "Armadillo", "Hedgehog", "Skunk"],
+        "anecdote": "Opossums can play dead, or 'play possum,' to deter predators by appearing unappetizing and lifeless."
+    },
+    {
+        "question": "Which bird is known for its distinctive 'laughing' call?",
+        "correctAnswer": "Kookaburra",
+        "choices": ["Kookaburra", "Parrot", "Crow", "Owl"],
+        "anecdote": "The kookaburra is known for its distinctive 'laughing' call, which sounds like human laughter and is often heard at dawn and dusk."
+    },
+    {
+        "question": "Which animal is known for its powerful kick, capable of inflicting serious injury?",
+        "correctAnswer": "Kangaroo",
+        "choices": ["Kangaroo", "Horse", "Donkey", "Zebra"],
+        "anecdote": "Kangaroos have powerful hind legs and can deliver kicks strong enough to cause serious injury to predators or rivals."
+    },
+    {
+        "question": "Which bird is known for its long migration, traveling from the Arctic to Antarctica each year?",
+        "correctAnswer": "Arctic tern",
+        "choices": ["Arctic tern", "Swallow", "Albatross", "Geese"],
+        "anecdote": "The Arctic tern undertakes one of the longest migrations of any bird, traveling from the Arctic to Antarctica and back each year."
+    },
+    {
+        "question": "Which mammal is known for its complex social structure and matriarchal groups?",
+        "correctAnswer": "Elephant",
+        "choices": ["Elephant", "Wolf", "Lion", "Chimpanzee"],
+        "anecdote": "Elephants live in complex social structures led by a matriarch, the oldest and often largest female in the group."
+    },
+    {
+        "question": "Which reptile is known for its ability to run on water?",
+        "correctAnswer": "Basilisk lizard",
+        "choices": ["Basilisk lizard", "Gecko", "Chameleon", "Iguana"],
+        "anecdote": "The basilisk lizard, also known as the 'Jesus Christ lizard,' can run on water using its unique fringed toes and rapid movement."
+    },
+    {
+        "question": "Which mammal is known for its complex echolocation abilities?",
+        "correctAnswer": "Bat",
+        "choices": ["Bat", "Dolphin", "Whale", "Elephant"],
+        "anecdote": "Bats use echolocation to navigate and hunt in the dark by emitting high-pitched sounds and listening for the echoes that bounce back."
+    },
+    {
+        "question": "What is the primary diet of a koala?",
+        "correctAnswer": "Eucalyptus leaves",
+        "choices": ["Eucalyptus leaves", "Bamboo", "Grass", "Fruit"],
+        "anecdote": "Koalas feed almost exclusively on eucalyptus leaves, which provide them with both food and water."
+    },
+    {
+        "question": "Which animal is known for its ability to change colors for camouflage?",
+        "correctAnswer": "Chameleon",
+        "choices": ["Chameleon", "Octopus", "Frog", "Gecko"],
+        "anecdote": "Chameleons can change their skin color to blend into their surroundings, aiding in camouflage and communication."
+    },
+    {
+        "question": "Which bird is known for its elaborate courtship dances and displays?",
+        "correctAnswer": "Bird of paradise",
+        "choices": ["Bird of paradise", "Peacock", "Albatross", "Swan"],
+        "anecdote": "Birds of paradise are known for their intricate courtship dances and stunning plumage used to attract mates."
+    },
+    {
+        "question": "Which mammal is known for its ability to glide through the air using a membrane called the patagium?",
+        "correctAnswer": "Flying squirrel",
+        "choices": ["Flying squirrel", "Bat", "Sugar glider", "Lemur"],
+        "anecdote": "Flying squirrels have a membrane called the patagium that allows them to glide between trees to escape predators and find food."
+    },
+    {
+        "question": "Which animal is known for its complex vocalizations and ability to communicate underwater?",
+        "correctAnswer": "Dolphin",
+        "choices": ["Dolphin", "Whale", "Seal", "Walrus"],
+        "anecdote": "Dolphins use a variety of complex vocalizations to communicate with each other, including clicks, whistles, and squeaks."
+    },
+    {
+        "question": "Which bird has the largest wingspan of any living bird?",
+        "correctAnswer": "Wandering albatross",
+        "choices": ["Wandering albatross", "Condor", "Eagle", "Pelican"],
+        "anecdote": "The wandering albatross has the largest wingspan of any living bird, reaching up to 11 feet across."
+    },
+    {
+        "question": "Which animal is known for its ability to regenerate lost limbs?",
+        "correctAnswer": "Starfish",
+        "choices": ["Starfish", "Octopus", "Crab", "Newt"],
+        "anecdote": "Starfish can regenerate lost limbs, making them remarkable examples of regenerative biology."
+    },
+    {
+        "question": "What is the largest species of cat?",
+        "correctAnswer": "Tiger",
+        "choices": ["Tiger", "Lion", "Leopard", "Jaguar"],
+        "anecdote": "The tiger is the largest species of cat, with some individuals weighing over 600 pounds and measuring up to 10 feet in length."
+    },
+    {
+        "question": "Which animal is known for its ability to play dead as a defense mechanism?",
+        "correctAnswer": "Opossum",
+        "choices": ["Opossum", "Armadillo", "Hedgehog", "Skunk"],
+        "anecdote": "Opossums can play dead, or 'play possum,' to deter predators by appearing unappetizing and lifeless."
+    },
+    {
+        "question": "Which bird is known for its distinctive 'laughing' call?",
+        "correctAnswer": "Kookaburra",
+        "choices": ["Kookaburra", "Parrot", "Crow", "Owl"],
+        "anecdote": "The kookaburra is known for its distinctive 'laughing' call, which sounds like human laughter and is often heard at dawn and dusk."
+    },
+    {
+        "question": "Which animal is known for its powerful kick, capable of inflicting serious injury?",
+        "correctAnswer": "Kangaroo",
+        "choices": ["Kangaroo", "Horse", "Donkey", "Zebra"],
+        "anecdote": "Kangaroos have powerful hind legs and can deliver kicks strong enough to cause serious injury to predators or rivals."
+    },
+    {
+        "question": "Which bird is known for its long migration, traveling from the Arctic to Antarctica each year?",
+        "correctAnswer": "Arctic tern",
+        "choices": ["Arctic tern", "Swallow", "Albatross", "Geese"],
+        "anecdote": "The Arctic tern undertakes one of the longest migrations of any bird, traveling from the Arctic to Antarctica and back each year."
+    },
+    {
+        "question": "Which mammal is known for its complex social structure and matriarchal groups?",
+        "correctAnswer": "Elephant",
+        "choices": ["Elephant", "Wolf", "Lion", "Chimpanzee"],
+        "anecdote": "Elephants live in complex social structures led by a matriarch, the oldest and often largest female in the group."
+    },
+    {
+        "question": "Which reptile is known for its ability to run on water?",
+        "correctAnswer": "Basilisk lizard",
+        "choices": ["Basilisk lizard", "Gecko", "Chameleon", "Iguana"],
+        "anecdote": "The basilisk lizard, also known as the 'Jesus Christ lizard,' can run on water using its unique fringed toes and rapid movement."
+    },
+    {
+        "question": "Which mammal is known for its complex echolocation abilities?",
+        "correctAnswer": "Bat",
+        "choices": ["Bat", "Dolphin", "Whale", "Elephant"],
+        "anecdote": "Bats use echolocation to navigate and hunt in the dark by emitting high-pitched sounds and listening for the echoes that bounce back."
+    },
+    {
+        "question": "What is the primary diet of a koala?",
+        "correctAnswer": "Eucalyptus leaves",
+        "choices": ["Eucalyptus leaves", "Bamboo", "Grass", "Fruit"],
+        "anecdote": "Koalas feed almost exclusively on eucalyptus leaves, which provide them with both food and water."
+    },
+    {
+        "question": "Which animal is known for its ability to change colors for camouflage?",
+        "correctAnswer": "Chameleon",
+        "choices": ["Chameleon", "Octopus", "Frog", "Gecko"],
+        "anecdote": "Chameleons can change their skin color to blend into their surroundings, aiding in camouflage and communication."
+    },
+    {
+        "question": "Which bird is known for its elaborate courtship dances and displays?",
+        "correctAnswer": "Bird of paradise",
+        "choices": ["Bird of paradise", "Peacock", "Albatross", "Swan"],
+        "anecdote": "Birds of paradise are known for their intricate courtship dances and stunning plumage used to attract mates."
+    },
+    {
+        "question": "Which mammal is known for its ability to glide through the air using a membrane called the patagium?",
+        "correctAnswer": "Flying squirrel",
+        "choices": ["Flying squirrel", "Bat", "Sugar glider", "Lemur"],
+        "anecdote": "Flying squirrels have a membrane called the patagium that allows them to glide between trees to escape predators and find food."
+    },
+    {
+        "question": "Which animal is known for its complex vocalizations and ability to communicate underwater?",
+        "correctAnswer": "Dolphin",
+        "choices": ["Dolphin", "Whale", "Seal", "Walrus"],
+        "anecdote": "Dolphins use a variety of complex vocalizations to communicate with each other, including clicks, whistles, and squeaks."
+    },
+    {
+        "question": "Which bird has the largest wingspan of any living bird?",
+        "correctAnswer": "Wandering albatross",
+        "choices": ["Wandering albatross", "Condor", "Eagle", "Pelican"],
+        "anecdote": "The wandering albatross has the largest wingspan of any living bird, reaching up to 11 feet across."
+    },
+    {
+        "question": "Which animal is known for its ability to regenerate lost limbs?",
+        "correctAnswer": "Starfish",
+        "choices": ["Starfish", "Octopus", "Crab", "Newt"],
+        "anecdote": "Starfish can regenerate lost limbs, making them remarkable examples of regenerative biology."
+    },
+    {
+        "question": "Which animal is known for its impressive jumping ability and powerful hind legs?",
+        "correctAnswer": "Kangaroo",
+        "choices": ["Kangaroo", "Rabbit", "Frog", "Deer"],
+        "anecdote": "Kangaroos use their powerful hind legs to jump great distances, sometimes covering up to 25 feet in a single leap."
+    },
+    {
+        "question": "Which bird is known for its unique ability to hover in mid-air?",
+        "correctAnswer": "Hummingbird",
+        "choices": ["Hummingbird", "Eagle", "Sparrow", "Parrot"],
+        "anecdote": "Hummingbirds can hover in mid-air by rapidly flapping their wings up to 80 times per second."
+    },
+    {
+        "question": "Which animal is famous for its slow movement and is often found in trees in Central and South America?",
+        "correctAnswer": "Sloth",
+        "choices": ["Sloth", "Koala", "Panda", "Lemur"],
+        "anecdote": "Sloths are known for their slow movement and spend most of their lives hanging upside down in trees."
+    },
+    {
+        "question": "Which reptile is known for its ability to detach its tail when threatened?",
+        "correctAnswer": "Lizard",
+        "choices": ["Lizard", "Snake", "Turtle", "Gecko"],
+        "anecdote": "Many lizards can detach their tails to escape predators, and the tail often continues to move to distract the predator."
+    },
+    {
+        "question": "What is the primary diet of the giant panda?",
+        "correctAnswer": "Bamboo",
+        "choices": ["Bamboo", "Eucalyptus", "Insects", "Fish"],
+        "anecdote": "Giant pandas primarily eat bamboo, which makes up about 99% of their diet."
+    },
+    {
+        "question": "Which animal is known for its distinctive black and white coloration and lives primarily in the ocean?",
+        "correctAnswer": "Orca",
+        "choices": ["Orca", "Penguin", "Seal", "Dolphin"],
+        "anecdote": "Orcas, also known as killer whales, are known for their striking black and white coloration and are top predators in the ocean."
+    },
+    {
+        "question": "Which bird is known for its ability to mimic the calls of other birds and animals?",
+        "correctAnswer": "Mockingbird",
+        "choices": ["Mockingbird", "Parrot", "Lyrebird", "Starling"],
+        "anecdote": "Mockingbirds can mimic the calls of many other bird species and even some animals, using their wide vocal range."
+    },
+    {
+        "question": "Which animal is known for having a long neck and spots on its body?",
+        "correctAnswer": "Giraffe",
+        "choices": ["Giraffe", "Leopard", "Cheetah", "Zebra"],
+        "anecdote": "Giraffes have long necks and distinctive spots on their bodies, allowing them to reach high leaves in trees."
+    },
+    {
+        "question": "What is the primary food source of a koala?",
+        "correctAnswer": "Eucalyptus leaves",
+        "choices": ["Eucalyptus leaves", "Bamboo", "Grass", "Fruit"],
+        "anecdote": "Koalas feed almost exclusively on eucalyptus leaves, which provide them with both food and water."
+    },
+    {
+        "question": "Which marine animal is known for its intelligence and playful behavior?",
+        "correctAnswer": "Dolphin",
+        "choices": ["Dolphin", "Shark", "Whale", "Seal"],
+        "anecdote": "Dolphins are highly intelligent and social animals, often seen playing and interacting with humans and other marine life."
+    },
+    {
+        "question": "What is the largest bird in the world?",
+        "correctAnswer": "Ostrich",
+        "choices": ["Ostrich", "Eagle", "Albatross", "Pelican"],
+        "anecdote": "The ostrich is the largest bird in the world, with males standing up to 9 feet tall and weighing as much as 320 pounds."
+    }
+  ],
+  "Confirmed": [
+    {
+      "question": "What is the main component of the exoskeleton of arthropods?",
+      "correctAnswer": "Chitin",
+      "choices": ["Chitin", "Collagen", "Keratin", "Cellulose"],
+      "anecdote": "Chitin is a long-chain polymer that forms the hard exoskeleton of arthropods, providing both protection and structural support."
+    },
+    {
+        "question": "Which bird has the longest migration route, traveling up to 44,000 miles annually?",
+        "correctAnswer": "Arctic Tern",
+        "choices": ["Arctic Tern", "Albatross", "Swallow", "Peregrine Falcon"],
+        "anecdote": "The Arctic Tern holds the record for the longest migration, traveling from the Arctic to the Antarctic and back each year."
+    },
+    {
+        "question": "What unique feeding structure do cephalopods possess to capture prey?",
+        "correctAnswer": "Beak",
+        "choices": ["Beak", "Teeth", "Mandibles", "Proboscis"],
+        "anecdote": "Cephalopods, such as squids and octopuses, have a hard, parrot-like beak used to capture and consume prey."
+    },
+    {
+        "question": "What term describes animals that are active during twilight, at dawn and dusk?",
+        "correctAnswer": "Crepuscular",
+        "choices": ["Crepuscular", "Diurnal", "Nocturnal", "Matutinal"],
+        "anecdote": "Crepuscular animals, such as deer and bats, are most active during the twilight hours of dawn and dusk."
+    },
+    {
+        "question": "Which mammal has the highest known body temperature regulation efficiency?",
+        "correctAnswer": "Hummingbird",
+        "choices": ["Hummingbird", "Bat", "Elephant", "Human"],
+        "anecdote": "Hummingbirds can efficiently regulate their body temperature, entering a state of torpor to conserve energy during cold nights."
+    },
+    {
+        "question": "What is the primary method of communication used by elephants?",
+        "correctAnswer": "Infrasound",
+        "choices": ["Infrasound", "Ultrasound", "Body Language", "Chemical Signals"],
+        "anecdote": "Elephants use infrasound to communicate over long distances, producing low-frequency sounds that travel through the ground."
+    },
+    {
+        "question": "Which reptile is known for having a third eye, also called a parietal eye?",
+        "correctAnswer": "Tuatara",
+        "choices": ["Tuatara", "Iguana", "Gecko", "Komodo Dragon"],
+        "anecdote": "The tuatara, a reptile native to New Zealand, has a third eye on the top of its head that helps regulate circadian rhythms."
+    },
+    {
+        "question": "What is the function of the Jacobson's organ in snakes?",
+        "correctAnswer": "Sensing Chemicals",
+        "choices": ["Sensing Chemicals", "Detecting Heat", "Hearing Vibrations", "Balancing"],
+        "anecdote": "The Jacobson's organ, or vomeronasal organ, in snakes is used to detect chemical signals in the environment, aiding in hunting and navigation."
+    },
+    {
+        "question": "Which amphibian is known for its toxic skin that can be deadly to predators?",
+        "correctAnswer": "Poison Dart Frog",
+        "choices": ["Poison Dart Frog", "Newt", "Salamander", "Toad"],
+        "anecdote": "Poison dart frogs have brightly colored skin that contains potent toxins, which can be lethal to potential predators."
+    },
+    {
+        "question": "What adaptation allows camels to survive in desert environments?",
+        "correctAnswer": "Water Storage",
+        "choices": ["Water Storage", "Thick Fur", "Sharp Claws", "Color Change"],
+        "anecdote": "Camels have adaptations such as the ability to store water in their humps and withstand extreme temperatures, enabling them to thrive in deserts."
+    },
+    {
+        "question": "What is the primary diet of a sea otter?",
+        "correctAnswer": "Sea Urchins",
+        "choices": ["Sea Urchins", "Fish", "Crabs", "Seaweed"],
+        "anecdote": "Sea otters primarily feed on sea urchins, helping to maintain the balance of kelp forest ecosystems."
+    },
+    {
+        "question": "What type of venom do most cobras possess?",
+        "correctAnswer": "Neurotoxic",
+        "choices": ["Neurotoxic", "Hemotoxic", "Cytotoxic", "Myotoxic"],
+        "anecdote": "Cobras possess neurotoxic venom, which affects the nervous system and can lead to paralysis and respiratory failure in their prey."
+    },
+    {
+        "question": "Which animal has the most complex eyes, capable of seeing polarized light?",
+        "correctAnswer": "Mantis Shrimp",
+        "choices": ["Mantis Shrimp", "Eagle", "Chameleon", "Dragonfly"],
+        "anecdote": "Mantis shrimp have the most complex eyes in the animal kingdom, capable of detecting polarized light and seeing an extensive range of colors."
+    },
+    {
+        "question": "What is the main diet of the giant anteater?",
+        "correctAnswer": "Ants",
+        "choices": ["Ants", "Leaves", "Insects", "Fruits"],
+        "anecdote": "Giant anteaters primarily feed on ants and termites, using their long tongues to extract these insects from nests."
+    },
+    {
+        "question": "Which bird of prey has the sharpest vision?",
+        "correctAnswer": "Eagle",
+        "choices": ["Eagle", "Hawk", "Falcon", "Owl"],
+        "anecdote": "Eagles have exceptional vision, allowing them to spot prey from great distances while flying high in the sky."
+    },
+    {
+        "question": "What is the primary purpose of bioluminescence in deep-sea organisms?",
+        "correctAnswer": "Attracting Prey",
+        "choices": ["Attracting Prey", "Camouflage", "Communication", "Defense"],
+        "anecdote": "Bioluminescence in deep-sea organisms is primarily used to attract prey, with many species using light-producing organs to lure victims closer."
+    },
+    {
+        "question": "What is the unique feature of the platypus among mammals?",
+        "correctAnswer": "Lays Eggs",
+        "choices": ["Lays Eggs", "Has Pouch", "Climbs Trees", "Hibernates"],
+        "anecdote": "The platypus is one of the few mammals that lay eggs, making it a unique species among monotremes."
+    },
+    {
+        "question": "Which animal is known for its ability to regenerate its entire body from a small fragment?",
+        "correctAnswer": "Planarian",
+        "choices": ["Planarian", "Starfish", "Lizard", "Crab"],
+        "anecdote": "Planarians have remarkable regenerative abilities, capable of regrowing their entire body from a tiny fragment."
+    },
+    {
+        "question": "What is the primary function of baleen in baleen whales?",
+        "correctAnswer": "Filtering Food",
+        "choices": ["Filtering Food", "Breathing", "Sound Production", "Swimming"],
+        "anecdote": "Baleen whales use baleen plates to filter small fish and plankton from the water, serving as a crucial feeding mechanism."
+    },
+    {
+        "question": "Which animal has the most teeth, with some species having up to 25,000?",
+        "correctAnswer": "Snail",
+        "choices": ["Snail", "Shark", "Crocodile", "Piranha"],
+        "anecdote": "Some species of snails have up to 25,000 teeth, arranged in rows on their radula, a tongue-like structure used for feeding."
+    },
+    {
+        "question": "Which insect is known for its ability to lift objects 50 times its body weight?",
+        "correctAnswer": "Ant",
+        "choices": ["Ant", "Beetle", "Grasshopper", "Fly"],
+        "anecdote": "Ants are incredibly strong for their size, capable of lifting objects up to 50 times their own body weight."
+    },
+    {
+        "question": "What is the primary method of navigation used by bats?",
+        "correctAnswer": "Echolocation",
+        "choices": ["Echolocation", "Magnetoreception", "Infrared Vision", "Chemical Sensing"],
+        "anecdote": "Bats use echolocation to navigate and hunt, emitting high-frequency sounds and interpreting the returning echoes."
+    },
+    {
+        "question": "Which animal has the longest gestation period, lasting up to 22 months?",
+        "correctAnswer": "Elephant",
+        "choices": ["Elephant", "Whale", "Giraffe", "Horse"],
+        "anecdote": "Elephants have the longest gestation period of any land animal, with pregnancies lasting up to 22 months."
+    },
+    {
+        "question": "What is the primary function of the gills in fish?",
+        "correctAnswer": "Gas Exchange",
+        "choices": ["Gas Exchange", "Filtering Food", "Detecting Vibrations", "Buoyancy Control"],
+        "anecdote": "Gills in fish are responsible for gas exchange, allowing the fish to extract oxygen from water and expel carbon dioxide."
+    },
+    {
+        "question": "Which animal has the largest brain relative to its body size?",
+        "correctAnswer": "Ant",
+        "choices": ["Ant", "Dolphin", "Elephant", "Human"],
+        "anecdote": "Ants have the largest brain-to-body ratio of any animal, which contributes to their complex social behaviors and problem-solving abilities."
+    },
+    {
+        "question": "What is the term for animals that eat both plants and animals?",
+        "correctAnswer": "Omnivores",
+        "choices": ["Omnivores", "Herbivores", "Carnivores", "Detritivores"],
+        "anecdote": "Omnivores, like humans and bears, have diets that include both plant and animal matter, allowing them to adapt to a wide range of environments."
+    },
+    {
+        "question": "Which bird is known for its ability to sleep while flying?",
+        "correctAnswer": "Albatross",
+        "choices": ["Albatross", "Sparrow", "Eagle", "Owl"],
+        "anecdote": "Albatrosses can sleep while flying over the ocean, taking short naps while gliding to conserve energy during long migrations."
+    },
+    {
+        "question": "Which mammal has the strongest bite force relative to its size?",
+        "correctAnswer": "Tasmanian Devil",
+        "choices": ["Tasmanian Devil", "Hyena", "Lion", "Wolverine"],
+        "anecdote": "The Tasmanian Devil has an exceptionally strong bite relative to its size, which helps it crush bones and consume carrion."
+    },
+    {
+        "question": "What is the primary purpose of the quills in a porcupine?",
+        "correctAnswer": "Defense",
+        "choices": ["Defense", "Temperature Regulation", "Sensory Detection", "Camouflage"],
+        "anecdote": "Porcupine quills serve as a defense mechanism, deterring predators with their sharp, barbed points that can embed in attackers."
+    },
+    {
+        "question": "Which reptile is known for its ability to run on water?",
+        "correctAnswer": "Basilisk Lizard",
+        "choices": ["Basilisk Lizard", "Gecko", "Chameleon", "Iguana"],
+        "anecdote": "The basilisk lizard, also known as the 'Jesus Christ lizard,' can run on water using its unique fringed toes and rapid movement."
+    },
+    {
+        "question": "Which animal has the largest eyes in proportion to its body?",
+        "correctAnswer": "Tarsier",
+        "choices": ["Tarsier", "Owl", "Chameleon", "Squid"],
+        "anecdote": "Tarsiers have the largest eyes relative to their body size of any mammal, providing them with excellent night vision for hunting insects."
+    },
+    {
+        "question": "What is the main diet of the Komodo dragon?",
+        "correctAnswer": "Carrion",
+        "choices": ["Carrion", "Insects", "Fruits", "Fish"],
+        "anecdote": "Komodo dragons primarily feed on carrion, using their strong sense of smell to locate dead animals from miles away."
+    },
+    {
+        "question": "Which mammal has the longest lifespan?",
+        "correctAnswer": "Bowhead Whale",
+        "choices": ["Bowhead Whale", "Elephant", "Human", "Tortoise"],
+        "anecdote": "The bowhead whale holds the record for the longest lifespan of any mammal, living over 200 years in the cold Arctic waters."
+    },
+    {
+        "question": "Which amphibian has the ability to regenerate lost limbs?",
+        "correctAnswer": "Axolotl",
+        "choices": ["Axolotl", "Frog", "Salamander", "Newt"],
+        "anecdote": "Axolotls have an extraordinary ability to regenerate lost limbs, spinal cord, heart, and other organs, making them a subject of scientific research."
+    },
+    {
+        "question": "What unique feature do giraffes possess in their cardiovascular system?",
+        "correctAnswer": "Valves in Neck Veins",
+        "choices": ["Valves in Neck Veins", "Multiple Hearts", "Extra Arteries", "High Blood Pressure"],
+        "anecdote": "Giraffes have valves in their neck veins that prevent blood from rushing back to their head when they lower it to drink, helping to manage blood pressure."
+    },
+    {
+        "question": "Which mammal is known for its complex vocalizations and ability to mimic sounds?",
+        "correctAnswer": "Dolphin",
+        "choices": ["Dolphin", "Parrot", "Elephant", "Bat"],
+        "anecdote": "Dolphins are known for their complex vocalizations, which include whistles, clicks, and mimicry, used for communication and echolocation."
+    },
+    {
+        "question": "What is the primary function of the Jacobson's organ in snakes?",
+        "correctAnswer": "Sensing Chemicals",
+        "choices": ["Sensing Chemicals", "Detecting Heat", "Hearing Vibrations", "Balancing"],
+        "anecdote": "The Jacobson's organ, or vomeronasal organ, in snakes is used to detect chemical signals in the environment, aiding in hunting and navigation."
+    },
+    {
+        "question": "Which animal is known for its ability to enter a state of cryptobiosis, surviving extreme conditions?",
+        "correctAnswer": "Tardigrade",
+        "choices": ["Tardigrade", "Nematode", "Rotifer", "Water Flea"],
+        "anecdote": "Tardigrades, also known as water bears, can enter a state of cryptobiosis, allowing them to survive extreme conditions such as desiccation and radiation."
+    },
+    {
+        "question": "What is the term for the social structure of ants, bees, and wasps?",
+        "correctAnswer": "Eusociality",
+        "choices": ["Eusociality", "Herding", "Pack Behavior", "Colonial Living"],
+        "anecdote": "Eusociality is the highest level of social organization in animals, found in ants, bees, and wasps, characterized by cooperative brood care and division of labor."
+    },
+    {
+        "question": "Which bird is known for its elaborate courtship dance and building decorative nests?",
+        "correctAnswer": "Bowerbird",
+        "choices": ["Bowerbird", "Peacock", "Lyrebird", "Hummingbird"],
+        "anecdote": "Male bowerbirds are known for their intricate courtship dances and the construction of elaborate nests, or bowers, decorated with colorful objects to attract females."
+    },
+    {
+        "question": "What is the primary diet of the aardvark?",
+        "correctAnswer": "Ants and Termites",
+        "choices": ["Ants and Termites", "Fruits", "Leaves", "Small Mammals"],
+        "anecdote": "Aardvarks primarily feed on ants and termites, using their long tongues to capture insects from their nests."
+    },
+    {
+        "question": "Which marine animal has the largest brain in proportion to its body size?",
+        "correctAnswer": "Dolphin",
+        "choices": ["Dolphin", "Shark", "Whale", "Octopus"],
+        "anecdote": "Dolphins have the largest brain-to-body size ratio among marine animals, contributing to their high intelligence and complex behaviors."
+    },
+    {
+        "question": "What is the primary function of the chromatophores in cephalopods?",
+        "correctAnswer": "Color Change",
+        "choices": ["Color Change", "Camouflage", "Temperature Regulation", "Communication"],
+        "anecdote": "Chromatophores are pigment-containing cells in cephalopods that allow them to change color for camouflage, communication, and display."
+    },
+    {
+        "question": "Which animal is known for its ability to navigate using the Earth's magnetic field?",
+        "correctAnswer": "Sea Turtle",
+        "choices": ["Sea Turtle", "Salmon", "Pigeon", "Bat"],
+        "anecdote": "Sea turtles are known for their ability to navigate across long distances using the Earth's magnetic field to find their nesting beaches."
+    },
+    {
+        "question": "What is the primary diet of a koala?",
+        "correctAnswer": "Eucalyptus Leaves",
+        "choices": ["Eucalyptus Leaves", "Bamboo", "Grass", "Fruit"],
+        "anecdote": "Koalas feed almost exclusively on eucalyptus leaves, which provide them with both food and water."
+    }
+  ],
+  "Expert": [
+    {
+        "question": "What type of crystalline structure is found in the eyes of mantis shrimp?",
+        "correctAnswer": "Hexagonal",
+        "choices": ["Hexagonal", "Cubic", "Tetragonal", "Orthorhombic"],
+        "anecdote": "Mantis shrimp have eyes that contain a unique hexagonal crystalline structure, allowing them to see polarized light and a broad spectrum of colors."
+    },
+    {
+        "question": "Which protein allows tardigrades to survive extreme dehydration?",
+        "correctAnswer": "TDP",
+        "choices": ["TDP", "Elastin", "Keratin", "Collagen"],
+        "anecdote": "Tardigrades produce a protein called Tardigrade-specific intrinsically disordered protein (TDP), which helps them survive extreme dehydration."
+    },
+    {
+        "question": "What is the function of the spermatheca in insects?",
+        "correctAnswer": "Sperm storage",
+        "choices": ["Sperm storage", "Egg production", "Pheromone release", "Venom delivery"],
+        "anecdote": "The spermatheca is an organ in female insects that stores sperm, allowing fertilization to occur long after mating."
+    },
+    {
+        "question": "Which ion is crucial for the bioluminescence in fireflies?",
+        "correctAnswer": "Calcium",
+        "choices": ["Calcium", "Sodium", "Potassium", "Magnesium"],
+        "anecdote": "Calcium ions play a critical role in the bioluminescence of fireflies, triggering the light-emitting reaction in their lantern cells."
+    },
+    {
+        "question": "What is the primary function of the proventriculus in birds?",
+        "correctAnswer": "Digestive enzyme secretion",
+        "choices": ["Digestive enzyme secretion", "Food storage", "Water absorption", "Gas exchange"],
+        "anecdote": "The proventriculus in birds is a glandular stomach that secretes digestive enzymes, breaking down food before it reaches the gizzard."
+    },
+    {
+        "question": "Which hormone regulates molting in arthropods?",
+        "correctAnswer": "Ecdysone",
+        "choices": ["Ecdysone", "Insulin", "Thyroxine", "Adrenaline"],
+        "anecdote": "Ecdysone is the hormone that regulates molting and metamorphosis in arthropods, controlling the shedding of the exoskeleton."
+    },
+    {
+        "question": "What is the primary structure used by cephalopods for rapid movement?",
+        "correctAnswer": "Siphon",
+        "choices": ["Siphon", "Fins", "Tentacles", "Mantle"],
+        "anecdote": "Cephalopods use a structure called the siphon to expel water forcefully, enabling rapid jet propulsion and quick movement."
+    },
+    {
+        "question": "What is the name of the unique feeding appendage found in spiders?",
+        "correctAnswer": "Chelicerae",
+        "choices": ["Chelicerae", "Mandibles", "Maxillae", "Proboscis"],
+        "anecdote": "Spiders have specialized feeding appendages called chelicerae, which contain fangs that inject venom into their prey."
+    },
+    {
+        "question": "Which molecule in cuttlefish skin enables color change?",
+        "correctAnswer": "Opsin",
+        "choices": ["Opsin", "Melanin", "Carotene", "Hemocyanin"],
+        "anecdote": "Cuttlefish have opsin proteins in their skin cells, which play a crucial role in their ability to change color and blend into their surroundings."
+    },
+    {
+        "question": "What is the primary function of the glomerulus in mammalian kidneys?",
+        "correctAnswer": "Filtration",
+        "choices": ["Filtration", "Absorption", "Secretion", "Reabsorption"],
+        "anecdote": "The glomerulus is a network of capillaries in mammalian kidneys that performs the first step in filtering blood to form urine."
+    },
+    {
+        "question": "What type of reproductive strategy do monotremes exhibit?",
+        "correctAnswer": "Oviparity",
+        "choices": ["Oviparity", "Viviparity", "Ovoviviparity", "Parthenogenesis"],
+        "anecdote": "Monotremes, such as the platypus and echidna, exhibit oviparity, laying eggs rather than giving birth to live young."
+    },
+    {
+        "question": "Which molecule is responsible for oxygen transport in the blood of most mollusks?",
+        "correctAnswer": "Hemocyanin",
+        "choices": ["Hemocyanin", "Hemoglobin", "Myoglobin", "Cytochrome"],
+        "anecdote": "Most mollusks use hemocyanin, a copper-containing molecule, to transport oxygen in their blood, giving it a blue color."
+    },
+    {
+        "question": "Which structure in birds is analogous to the mammalian diaphragm for respiration?",
+        "correctAnswer": "Air sacs",
+        "choices": ["Air sacs", "Lungs", "Gizzard", "Crop"],
+        "anecdote": "Birds use a system of air sacs to maintain a constant flow of air through their lungs, allowing for efficient gas exchange during respiration."
+    },
+    {
+        "question": "Which enzyme is responsible for breaking down cellulose in herbivorous animals?",
+        "correctAnswer": "Cellulase",
+        "choices": ["Cellulase", "Amylase", "Protease", "Lipase"],
+        "anecdote": "Cellulase is the enzyme that breaks down cellulose, allowing herbivorous animals to digest plant material and extract nutrients."
+    },
+    {
+        "question": "What is the primary role of the mesoglea in cnidarians?",
+        "correctAnswer": "Structural support",
+        "choices": ["Structural support", "Nutrient absorption", "Reproduction", "Locomotion"],
+        "anecdote": "The mesoglea in cnidarians, such as jellyfish, provides structural support and acts as a hydrostatic skeleton."
+    },
+    {
+        "question": "Which hormone is secreted by the pineal gland to regulate circadian rhythms?",
+        "correctAnswer": "Melatonin",
+        "choices": ["Melatonin", "Serotonin", "Cortisol", "Thyroxine"],
+        "anecdote": "Melatonin is secreted by the pineal gland in response to darkness, regulating sleep-wake cycles and other circadian rhythms."
+    },
+    {
+        "question": "Which organ in bony fish is responsible for buoyancy control?",
+        "correctAnswer": "Swim bladder",
+        "choices": ["Swim bladder", "Liver", "Gills", "Kidneys"],
+        "anecdote": "The swim bladder in bony fish regulates buoyancy, allowing the fish to maintain its position in the water column without expending energy."
+    },
+    {
+        "question": "What is the primary function of the Jacobson's organ in snakes?",
+        "correctAnswer": "Sensing chemicals",
+        "choices": ["Sensing chemicals", "Detecting heat", "Hearing vibrations", "Balancing"],
+        "anecdote": "The Jacobson's organ, or vomeronasal organ, in snakes is used to detect chemical signals in the environment, aiding in hunting and navigation."
+    },
+    {
+        "question": "Which bird is known for its elaborate courtship dance and building decorative nests?",
+        "correctAnswer": "Bowerbird",
+        "choices": ["Bowerbird", "Peacock", "Lyrebird", "Hummingbird"],
+        "anecdote": "Male bowerbirds are known for their intricate courtship dances and the construction of elaborate nests, or bowers, decorated with colorful objects to attract females."
+    },
+    {
+        "question": "Which bird is known for its ability to mimic human speech and sounds?",
+        "correctAnswer": "Parrot",
+        "choices": ["Parrot", "Mockingbird", "Raven", "Lyrebird"],
+        "anecdote": "Parrots are renowned for their ability to mimic human speech and a variety of sounds from their environment, a skill facilitated by their unique vocal anatomy."
+    },
+    {
+        "question": "Which animal is capable of surviving without water longer than a camel?",
+        "correctAnswer": "Kangaroo rat",
+        "choices": ["Kangaroo rat", "Tortoise", "Desert fox", "Ostrich"],
+        "anecdote": "The kangaroo rat can survive without water for extended periods by metabolizing dry seeds and producing highly concentrated urine."
+    },
+    {
+        "question": "Which marine animal uses a siphon for both locomotion and feeding?",
+        "correctAnswer": "Squid",
+        "choices": ["Squid", "Clam", "Sea cucumber", "Coral"],
+        "anecdote": "Squids use their siphon to expel water for jet propulsion and to assist in capturing prey."
+    },
+    {
+        "question": "Which protein enables tardigrades to survive extreme dehydration?",
+        "correctAnswer": "TDP",
+        "choices": ["TDP", "Aquaporin", "Glycoprotein", "Lipocalin"],
+        "anecdote": "Tardigrades produce Tardigrade-specific intrinsically disordered proteins (TDPs) that protect their cells during desiccation."
+    },
+    {
+        "question": "What is the role of the spermatheca in insects?",
+        "correctAnswer": "Sperm storage",
+        "choices": ["Sperm storage", "Egg production", "Pheromone release", "Venom delivery"],
+        "anecdote": "The spermatheca stores sperm after mating, allowing for fertilization of eggs over time."
+    },
+    {
+        "question": "Which ion is crucial for firefly bioluminescence?",
+        "correctAnswer": "Calcium",
+        "choices": ["Calcium", "Magnesium", "Sodium", "Potassium"],
+        "anecdote": "Calcium ions trigger the light-emitting chemical reaction in fireflies' lantern cells."
+    },
+    {
+        "question": "What is the primary function of the proventriculus in birds?",
+        "correctAnswer": "Enzyme secretion",
+        "choices": ["Enzyme secretion", "Food storage", "Water absorption", "Gas exchange"],
+        "anecdote": "The proventriculus secretes digestive enzymes that break down food before it reaches the gizzard."
+    },
+    {
+        "question": "Which hormone regulates molting in arthropods?",
+        "correctAnswer": "Ecdysone",
+        "choices": ["Ecdysone", "Insulin", "Thyroxine", "Adrenaline"],
+        "anecdote": "Ecdysone triggers the shedding of the exoskeleton in arthropods."
+    },
+    {
+        "question": "What is the primary structure used by cephalopods for rapid movement?",
+        "correctAnswer": "Siphon",
+        "choices": ["Siphon", "Fins", "Tentacles", "Mantle"],
+        "anecdote": "Cephalopods use the siphon to expel water forcefully, enabling jet propulsion."
+    },
+    {
+        "question": "What is the name of the unique feeding appendage in spiders?",
+        "correctAnswer": "Chelicerae",
+        "choices": ["Chelicerae", "Mandibles", "Maxillae", "Proboscis"],
+        "anecdote": "Spiders use chelicerae, which contain fangs, to inject venom into their prey."
+    },
+    {
+        "question": "Which molecule in cuttlefish skin enables color change?",
+        "correctAnswer": "Opsin",
+        "choices": ["Opsin", "Melanin", "Carotene", "Hemocyanin"],
+        "anecdote": "Opsins in cuttlefish skin cells allow them to change color for camouflage."
+    },
+    {
+        "question": "What is the primary function of the glomerulus in kidneys?",
+        "correctAnswer": "Filtration",
+        "choices": ["Filtration", "Absorption", "Secretion", "Reabsorption"],
+        "anecdote": "The glomerulus filters blood, forming the initial stage of urine production."
+    },
+    {
+        "question": "What type of reproductive strategy do monotremes exhibit?",
+        "correctAnswer": "Oviparity",
+        "choices": ["Oviparity", "Viviparity", "Ovoviviparity", "Parthenogenesis"],
+        "anecdote": "Monotremes, such as platypuses, lay eggs instead of giving birth to live young."
+    },
+    {
+        "question": "Which molecule transports oxygen in most mollusks?",
+        "correctAnswer": "Hemocyanin",
+        "choices": ["Hemocyanin", "Hemoglobin", "Myoglobin", "Cytochrome"],
+        "anecdote": "Hemocyanin, a copper-containing molecule, transports oxygen in mollusk blood."
+    },
+    {
+        "question": "Which structure in birds is analogous to the mammalian diaphragm?",
+        "correctAnswer": "Air sacs",
+        "choices": ["Air sacs", "Lungs", "Gizzard", "Crop"],
+        "anecdote": "Birds use air sacs to maintain a constant flow of air through their lungs for efficient respiration."
+    },
+    {
+        "question": "Which enzyme breaks down cellulose in herbivores?",
+        "correctAnswer": "Cellulase",
+        "choices": ["Cellulase", "Amylase", "Protease", "Lipase"],
+        "anecdote": "Cellulase breaks down cellulose, allowing herbivores to digest plant material."
+    },
+    {
+        "question": "What is the primary role of mesoglea in cnidarians?",
+        "correctAnswer": "Support",
+        "choices": ["Support", "Nutrient absorption", "Reproduction", "Locomotion"],
+        "anecdote": "Mesoglea provides structural support in cnidarians like jellyfish."
+    },
+    {
+        "question": "Which hormone regulates circadian rhythms in mammals?",
+        "correctAnswer": "Melatonin",
+        "choices": ["Melatonin", "Serotonin", "Cortisol", "Thyroxine"],
+        "anecdote": "Melatonin, secreted by the pineal gland, regulates sleep-wake cycles."
+    },
+    {
+        "question": "Which organ in bony fish controls buoyancy?",
+        "correctAnswer": "Swim bladder",
+        "choices": ["Swim bladder", "Liver", "Gills", "Kidneys"],
+        "anecdote": "The swim bladder helps bony fish maintain buoyancy."
+    },
+    {
+        "question": "Which protein enables rapid color change in cephalopods?",
+        "correctAnswer": "Chromatophore",
+        "choices": ["Chromatophore", "Opsin", "Melanin", "Carotene"],
+        "anecdote": "Chromatophores in cephalopod skin cells allow rapid color change for camouflage."
+    },
+    {
+        "question": "What is the primary diet of the aardvark?",
+        "correctAnswer": "Ants",
+        "choices": ["Ants", "Leaves", "Fruits", "Fish"],
+        "anecdote": "Aardvarks primarily feed on ants and termites, using their long tongues to capture insects."
+    },
+    {
+        "question": "Which animal has the highest known frequency hearing?",
+        "correctAnswer": "Bat",
+        "choices": ["Bat", "Dolphin", "Elephant", "Dog"],
+        "anecdote": "Bats use echolocation to hear frequencies up to 120 kHz, much higher than most other animals."
+    },
+    {
+        "question": "Which bird has the largest wingspan?",
+        "correctAnswer": "Albatross",
+        "choices": ["Albatross", "Eagle", "Condor", "Swan"],
+        "anecdote": "The wandering albatross has the largest wingspan of any bird, reaching up to 11 feet."
+    },
+    {
+        "question": "Which animal has the largest brain-to-body size ratio?",
+        "correctAnswer": "Ant",
+        "choices": ["Ant", "Human", "Dolphin", "Elephant"],
+        "anecdote": "Ants have the largest brain-to-body size ratio, crucial for their complex behaviors."
+    },
+    {
+        "question": "Which insect has the most complex social structure?",
+        "correctAnswer": "Ant",
+        "choices": ["Ant", "Bee", "Wasp", "Termite"],
+        "anecdote": "Ants have highly complex social structures with distinct roles for workers, soldiers, and queens."
+    },
+    {
+        "question": "Which animal uses a siphon for movement?",
+        "correctAnswer": "Squid",
+        "choices": ["Squid", "Clam", "Snail", "Jellyfish"],
+        "anecdote": "Squids use their siphon to expel water and move rapidly through jet propulsion."
+    },
+    {
+        "question": "What is the primary function of the radula in mollusks?",
+        "correctAnswer": "Feeding",
+        "choices": ["Feeding", "Locomotion", "Reproduction", "Respiration"],
+        "anecdote": "The radula is a tongue-like organ covered with teeth used by mollusks to scrape food."
+    },
+    {
+        "question": "Which molecule enables sharks to detect electrical fields?",
+        "correctAnswer": "Ampullae",
+        "choices": ["Ampullae", "Rods", "Cones", "Opsins"],
+        "anecdote": "Sharks have ampullae of Lorenzini that detect electrical fields produced by other animals."
+    },
+    {
+        "question": "Which animal can regenerate its entire body from a small fragment?",
+        "correctAnswer": "Planarian",
+        "choices": ["Planarian", "Starfish", "Lizard", "Newt"],
+        "anecdote": "Planarians can regenerate their entire body from a small fragment, making them a model for regeneration studies."
+    },
+    {
+        "question": "Which protein enables tardigrades to survive extreme dehydration?",
+        "correctAnswer": "TDP",
+        "choices": ["TDP", "Aquaporin", "Glycoprotein", "Lipocalin"],
+        "anecdote": "Tardigrades produce Tardigrade-specific intrinsically disordered proteins (TDPs) that protect their cells during desiccation."
+    },
+    {
+        "question": "What is the role of the spermatheca in insects?",
+        "correctAnswer": "Sperm storage",
+        "choices": ["Sperm storage", "Egg production", "Pheromone release", "Venom delivery"],
+        "anecdote": "The spermatheca stores sperm after mating, allowing for fertilization of eggs over time."
+    },
+    {
+        "question": "Which ion is crucial for firefly bioluminescence?",
+        "correctAnswer": "Calcium",
+        "choices": ["Calcium", "Magnesium", "Sodium", "Potassium"],
+        "anecdote": "Calcium ions trigger the light-emitting chemical reaction in fireflies' lantern cells."
+    },
+    {
+        "question": "What is the primary function of the proventriculus in birds?",
+        "correctAnswer": "Enzyme secretion",
+        "choices": ["Enzyme secretion", "Food storage", "Water absorption", "Gas exchange"],
+        "anecdote": "The proventriculus secretes digestive enzymes that break down food before it reaches the gizzard."
+    },
+    {
+        "question": "Which hormone regulates molting in arthropods?",
+        "correctAnswer": "Ecdysone",
+        "choices": ["Ecdysone", "Insulin", "Thyroxine", "Adrenaline"],
+        "anecdote": "Ecdysone triggers the shedding of the exoskeleton in arthropods."
+    },
+    {
+        "question": "What is the primary structure used by cephalopods for rapid movement?",
+        "correctAnswer": "Siphon",
+        "choices": ["Siphon", "Fins", "Tentacles", "Mantle"],
+        "anecdote": "Cephalopods use the siphon to expel water forcefully, enabling jet propulsion."
+    },
+    {
+        "question": "What is the name of the unique feeding appendage in spiders?",
+        "correctAnswer": "Chelicerae",
+        "choices": ["Chelicerae", "Mandibles", "Maxillae", "Proboscis"],
+        "anecdote": "Spiders use chelicerae, which contain fangs, to inject venom into their prey."
+    },
+    {
+        "question": "Which molecule in cuttlefish skin enables color change?",
+        "correctAnswer": "Opsin",
+        "choices": ["Opsin", "Melanin", "Carotene", "Hemocyanin"],
+        "anecdote": "Opsins in cuttlefish skin cells allow them to change color for camouflage."
+    },
+    {
+        "question": "What is the primary function of the glomerulus in kidneys?",
+        "correctAnswer": "Filtration",
+        "choices": ["Filtration", "Absorption", "Secretion", "Reabsorption"],
+        "anecdote": "The glomerulus filters blood, forming the initial stage of urine production."
+    },
+    {
+        "question": "What type of reproductive strategy do monotremes exhibit?",
+        "correctAnswer": "Oviparity",
+        "choices": ["Oviparity", "Viviparity", "Ovoviviparity", "Parthenogenesis"],
+        "anecdote": "Monotremes, such as platypuses, lay eggs instead of giving birth to live young."
+    },
+    {
+        "question": "Which molecule transports oxygen in most mollusks?",
+        "correctAnswer": "Hemocyanin",
+        "choices": ["Hemocyanin", "Hemoglobin", "Myoglobin", "Cytochrome"],
+        "anecdote": "Hemocyanin, a copper-containing molecule, transports oxygen in mollusk blood."
+    },
+    {
+        "question": "Which structure in birds is analogous to the mammalian diaphragm?",
+        "correctAnswer": "Air sacs",
+        "choices": ["Air sacs", "Lungs", "Gizzard", "Crop"],
+        "anecdote": "Birds use air sacs to maintain a constant flow of air through their lungs for efficient respiration."
+    },
+    {
+        "question": "Which enzyme breaks down cellulose in herbivores?",
+        "correctAnswer": "Cellulase",
+        "choices": ["Cellulase", "Amylase", "Protease", "Lipase"],
+        "anecdote": "Cellulase breaks down cellulose, allowing herbivores to digest plant material."
+    },
+    {
+        "question": "What is the primary role of mesoglea in cnidarians?",
+        "correctAnswer": "Support",
+        "choices": ["Support", "Nutrient absorption", "Reproduction", "Locomotion"],
+        "anecdote": "Mesoglea provides structural support in cnidarians like jellyfish."
+    },
+    {
+        "question": "Which hormone regulates circadian rhythms in mammals?",
+        "correctAnswer": "Melatonin",
+        "choices": ["Melatonin", "Serotonin", "Cortisol", "Thyroxine"],
+        "anecdote": "Melatonin, secreted by the pineal gland, regulates sleep-wake cycles."
+    },
+    {
+        "question": "Which organ in bony fish controls buoyancy?",
+        "correctAnswer": "Swim bladder",
+        "choices": ["Swim bladder", "Liver", "Gills", "Kidneys"],
+        "anecdote": "The swim bladder helps bony fish maintain buoyancy."
+    },
+    {
+        "question": "Which protein enables rapid color change in cephalopods?",
+        "correctAnswer": "Chromatophore",
+        "choices": ["Chromatophore", "Opsin", "Melanin", "Carotene"],
+        "anecdote": "Chromatophores in cephalopod skin cells allow rapid color change for camouflage."
+    },
+    {
+        "question": "What is the primary diet of the aardvark?",
+        "correctAnswer": "Ants",
+        "choices": ["Ants", "Leaves", "Fruits", "Fish"],
+        "anecdote": "Aardvarks primarily feed on ants and termites, using their long tongues to capture insects."
+    },
+    {
+        "question": "Which animal has the highest known frequency hearing?",
+        "correctAnswer": "Bat",
+        "choices": ["Bat", "Dolphin", "Elephant", "Dog"],
+        "anecdote": "Bats use echolocation to hear frequencies up to 120 kHz, much higher than most other animals."
+    },
+    {
+        "question": "Which bird has the largest wingspan?",
+        "correctAnswer": "Albatross",
+        "choices": ["Albatross", "Eagle", "Condor", "Swan"],
+        "anecdote": "The wandering albatross has the largest wingspan of any bird, reaching up to 11 feet."
+    },
+    {
+        "question": "Which animal has the largest brain-to-body size ratio?",
+        "correctAnswer": "Ant",
+        "choices": ["Ant", "Human", "Dolphin", "Elephant"],
+        "anecdote": "Ants have the largest brain-to-body size ratio, crucial for their complex behaviors."
+    },
+    {
+        "question": "Which insect has the most complex social structure?",
+        "correctAnswer": "Ant",
+        "choices": ["Ant", "Bee", "Wasp", "Termite"],
+        "anecdote": "Ants have highly complex social structures with distinct roles for workers, soldiers, and queens."
+    },
+    {
+        "question": "Which animal uses a siphon for movement?",
+        "correctAnswer": "Squid",
+        "choices": ["Squid", "Clam", "Snail", "Jellyfish"],
+        "anecdote": "Squids use their siphon to expel water and move rapidly through jet propulsion."
+    },
+    {
+        "question": "What is the primary function of the radula in mollusks?",
+        "correctAnswer": "Feeding",
+        "choices": ["Feeding", "Locomotion", "Reproduction", "Respiration"],
+        "anecdote": "The radula is a tongue-like organ covered with teeth used by mollusks to scrape food."
     }
   ]
 }

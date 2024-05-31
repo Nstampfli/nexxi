@@ -6,12 +6,14 @@ class ResultDialog extends StatelessWidget {
   final QuizQuestion question;
   final VoidCallback onNext;
   final bool isLastQuestion;
+  final String language;
 
   ResultDialog({
     required this.isCorrect,
     required this.question,
     required this.onNext,
     required this.isLastQuestion,
+    required this.language,
   });
 
   @override
@@ -28,12 +30,12 @@ class ResultDialog extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              isCorrect ? 'Correct Answer' : 'Incorrect Answer',
+              isCorrect ? (language == 'en' ? 'Correct Answer' : 'Bonne réponse') : (language == 'en' ? 'Incorrect Answer' : 'Mauvaise réponse'),
               style: TextStyle(color: Colors.white, fontSize: 24, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 10),
             Text(
-              'Question:',
+              'Question :',
               style: TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 5),
@@ -43,7 +45,7 @@ class ResultDialog extends StatelessWidget {
             ),
             SizedBox(height: 10),
             Text(
-              'Correct answer:',
+              language == 'en' ? 'Correct answer :' : 'Bonne réponse :',
               style: TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 5),
@@ -53,7 +55,7 @@ class ResultDialog extends StatelessWidget {
             ),
             SizedBox(height: 10),
             Text(
-              'Anecdote:',
+              'Anecdote :',
               style: TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 5),
@@ -70,7 +72,7 @@ class ResultDialog extends StatelessWidget {
                   padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                   textStyle: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                 ),
-                child: Text(isLastQuestion ? 'View Results' : 'Next Question'),
+                child: Text(isLastQuestion ? (language == 'en' ? 'View Results' : 'Voir les résultats' )  : (language == 'en' ? 'Next Question' : 'Question suivante')),
               ),
             ),
           ],

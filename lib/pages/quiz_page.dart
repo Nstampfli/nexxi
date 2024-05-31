@@ -119,6 +119,7 @@ class _QuizPageState extends State<QuizPage> with SingleTickerProviderStateMixin
             _loadNextQuestion();
           },
           isLastQuestion: _currentQuestionIndex == widget.numQuestions - 1,
+          language: widget.language
         );
       },
     );

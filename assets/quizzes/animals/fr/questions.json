@@ -1,188 +1,998 @@
 {
   "Beginner": [
     {
-      "question": "Quel est le plus grand mammifère terrestre ?",
-      "correctAnswer": "Éléphant",
-      "choices": ["Éléphant", "Girafe", "Rhinocéros", "Hippopotame"],
-      "anecdote": "L'éléphant est le plus grand mammifère terrestre, atteignant parfois 4 mètres de haut."
+        "question": "Quel est le plus grand mammifère marin ?",
+        "correctAnswer": "Baleine bleue",
+        "choices": ["Baleine bleue", "Requin blanc", "Orque", "Dauphin"],
+        "anecdote": "La baleine bleue peut mesurer jusqu'à 30 mètres de long et peser jusqu'à 170 tonnes."
     },
     {
-      "question": "Quel animal est connu pour changer de couleur ?",
-      "correctAnswer": "Caméléon",
-      "choices": ["Caméléon", "Pieuvre", "Calamar", "Lézard"],
-      "anecdote": "Le caméléon est célèbre pour sa capacité à changer de couleur pour se camoufler."
+        "question": "Quel animal est connu pour sa lenteur et vit principalement dans les arbres en Amérique du Sud ?",
+        "correctAnswer": "Paresseux",
+        "choices": ["Paresseux", "Koala", "Ours", "Singe"],
+        "anecdote": "Le paresseux passe la plupart de sa vie suspendu aux branches des arbres et se déplace très lentement."
     },
     {
-      "question": "Quel oiseau ne peut pas voler ?",
-      "correctAnswer": "Pingouin",
-      "choices": ["Pingouin", "Moineau", "Hirondelle", "Faucon"],
-      "anecdote": "Les pingouins sont des oiseaux incapables de voler mais excellents nageurs."
+        "question": "Quel est le seul mammifère capable de voler ?",
+        "correctAnswer": "Chauve-souris",
+        "choices": ["Chauve-souris", "Écureuil volant", "Aigle", "Perroquet"],
+        "anecdote": "Les chauves-souris sont les seuls mammifères qui peuvent voler activement, utilisant leurs ailes membraneuses."
     },
     {
-      "question": "Quel mammifère est le plus rapide sur terre ?",
-      "correctAnswer": "Guépard",
-      "choices": ["Guépard", "Lion", "Tigre", "Léopard"],
-      "anecdote": "Le guépard est le mammifère terrestre le plus rapide, capable d'atteindre des vitesses de 100 km/h."
+        "question": "Quel animal est connu pour son long cou et habite principalement en Afrique ?",
+        "correctAnswer": "Girafe",
+        "choices": ["Girafe", "Zèbre", "Éléphant", "Rhinocéros"],
+        "anecdote": "La girafe est l'animal terrestre le plus grand, pouvant atteindre jusqu'à 5,5 mètres de hauteur."
     },
     {
-      "question": "Quel est le plus grand oiseau volant ?",
-      "correctAnswer": "Albatros",
-      "choices": ["Albatros", "Aigle", "Autruche", "Condor"],
-      "anecdote": "L'albatros a la plus grande envergure de tous les oiseaux, atteignant jusqu'à 3,5 mètres."
+        "question": "Quel oiseau ne peut pas voler mais est connu pour sa vitesse à la course ?",
+        "correctAnswer": "Autruche",
+        "choices": ["Autruche", "Manchot", "Poulet", "Dodo"],
+        "anecdote": "L'autruche est le plus grand et le plus lourd des oiseaux vivants et peut courir à une vitesse de 70 km/h."
     },
     {
-      "question": "Quel est le plus gros animal marin ?",
-      "correctAnswer": "Baleine bleue",
-      "choices": ["Baleine bleue", "Requin blanc", "Orque", "Dauphin"],
-      "anecdote": "La baleine bleue est le plus gros animal vivant sur Terre, pouvant atteindre plus de 30 mètres de long."
+        "question": "Quel animal est réputé pour sa capacité à changer de couleur pour se camoufler ?",
+        "correctAnswer": "Caméléon",
+        "choices": ["Caméléon", "Pieuvre", "Serpent", "Grenouille"],
+        "anecdote": "Le caméléon peut changer de couleur pour se camoufler, réguler sa température et communiquer."
     },
     {
-      "question": "Quel animal est connu pour sa lenteur ?",
-      "correctAnswer": "Paresseux",
-      "choices": ["Paresseux", "Tortue", "Escargot", "Koala"],
-      "anecdote": "Le paresseux est un mammifère arboricole connu pour son déplacement extrêmement lent."
+        "question": "Quel animal est souvent associé à la sagesse dans les contes et légendes ?",
+        "correctAnswer": "Hibou",
+        "choices": ["Hibou", "Renard", "Loup", "Cerf"],
+        "anecdote": "Le hibou est souvent symbolisé comme un animal sage en raison de son apparence majestueuse et de ses habitudes nocturnes."
     },
     {
-      "question": "Quel animal est le roi de la savane ?",
-      "correctAnswer": "Lion",
-      "choices": ["Lion", "Tigre", "Guépard", "Éléphant"],
-      "anecdote": "Le lion est souvent appelé le roi de la savane en raison de sa position dominante dans la chaîne alimentaire."
+        "question": "Quel mammifère pond des œufs ?",
+        "correctAnswer": "Ornithorynque",
+        "choices": ["Ornithorynque", "Kangourou", "Koala", "Opossum"],
+        "anecdote": "L'ornithorynque est l'un des rares mammifères à pondre des œufs, une caractéristique unique chez les mammifères."
     },
     {
-      "question": "Quel est le plus grand reptile ?",
-      "correctAnswer": "Crocodile marin",
-      "choices": ["Crocodile marin", "Anaconda", "Alligator", "Varan de Komodo"],
-      "anecdote": "Le crocodile marin peut atteindre plus de 7 mètres de long et peser plus de 1000 kg."
+        "question": "Quel animal est connu pour sa carapace dure et sa lenteur ?",
+        "correctAnswer": "Tortue",
+        "choices": ["Tortue", "Crabe", "Escargot", "Hérisson"],
+        "anecdote": "Les tortues sont connues pour leur carapace protectrice et leur déplacement lent."
     },
     {
-      "question": "Quel animal peut se vanter d'avoir la meilleure mémoire ?",
-      "correctAnswer": "Dauphin",
-      "choices": ["Dauphin", "Chien", "Éléphant", "Chimpanzé"],
-      "anecdote": "Les dauphins ont une mémoire exceptionnelle et peuvent se souvenir des sons et des signaux sur de longues périodes."
-    }
+        "question": "Quel animal est le roi de la savane ?",
+        "correctAnswer": "Lion",
+        "choices": ["Lion", "Tigre", "Guépard", "Éléphant"],
+        "anecdote": "Le lion est souvent appelé le roi de la savane en raison de sa position au sommet de la chaîne alimentaire en Afrique."
+    },
+    {
+        "question": "Quel animal est le plus rapide sur terre ?",
+        "correctAnswer": "Guépard",
+        "choices": ["Guépard", "Lion", "Antilope", "Cheval"],
+        "anecdote": "Le guépard est l'animal terrestre le plus rapide, capable d'atteindre des vitesses de 100 km/h en courtes distances."
+    },
+    {
+        "question": "Quel mammifère marin est connu pour son intelligence et sa sociabilité ?",
+        "correctAnswer": "Dauphin",
+        "choices": ["Dauphin", "Baleine", "Phoque", "Lamantin"],
+        "anecdote": "Les dauphins sont réputés pour leur intelligence, leur capacité à communiquer et leur nature sociable."
+    },
+    {
+        "question": "Quel animal peut régénérer ses membres perdus ?",
+        "correctAnswer": "Étoile de mer",
+        "choices": ["Étoile de mer", "Crabe", "Serpent", "Caméléon"],
+        "anecdote": "L'étoile de mer peut régénérer ses bras perdus, une capacité qui l'aide à survivre aux attaques de prédateurs."
+    },
+    {
+        "question": "Quel oiseau est connu pour imiter les sons et les paroles humaines ?",
+        "correctAnswer": "Perroquet",
+        "choices": ["Perroquet", "Corbeau", "Moineau", "Pie"],
+        "anecdote": "Les perroquets sont célèbres pour leur capacité à imiter une grande variété de sons, y compris les paroles humaines."
+    },
+    {
+        "question": "Quel est le plus grand reptile vivant ?",
+        "correctAnswer": "Crocodile marin",
+        "choices": ["Crocodile marin", "Alligator", "Anaconda", "Tortue géante"],
+        "anecdote": "Le crocodile marin est le plus grand reptile vivant, pouvant mesurer jusqu'à 7 mètres de long."
+    },
+    {
+        "question": "Quel animal est célèbre pour sa bosse qui stocke de la graisse ?",
+        "correctAnswer": "Chameau",
+        "choices": ["Chameau", "Dromadaire", "Éléphant", "Bison"],
+        "anecdote": "Les chameaux ont des bosses qui stockent de la graisse, leur permettant de survivre longtemps sans nourriture ni eau."
+    },
+    {
+        "question": "Quel animal utilise l'écholocation pour se déplacer et chasser ?",
+        "correctAnswer": "Chauve-souris",
+        "choices": ["Chauve-souris", "Dauphin", "Chien", "Chat"],
+        "anecdote": "Les chauves-souris utilisent l'écholocation, une méthode de navigation et de chasse basée sur les ondes sonores."
+    },
+    {
+        "question": "Quel insecte est célèbre pour sa capacité à produire du miel ?",
+        "correctAnswer": "Abeille",
+        "choices": ["Abeille", "Guêpe", "Fourmi", "Coccinelle"],
+        "anecdote": "Les abeilles sont connues pour leur capacité à produire du miel et leur rôle crucial dans la pollinisation des plantes."
+    },
+    {
+        "question": "Quel animal est connu pour son camouflage et sa capacité à se fondre dans son environnement ?",
+        "correctAnswer": "Caméléon",
+        "choices": ["Caméléon", "Pieuvre", "Phasme", "Lézard"],
+        "anecdote": "Le caméléon est célèbre pour sa capacité à changer de couleur pour se camoufler et se fondre dans son environnement."
+    },
+    {
+        "question": "Quel animal est considéré comme le plus intelligent après l'homme ?",
+        "correctAnswer": "Chimpanzé",
+        "choices": ["Dauphin", "Chimpanzé", "Éléphant", "Cochon"],
+        "anecdote": "Les dauphins sont considérés comme l'un des animaux les plus intelligents, avec des capacités de communication et de résolution de problèmes impressionnantes."
+    },
+    {
+        "question": "Quel animal est connu pour sa capacité à tisser des toiles ?",
+        "correctAnswer": "Araignée",
+        "choices": ["Araignée", "Fourmi", "Abeille", "Guêpe"],
+        "anecdote": "Les araignées utilisent leur soie pour tisser des toiles afin de capturer leurs proies."
+    },
+    {
+        "question": "Quel oiseau est souvent associé à la paix et porte une branche d'olivier ?",
+        "correctAnswer": "Colombe",
+        "choices": ["Colombe", "Mouette", "Pigeon", "Aigle"],
+        "anecdote": "La colombe est un symbole universel de paix et est souvent représentée avec une branche d'olivier dans le bec."
+    },
+    {
+        "question": "Quel est le plus grand oiseau vivant ?",
+        "correctAnswer": "Autruche",
+        "choices": ["Autruche", "Aigle", "Albatros", "Flamant rose"],
+        "anecdote": "L'autruche peut atteindre jusqu'à 2,7 mètres de haut, ce qui en fait le plus grand oiseau vivant."
+    },
+    {
+        "question": "Quel animal est célèbre pour sa trompe longue et flexible ?",
+        "correctAnswer": "Éléphant",
+        "choices": ["Éléphant", "Tapir", "Rhinocéros", "Hippopotame"],
+        "anecdote": "L'éléphant utilise sa trompe pour se nourrir, boire, et comme outil de communication et de manipulation."
+    },
+    {
+        "question": "Quel petit animal est connu pour stocker de la nourriture dans ses joues ?",
+        "correctAnswer": "Hamster",
+        "choices": ["Hamster", "Écureuil", "Rat", "Gerbille"],
+        "anecdote": "Les hamsters ont des poches extensibles dans leurs joues qui leur permettent de transporter de la nourriture pour plus tard."
+    },
+    {
+        "question": "Quel est le seul oiseau capable de voler en arrière ?",
+        "correctAnswer": "Colibri",
+        "choices": ["Colibri", "Aigle", "Faucon", "Hirondelle"],
+        "anecdote": "Le colibri est le seul oiseau capable de voler en arrière grâce à ses ailes très flexibles et à son battement rapide."
+    },
+    {
+        "question": "Quel animal est connu pour son cri strident et vit en meute ?",
+        "correctAnswer": "Loup",
+        "choices": ["Loup", "Chacal", "Renard", "Coyote"],
+        "anecdote": "Les loups communiquent entre eux grâce à leurs hurlements, qui peuvent être entendus à des kilomètres à la ronde."
+    },
+    {
+        "question": "Quel animal marin est célèbre pour ses huit bras ?",
+        "correctAnswer": "Pieuvre",
+        "choices": ["Pieuvre", "Calmar", "Méduse", "Raie"],
+        "anecdote": "La pieuvre a huit bras, chacun équipé de ventouses, ce qui en fait un excellent chasseur et un maître du camouflage."
+    },
+    {
+        "question": "Quel animal est connu pour son pelage rayé noir et blanc ?",
+        "correctAnswer": "Zèbre",
+        "choices": ["Zèbre", "Tigre", "Panthère", "Lémurien"],
+        "anecdote": "Les rayures du zèbre sont uniques à chaque individu, comme les empreintes digitales humaines."
+    },
+    {
+        "question": "Quel oiseau est célèbre pour sa capacité à parler et imiter des sons humains ?",
+        "correctAnswer": "Perroquet",
+        "choices": ["Perroquet", "Corbeau", "Pie", "Moineau"],
+        "anecdote": "Les perroquets sont capables d'imiter des sons et des paroles humaines, ce qui en fait des animaux de compagnie populaires."
+    },
+    {
+        "question": "Quel grand félin est connu pour sa robe tachetée et sa vitesse exceptionnelle ?",
+        "correctAnswer": "Guépard",
+        "choices": ["Guépard", "Léopard", "Panthère", "Lynx"],
+        "anecdote": "Le guépard est l'animal terrestre le plus rapide, capable d'atteindre des vitesses de 100 km/h en courtes distances."
+    },
+    {
+        "question": "Quel animal est souvent utilisé pour la recherche en laboratoire à cause de sa petite taille et de sa reproduction rapide ?",
+        "correctAnswer": "Souris",
+        "choices": ["Souris", "Rat", "Lapin", "Cochon d'Inde"],
+        "anecdote": "Les souris sont couramment utilisées dans les laboratoires de recherche en raison de leur petite taille et de leur cycle de reproduction rapide."
+    },
+    {
+        "question": "Quel oiseau est reconnu pour ses plumes majestueuses et sa roue lorsqu'il parade ?",
+        "correctAnswer": "Paon",
+        "choices": ["Paon", "Flamant rose", "Héron", "Cygne"],
+        "anecdote": "Le paon mâle est célèbre pour sa roue spectaculaire de plumes colorées qu'il déploie pour attirer les femelles."
+    },
+    {
+        "question": "Quel mammifère est célèbre pour son sens de l'odorat et est souvent utilisé pour la recherche de truffes ?",
+        "correctAnswer": "Cochon",
+        "choices": ["Cochon", "Chien", "Rat", "Chèvre"],
+        "anecdote": "Les cochons ont un sens de l'odorat très développé, ce qui les rend excellents pour la recherche de truffes."
+    },
+    {
+        "question": "Quel grand félin vit dans les jungles d'Asie et est connu pour ses rayures ?",
+        "correctAnswer": "Tigre",
+        "choices": ["Tigre", "Lion", "Léopard", "Jaguar"],
+        "anecdote": "Le tigre est le plus grand des grands félins et est connu pour ses rayures uniques qui aident au camouflage."
+    },
+    {
+        "question": "Quel insecte traverse une métamorphose complète, passant de la chenille au papillon ?",
+        "correctAnswer": "Papillon",
+        "choices": ["Papillon", "Coccinelle", "Fourmi", "Mouche"],
+        "anecdote": "Les papillons subissent une métamorphose complète, commençant comme chenilles avant de se transformer en magnifiques papillons."
+    },
+    {
+        "question": "Quel animal marin est célèbre pour ses chants complexes et mélodieux ?",
+        "correctAnswer": "Baleine",
+        "choices": ["Baleine", "Dauphin", "Phoque", "Manchot"],
+        "anecdote": "Les baleines, en particulier les baleines à bosse, sont connues pour leurs chants complexes et mélodieux qui peuvent durer plusieurs minutes."
+    },
+    {
+        "question": "Quel oiseau est souvent associé à la liberté et est l'emblème national des États-Unis ?",
+        "correctAnswer": "Aigle",
+        "choices": ["Aigle", "Faucon", "Condor", "Mouette"],
+        "anecdote": "L'aigle est un symbole de liberté et de puissance et est l'emblème national des États-Unis."
+    },
+    {
+        "question": "Quel animal est connu pour son pelage épais et laineux, souvent élevé pour sa laine ?",
+        "correctAnswer": "Mouton",
+        "choices": ["Mouton", "Chèvre", "Lama", "Alpaga"],
+        "anecdote": "Les moutons sont élevés pour leur laine, qui est utilisée pour fabriquer des vêtements et autres textiles."
+    },
+    {
+        "question": "Quel poisson est connu pour son apparence colorée et vit souvent dans les récifs coralliens ?",
+        "correctAnswer": "Poisson-clown",
+        "choices": ["Poisson-clown", "Poisson-ange", "Poisson-papillon", "Poisson-chirurgien"],
+        "anecdote": "Le poisson-clown est célèbre pour sa coloration vive et son association symbiotique avec les anémones de mer."
+    },
+    {
+        "question": "Quel insecte est célèbre pour ses rayures jaunes et noires et sa production de miel ?",
+        "correctAnswer": "Abeille",
+        "choices": ["Abeille", "Guêpe", "Frelon", "Bourdon"],
+        "anecdote": "Les abeilles sont essentielles pour la pollinisation des plantes et sont bien connues pour leur production de miel."
+    },
+    {
+        "question": "Quel animal est connu pour son bec unique et coloré, souvent trouvé en Amérique du Sud ?",
+        "correctAnswer": "Toucan",
+        "choices": ["Toucan", "Ara", "Pélican", "Flamant rose"],
+        "anecdote": "Le toucan est facilement reconnaissable à son bec coloré et disproportionné par rapport à son corps."
+    },
+    {
+        "question": "Quel reptile est célèbre pour sa langue rapide et collante utilisée pour attraper des insectes ?",
+        "correctAnswer": "Caméléon",
+        "choices": ["Caméléon", "Gecko", "Iguane", "Varan"],
+        "anecdote": "Le caméléon utilise sa langue rapide et collante pour attraper des insectes, une adaptation unique parmi les reptiles."
+    },
+    {
+        "question": "Quel grand animal herbivore est célèbre pour ses longues cornes spiralées ?",
+        "correctAnswer": "Antilope",
+        "choices": ["Antilope", "Buffle", "Bison", "Mouflon"],
+        "anecdote": "Les antilopes sont connues pour leurs cornes spiralées, qui varient en forme et en taille selon les espèces."
+    },
+    {
+        "question": "Quel oiseau est connu pour son chant mélodieux et ses couleurs vives ?",
+        "correctAnswer": "Canari",
+        "choices": ["Canari", "Rossignol", "Moineau", "Pinson"],
+        "anecdote": "Le canari est célèbre pour son chant mélodieux et ses couleurs vives, en faisant un oiseau de compagnie populaire."
+    },
+    {
+        "question": "Quel mammifère marin est connu pour sa forme arrondie et son comportement amical ?",
+        "correctAnswer": "Lamantin",
+        "choices": ["Lamantin", "Dauphin", "Narval", "Baleine"],
+        "anecdote": "Le lamantin, souvent appelé 'vache de mer', est un mammifère marin doux et amical trouvé dans les eaux côtières et les rivières."
+    },
+    {
+        "question": "Quel animal est célèbre pour son pelage blanc et noir et vit principalement en Chine ?",
+        "correctAnswer": "Panda",
+        "choices": ["Panda", "Tigre blanc", "Zèbre", "Ours polaire"],
+        "anecdote": "Le panda géant, avec son pelage distinctif noir et blanc, est un symbole national de la Chine et est connu pour son régime alimentaire à base de bambou."
+    },
+    {
+        "question": "Quel animal est connu pour sa longue crinière et est souvent appelé le 'roi des animaux' ?",
+        "correctAnswer": "Lion",
+        "choices": ["Lion", "Tigre", "Léopard", "Panthère"],
+        "anecdote": "Le lion est souvent surnommé le 'roi des animaux' en raison de sa crinière majestueuse et de son rôle de prédateur dominant dans la savane."
+    },
+    {
+        "question": "Quel insecte est célèbre pour sa danse complexe utilisée pour communiquer avec ses congénères ?",
+        "correctAnswer": "Abeille",
+        "choices": ["Abeille", "Fourmi", "Coccinelle", "Papillon"],
+        "anecdote": "Les abeilles communiquent entre elles par des danses complexes, comme la danse frétillante, pour indiquer l'emplacement des sources de nourriture."
+    },
+    {
+        "question": "Quel mammifère est célèbre pour sa queue préhensile et ses talents acrobatiques dans les arbres ?",
+        "correctAnswer": "Singe",
+        "choices": ["Singe", "Écureuil", "Lémurien", "Koala"],
+        "anecdote": "Les singes utilisent souvent leur queue préhensile pour s'accrocher aux branches et se déplacer habilement dans les arbres."
+    },
+    {
+        "question": "Quel animal aquatique est connu pour ses tentacules et sa capacité à produire de la lumière ?",
+        "correctAnswer": "Méduse",
+        "choices": ["Méduse", "Calmar", "Pieuvre", "Anémone de mer"],
+        "anecdote": "Certaines méduses, comme la méduse des abysses, possèdent des organes lumineux appelés photophores, leur permettant de produire de la lumière."
+    }  
   ],
   "Confirmed": [
     {
-      "question": "Quel animal a la langue la plus longue par rapport à sa taille ?",
-      "correctAnswer": "Caméléon",
-      "choices": ["Caméléon", "Fourmilier", "Girafe", "Grenouille"],
-      "anecdote": "La langue du caméléon peut mesurer jusqu'à deux fois la longueur de son corps."
+        "question": "Quel est le nom scientifique du lion ?",
+        "correctAnswer": "Panthera leo",
+        "choices": ["Panthera leo", "Panthera onca", "Panthera tigris", "Panthera pardus"],
+        "anecdote": "Le lion, scientifiquement nommé Panthera leo, est le deuxième plus grand félin après le tigre."
     },
     {
-      "question": "Quelle est la durée de vie moyenne d'une tortue des Galápagos ?",
-      "correctAnswer": "100 ans",
-      "choices": ["50 ans", "75 ans", "100 ans", "150 ans"],
-      "anecdote": "Les tortues des Galápagos sont parmi les animaux les plus vieux, certaines vivant plus de 100 ans."
+        "question": "Quel est le plus petit mammifère du monde ?",
+        "correctAnswer": "Kitti à nez de porc",
+        "choices": ["Kitti à nez de porc", "Musaraigne étrusque", "Chauve-souris pipistrelle", "Rat-taupe nu"],
+        "anecdote": "Le kitti à nez de porc, aussi appelé chauve-souris bourdon, pèse environ 2 grammes et mesure 3 cm de long."
     },
     {
-      "question": "Quel est le plus grand reptile vivant ?",
-      "correctAnswer": "Crocodile marin",
-      "choices": ["Crocodile marin", "Anaconda", "Alligator", "Varan de Komodo"],
-      "anecdote": "Le crocodile marin peut atteindre plus de 7 mètres de long et peser plus de 1000 kg."
+        "question": "Quelle est la durée de gestation d'un éléphant ?",
+        "correctAnswer": "22 mois",
+        "choices": ["22 mois", "18 mois", "15 mois", "12 mois"],
+        "anecdote": "Les éléphants ont la plus longue période de gestation de tous les mammifères, soit environ 22 mois."
     },
     {
-      "question": "Quel est l'animal terrestre le plus lourd ?",
-      "correctAnswer": "Éléphant africain",
-      "choices": ["Éléphant africain", "Rhinocéros blanc", "Hippopotame", "Bison"],
-      "anecdote": "L'éléphant africain est l'animal terrestre le plus lourd, pesant jusqu'à 12 000 kg."
+        "question": "Quel animal est capable de se cloner par scissiparité ?",
+        "correctAnswer": "Planaria",
+        "choices": ["Planaria", "Étoile de mer", "Hydre", "Ameba"],
+        "anecdote": "La planaria est un ver plat capable de se régénérer et de se cloner par simple division de son corps."
     },
     {
-      "question": "Quel mammifère marin est connu pour ses chants ?",
-      "correctAnswer": "Baleine à bosse",
-      "choices": ["Baleine à bosse", "Dauphin", "Orque", "Phoque"],
-      "anecdote": "Les baleines à bosse sont célèbres pour leurs chants longs et complexes, utilisés pour communiquer et attirer les partenaires."
+        "question": "Quel est l'oiseau qui possède la plus grande envergure ?",
+        "correctAnswer": "Albatros hurleur",
+        "choices": ["Albatros hurleur", "Condor des Andes", "Pélican frisé", "Aigle royal"],
+        "anecdote": "L'albatros hurleur détient le record de la plus grande envergure, pouvant atteindre jusqu'à 3,5 mètres."
     },
     {
-      "question": "Quel oiseau a la plus grande envergure de tous les oiseaux ?",
-      "correctAnswer": "Albatros hurleur",
-      "choices": ["Albatros hurleur", "Condor des Andes", "Aigle royal", "Pélican"],
-      "anecdote": "L'albatros hurleur a la plus grande envergure de tous les oiseaux, atteignant jusqu'à 3,5 mètres."
+        "question": "Quel mammifère est connu pour sa capacité à ralentir son métabolisme au point de simuler la mort ?",
+        "correctAnswer": "Opossum",
+        "choices": ["Opossum", "Tortue", "Hérisson", "Lézard"],
+        "anecdote": "L'opossum peut entrer dans un état de catatonie extrême lorsqu'il est menacé, simulant ainsi la mort pour dissuader les prédateurs."
     },
     {
-      "question": "Quel animal est connu pour sa capacité à se régénérer ?",
-      "correctAnswer": "Axolotl",
-      "choices": ["Axolotl", "Étoile de mer", "Lézard", "Triton"],
-      "anecdote": "L'axolotl est un amphibien capable de régénérer des parties de son corps, y compris des membres, des organes et même des parties de son cerveau."
+        "question": "Quel est l'insecte le plus rapide au monde ?",
+        "correctAnswer": "Libellule",
+        "choices": ["Libellule", "Guêpe", "Abeille", "Mouche"],
+        "anecdote": "La libellule est l'insecte le plus rapide, capable de voler à une vitesse de 56 km/h."
     },
     {
-      "question": "Quel animal possède le venin le plus puissant ?",
-      "correctAnswer": "Méduse-boîte",
-      "choices": ["Méduse-boîte", "Serpent Taipan", "Araignée veuve noire", "Scorpion"],
-      "anecdote": "La méduse-boîte, aussi appelée cuboméduse, possède un venin potentiellement mortel pour l'homme."
+        "question": "Quelle espèce de pingouin est la plus grande ?",
+        "correctAnswer": "Manchot empereur",
+        "choices": ["Manchot empereur", "Manchot royal", "Manchot Adélie", "Manchot papou"],
+        "anecdote": "Le manchot empereur est la plus grande espèce de pingouins, mesurant jusqu'à 1,20 mètre de hauteur."
     },
     {
-      "question": "Quel est le seul mammifère capable de voler ?",
-      "correctAnswer": "Chauve-souris",
-      "choices": ["Chauve-souris", "Écureuil volant", "Colugo", "Petaurus"],
-      "anecdote": "La chauve-souris est le seul mammifère capable de voler activement grâce à ses ailes membraneuses."
+        "question": "Quel animal peut dormir debout ?",
+        "correctAnswer": "Cheval",
+        "choices": ["Cheval", "Éléphant", "Girafe", "Chameau"],
+        "anecdote": "Les chevaux ont un mécanisme de verrouillage dans leurs jambes qui leur permet de dormir debout."
     },
     {
-      "question": "Quel poisson est capable de produire de l'électricité ?",
-      "correctAnswer": "Anguille électrique",
-      "choices": ["Anguille électrique", "Raie manta", "Poisson-globe", "Poisson-perroquet"],
-      "anecdote": "L'anguille électrique peut produire des décharges électriques pour se défendre et chasser."
-    }
+        "question": "Quel poisson peut survivre hors de l'eau pendant plusieurs jours ?",
+        "correctAnswer": "Poisson-grenouille",
+        "choices": ["Poisson-grenouille", "Poisson-perroquet", "Poisson-clown", "Poisson-globe"],
+        "anecdote": "Le poisson-grenouille peut respirer de l'air et survivre hors de l'eau jusqu'à quatre jours en se déplaçant sur terre."
+    },
+    {
+        "question": "Quel est le plus grand arthropode vivant ?",
+        "correctAnswer": "Crabe de cocotier",
+        "choices": ["Crabe de cocotier", "Homard américain", "Scorpion empereur", "Araignée Goliath"],
+        "anecdote": "Le crabe de cocotier est le plus grand arthropode terrestre, pouvant peser jusqu'à 4 kg et atteindre une envergure de 1 mètre."
+    },
+    {
+        "question": "Quel animal marin possède le plus grand cerveau par rapport à sa taille ?",
+        "correctAnswer": "Dauphin",
+        "choices": ["Dauphin", "Baleine", "Pieuvre", "Requin"],
+        "anecdote": "Le cerveau du dauphin est proportionnellement plus grand que celui des humains, avec des capacités cognitives avancées."
+    },
+    {
+        "question": "Quel oiseau est connu pour sa migration annuelle de plusieurs milliers de kilomètres ?",
+        "correctAnswer": "Hirondelle",
+        "choices": ["Hirondelle", "Cigogne", "Albatros", "Goéland"],
+        "anecdote": "Les hirondelles effectuent une migration annuelle impressionnante, parcourant des milliers de kilomètres entre l'Europe et l'Afrique."
+    },
+    {
+        "question": "Quel est le plus grand serpent du monde ?",
+        "correctAnswer": "Anaconda",
+        "choices": ["Anaconda", "Python réticulé", "Boa constricteur", "Cobra royal"],
+        "anecdote": "L'anaconda est le plus grand serpent du monde en termes de poids et de circonférence, bien que le python réticulé soit plus long."
+    },
+    {
+        "question": "Quel mammifère possède la plus grande population au monde ?",
+        "correctAnswer": "Humain",
+        "choices": ["Humain", "Vache", "Rat", "Chèvre"],
+        "anecdote": "Les humains représentent la plus grande population de mammifères sur Terre, avec plus de 7,8 milliards d'individus."
+    },
+    {
+        "question": "Quel est l'oiseau le plus rapide en vol horizontal ?",
+        "correctAnswer": "Martinet noir",
+        "choices": ["Martinet noir", "Faucon pèlerin", "Hirondelle", "Aigle royal"],
+        "anecdote": "Le martinet noir détient le record de vitesse en vol horizontal, atteignant des vitesses de 111 km/h."
+    },
+    {
+        "question": "Quel animal possède le venin le plus mortel pour l'homme ?",
+        "correctAnswer": "Cubozoaire (méduse-boîte)",
+        "choices": ["Cubozoaire (méduse-boîte)", "Serpent Taïpan", "Araignée veuve noire", "Scorpion jaune"],
+        "anecdote": "La cubozoaire, ou méduse-boîte, possède un venin extrêmement puissant capable de tuer un humain en quelques minutes."
+    },
+    {
+        "question": "Quel est le plus grand mammifère volant ?",
+        "correctAnswer": "Renard volant",
+        "choices": ["Renard volant", "Chauve-souris frugivore", "Chauve-souris vampire", "Chauve-souris pipistrelle"],
+        "anecdote": "Le renard volant, ou roussette, est la plus grande chauve-souris, avec une envergure pouvant atteindre 1,5 mètre."
+    },
+    {
+        "question": "Quel animal a le plus grand nombre de dents ?",
+        "correctAnswer": "Escargot",
+        "choices": ["Escargot", "Requin", "Crocodile", "Dauphin"],
+        "anecdote": "Certains escargots possèdent plus de 25 000 dents microscopiques disposées en rangées sur leur langue, appelée radula."
+    },
+    {
+        "question": "Quel est l'oiseau le plus lourd capable de voler ?",
+        "correctAnswer": "Outarde kori",
+        "choices": ["Outarde kori", "Cygne trompette", "Pélican frisé", "Vautour de Rüppell"],
+        "anecdote": "L'outarde kori est l'oiseau volant le plus lourd, pesant jusqu'à 18 kg."
+    },
+    {
+        "question": "Quel mammifère marin possède la plus longue durée de vie ?",
+        "correctAnswer": "Baleine boréale",
+        "choices": ["Baleine boréale", "Orque", "Dauphin", "Narval"],
+        "anecdote": "La baleine boréale, ou baleine du Groenland, peut vivre plus de 200 ans, ce qui en fait le mammifère marin le plus longexe."
+    },
+    {
+        "question": "Quel animal utilise des outils pour se nourrir et ouvrir des coquillages ?",
+        "correctAnswer": "Loutre de mer",
+        "choices": ["Loutre de mer", "Poulpe", "Chimpanzé", "Corbeau"],
+        "anecdote": "La loutre de mer utilise des pierres comme outils pour casser les coquillages et accéder à la nourriture à l'intérieur."
+    },
+    {
+        "question": "Quel poisson possède un organe électrique capable de produire des décharges de 600 volts ?",
+        "correctAnswer": "Anguille électrique",
+        "choices": ["Anguille électrique", "Raie électrique", "Poisson-chat", "Poisson globe"],
+        "anecdote": "L'anguille électrique utilise son organe électrique pour chasser et se défendre, produisant des décharges atteignant 600 volts."
+    },
+    {
+        "question": "Quel animal est capable de dormir pendant plusieurs années en cas de conditions défavorables ?",
+        "correctAnswer": "Escargot",
+        "choices": ["Escargot", "Grenouille", "Tortue", "Ours"],
+        "anecdote": "L'escargot peut entrer en dormance prolongée appelée estivation, permettant de survivre plusieurs années en cas de sécheresse."
+    },
+    {
+        "question": "Quel mammifère possède la morsure la plus puissante ?",
+        "correctAnswer": "Hyène",
+        "choices": ["Hyène", "Tigre", "Ours polaire", "Crocodile"],
+        "anecdote": "La hyène a une morsure incroyablement puissante, capable de broyer les os les plus durs pour accéder à la moelle nutritive."
+    },
+    {
+        "question": "Quel oiseau possède la plus longue migration annuelle ?",
+        "correctAnswer": "Sterne arctique",
+        "choices": ["Sterne arctique", "Goéland argenté", "Hirondelle rustique", "Pétrel des neiges"],
+        "anecdote": "La sterne arctique détient le record de la plus longue migration annuelle, parcourant environ 40 000 km entre les pôles nord et sud."
+    },
+    {
+        "question": "Quel animal marin est capable de régénérer ses organes vitaux ?",
+        "correctAnswer": "Étoile de mer",
+        "choices": ["Étoile de mer", "Pieuvre", "Méduse", "Crabe"],
+        "anecdote": "L'étoile de mer peut régénérer ses bras et même certains organes internes, une capacité remarquable de régénération."
+    },
+    {
+        "question": "Quel est le plus grand animal terrestre carnivore ?",
+        "correctAnswer": "Ours polaire",
+        "choices": ["Ours polaire", "Lion", "Tigre de Sibérie", "Loup gris"],
+        "anecdote": "L'ours polaire est le plus grand carnivore terrestre, pesant jusqu'à 700 kg et mesurant jusqu'à 3 mètres de long."
+    },
+    {
+        "question": "Quel animal est connu pour sa capacité à marcher sur l'eau ?",
+        "correctAnswer": "Basilic",
+        "choices": ["Basilic", "Gerris", "Gecko", "Grenouille"],
+        "anecdote": "Le basilic, surnommé le 'lézard Jésus-Christ', est capable de courir sur l'eau grâce à ses pattes spéciales et sa vitesse."
+    },
+    {
+        "question": "Quel oiseau pond les plus grands œufs ?",
+        "correctAnswer": "Autruche",
+        "choices": ["Autruche", "Émeu", "Aigle", "Albatros"],
+        "anecdote": "L'autruche pond les plus grands œufs de tous les oiseaux, pouvant peser jusqu'à 1,4 kg et mesurer 15 cm de long."
+    },
+    {
+        "question": "Quel est le seul mammifère venimeux connu ?",
+        "correctAnswer": "Solenodon",
+        "choices": ["Solenodon", "Ornithorynque", "Tarsier", "Galago"],
+        "anecdote": "Le solenodon est un mammifère venimeux qui injecte son venin par une rainure dans ses dents inférieures."
+    },
+    {
+        "question": "Quel animal a la plus grande capacité de mémoire à court terme parmi les mammifères marins ?",
+        "correctAnswer": "Dauphin",
+        "choices": ["Dauphin", "Orque", "Phoque", "Lamantin"],
+        "anecdote": "Les dauphins possèdent une mémoire à court terme extrêmement développée, leur permettant de se souvenir de sons et de comportements complexes."
+    },
+    {
+        "question": "Quel insecte est capable de naviguer en utilisant la lumière polarisée du soleil ?",
+        "correctAnswer": "Abeille",
+        "choices": ["Abeille", "Fourmi", "Papillon", "Mouche"],
+        "anecdote": "Les abeilles peuvent détecter la lumière polarisée du soleil, ce qui les aide à naviguer et à trouver des fleurs."
+    },
+    {
+        "question": "Quel animal possède des dents qui ne cessent de pousser tout au long de sa vie ?",
+        "correctAnswer": "Castor",
+        "choices": ["Castor", "Rat", "Lapin", "Écureuil"],
+        "anecdote": "Les dents des castors poussent continuellement, leur permettant de ronger du bois sans s'user complètement."
+    },
+    {
+      "question": "Quel est le plus grand invertébré en termes de masse corporelle ?",
+      "correctAnswer": "Calmar colossal",
+      "choices": ["Calmar colossal", "Calmar géant", "Méduse lion's mane", "Ver géant de Gippsland"],
+      "anecdote": "Le calmar colossal est le plus grand invertébré en termes de masse corporelle, pesant jusqu'à 495 kg et mesurant entre 10 et 14 mètres."
+    },  
+    {
+        "question": "Quel oiseau est connu pour son vol stationnaire ?",
+        "correctAnswer": "Colibri",
+        "choices": ["Colibri", "Faucon crécerelle", "Albatros", "Goéland"],
+        "anecdote": "Les colibris peuvent rester en vol stationnaire grâce à leurs ailes battant extrêmement rapidement, jusqu'à 80 battements par seconde."
+    },
+    {
+        "question": "Quel mammifère est capable de ralentir son métabolisme pour survivre à des périodes de famine ?",
+        "correctAnswer": "Ours",
+        "choices": ["Ours", "Lémurien", "Tatou", "Raton laveur"],
+        "anecdote": "Les ours entrent en hibernation pour ralentir leur métabolisme et survivre pendant les mois d'hiver où la nourriture est rare."
+    },
+    {
+        "question": "Quel poisson est capable de survivre dans des eaux presque sans oxygène ?",
+        "correctAnswer": "Poisson pulmoné",
+        "choices": ["Poisson pulmoné", "Tilapia", "Poisson-chat", "Carpe"],
+        "anecdote": "Le poisson pulmoné peut respirer de l'air grâce à ses poumons primitifs, lui permettant de survivre dans des eaux à faible teneur en oxygène."
+    },
+    {
+        "question": "Quel est le seul reptile capable de voler (glisser) ?",
+        "correctAnswer": "Dragon volant",
+        "choices": ["Dragon volant", "Gecko volant", "Serpent volant", "Iguane"],
+        "anecdote": "Le dragon volant, un lézard de la famille des agames, peut glisser d'arbre en arbre grâce à ses côtes allongées et sa membrane cutanée."
+    },
+    {
+        "question": "Quel mammifère marin est capable de plonger à plus de 1000 mètres de profondeur ?",
+        "correctAnswer": "Cachalot",
+        "choices": ["Cachalot", "Baleine bleue", "Orque", "Phoque éléphant"],
+        "anecdote": "Le cachalot peut plonger à plus de 1000 mètres de profondeur pour chasser des calmars géants et d'autres proies."
+    },
+    {
+        "question": "Quel animal possède la meilleure vision nocturne parmi les mammifères ?",
+        "correctAnswer": "Chat",
+        "choices": ["Chat", "Loup", "Chauve-souris", "Hibou"],
+        "anecdote": "Les chats ont des yeux spécialement adaptés pour voir dans l'obscurité, avec une couche de cellules réfléchissantes appelée tapetum lucidum."
+    },
+    {
+        "question": "Quel oiseau est capable de nager sous l'eau pour chasser des poissons ?",
+        "correctAnswer": "Pingouin",
+        "choices": ["Pingouin", "Cormoran", "Canard", "Pélican"],
+        "anecdote": "Les pingouins sont d'excellents nageurs et utilisent leurs ailes pour se propulser sous l'eau à la recherche de poissons."
+    },
+    {
+        "question": "Quel animal est connu pour ses capacités de camouflage exceptionnelles ?",
+        "correctAnswer": "Seiche",
+        "choices": ["Seiche", "Caméléon", "Pieuvre", "Poisson-pierre"],
+        "anecdote": "La seiche peut changer de couleur et de texture pour se fondre dans son environnement, rendant presque invisible pour les prédateurs et les proies."
+    },
+    {
+        "question": "Quel est le plus grand prédateur terrestre vivant ?",
+        "correctAnswer": "Ours polaire",
+        "choices": ["Ours polaire", "Lion", "Tigre de Sibérie", "Loup gris"],
+        "anecdote": "L'ours polaire est le plus grand prédateur terrestre, pesant jusqu'à 700 kg et mesurant jusqu'à 3 mètres de long."
+    },
+    {
+        "question": "Quel est l'oiseau qui peut voler le plus haut ?",
+        "correctAnswer": "Vautour de Rüppell",
+        "choices": ["Vautour de Rüppell", "Aigle royal", "Albatros hurleur", "Pélican frisé"],
+        "anecdote": "Le vautour de Rüppell détient le record de l'oiseau volant le plus haut, atteignant des altitudes de plus de 11 000 mètres."
+    },
+    {
+        "question": "Quel animal est capable de régénérer sa queue lorsqu'elle est coupée ?",
+        "correctAnswer": "Lézard",
+        "choices": ["Lézard", "Salamandre", "Gecko", "Triton"],
+        "anecdote": "Les lézards peuvent régénérer leur queue après l'avoir perdue, une capacité qui les aide à échapper aux prédateurs."
+    },
+    {
+        "question": "Quel mammifère est connu pour sa capacité à utiliser des outils dans la nature ?",
+        "correctAnswer": "Chimpanzé",
+        "choices": ["Chimpanzé", "Dauphin", "Éléphant", "Corbeau"],
+        "anecdote": "Les chimpanzés utilisent des bâtons pour attraper des termites, des pierres pour casser des noix et même des feuilles comme éponges."
+    },
+    {
+        "question": "Quel est le seul oiseau nocturne capable de voler en silence ?",
+        "correctAnswer": "Hibou",
+        "choices": ["Hibou", "Chouette", "Engoulevent", "Fou de Bassan"],
+        "anecdote": "Les hiboux volent en silence grâce à leurs plumes spécialisées qui réduisent le bruit, leur permettant de chasser sans être entendus."
+    },
+    {
+        "question": "Quel mammifère marin est capable de rester sous l'eau pendant plus de 90 minutes ?",
+        "correctAnswer": "Cachalot",
+        "choices": ["Cachalot", "Phoque éléphant", "Baleine bleue", "Orque"],
+        "anecdote": "Le cachalot peut rester en apnée pendant plus de 90 minutes, ce qui lui permet de plonger profondément pour chercher de la nourriture."
+    },
+    {
+        "question": "Quel animal est connu pour sa capacité à produire un poison puissant à partir de ses glandes parotoïdes ?",
+        "correctAnswer": "Crapaud",
+        "choices": ["Crapaud", "Grenouille", "Serpent", "Araignée"],
+        "anecdote": "Le crapaud produit un poison puissant à partir de ses glandes parotoïdes derrière les yeux, qui peut être toxique pour les prédateurs."
+    }  
   ],
   "Expert": [
     {
-      "question": "Quelle espèce de baleine est connue pour ses chants complexes ?",
-      "correctAnswer": "Baleine à bosse",
-      "choices": ["Baleine à bosse", "Baleine bleue", "Orque", "Baleine grise"],
-      "anecdote": "Les baleines à bosse sont célèbres pour leurs chants longs et complexes, utilisés pour communiquer et attirer les partenaires."
+        "question": "Quel est le nom scientifique du lion des montagnes, également connu sous le nom de puma ?",
+        "correctAnswer": "Puma concolor",
+        "choices": ["Puma concolor", "Panthera onca", "Felis catus", "Panthera leo"],
+        "anecdote": "Le puma, également appelé lion des montagnes, est scientifiquement nommé Puma concolor."
     },
     {
-      "question": "Quelle est la seule espèce de manchot vivant au nord de l'équateur ?",
-      "correctAnswer": "Manchot des Galápagos",
-      "choices": ["Manchot des Galápagos", "Manchot empereur", "Manchot royal", "Manchot de Magellan"],
-      "anecdote": "Le manchot des Galápagos est la seule espèce de manchot à vivre près de l'équateur, sur les îles Galápagos."
+        "question": "Quel est le seul mammifère capable de détecter les infrasons ?",
+        "correctAnswer": "Éléphant",
+        "choices": ["Éléphant", "Chauve-souris", "Dauphin", "Chien"],
+        "anecdote": "Les éléphants peuvent détecter les infrasons, des sons à très basse fréquence, ce qui leur permet de communiquer sur de longues distances."
     },
     {
-      "question": "Quel est le nom scientifique du loup ?",
-      "correctAnswer": "Canis lupus",
-      "choices": ["Canis lupus", "Canis latrans", "Canis aureus", "Canis familiaris"],
-      "anecdote": "Le nom scientifique du loup est Canis lupus, une espèce de mammifère carnivore de la famille des Canidés."
+        "question": "Quel poisson osseux possède des dents pharyngiennes pour broyer sa nourriture ?",
+        "correctAnswer": "Carpe",
+        "choices": ["Carpe", "Poisson-perroquet", "Poisson-chat", "Tilapia"],
+        "anecdote": "Les carpes possèdent des dents pharyngiennes situées dans leur gorge, utilisées pour broyer leur nourriture."
     },
     {
-      "question": "Quel animal est le plus bruyant ?",
-      "correctAnswer": "Cachalot",
-      "choices": ["Cachalot", "Éléphant", "Gorille", "Lion"],
-      "anecdote": "Le cachalot est l'animal le plus bruyant, capable de produire des clics allant jusqu'à 230 décibels."
+        "question": "Quel est le seul oiseau capable de voler à reculons ?",
+        "correctAnswer": "Colibri",
+        "choices": ["Colibri", "Aigle", "Martinet", "Moineau"],
+        "anecdote": "Le colibri est le seul oiseau capable de voler en arrière grâce à la structure unique de ses ailes."
     },
     {
-      "question": "Quel animal possède le plus de cœurs ?",
-      "correctAnswer": "Poulpe",
-      "choices": ["Poulpe", "Ver de terre", "Escargot", "Étoile de mer"],
-      "anecdote": "Le poulpe possède trois cœurs, deux pompent le sang vers les branchies et le troisième vers le reste du corps."
+        "question": "Quel mammifère marin possède une structure en forme de 'moustache' appelée vibrisses ?",
+        "correctAnswer": "Phoque",
+        "choices": ["Phoque", "Dauphin", "Orque", "Lamantin"],
+        "anecdote": "Les phoques utilisent leurs vibrisses, ou moustaches, pour détecter les vibrations et localiser leurs proies sous l'eau."
     },
     {
-      "question": "Quel est le seul mammifère ovipare ?",
-      "correctAnswer": "Ornithorynque",
-      "choices": ["Ornithorynque", "Échidné", "Chauve-souris", "Lémurien"],
-      "anecdote": "L'ornithorynque est l'un des rares mammifères à pondre des œufs."
+        "question": "Quel est le nom scientifique de l'ours polaire ?",
+        "correctAnswer": "Ursus maritimus",
+        "choices": ["Ursus maritimus", "Ursus arctos", "Ursus americanus", "Ursus thibetanus"],
+        "anecdote": "L'ours polaire est scientifiquement nommé Ursus maritimus, ce qui signifie 'ours de mer'."
     },
     {
-      "question": "Quel est le plus grand invertébré du monde ?",
-      "correctAnswer": "Calmar colossal",
-      "choices": ["Calmar colossal", "Méduse", "Crabe araignée", "Pieuvre géante"],
-      "anecdote": "Le calmar colossal est le plus grand invertébré connu, avec des spécimens atteignant jusqu'à 14 mètres de long."
+        "question": "Quel est le plus grand invertébré du monde en termes de longueur ?",
+        "correctAnswer": "Ver géant de Gippsland",
+        "choices": ["Ver géant de Gippsland", "Calmar colossal", "Calmar géant", "Méduse lion's mane"],
+        "anecdote": "Le ver géant de Gippsland peut atteindre une longueur de 3 mètres, ce qui en fait l'un des plus longs invertébrés."
     },
     {
-      "question": "Quel oiseau peut voler en arrière ?",
-      "correctAnswer": "Colibri",
-      "choices": ["Colibri", "Aigle", "Faucon", "Mésange"],
-      "anecdote": "Le colibri est le seul oiseau capable de voler en arrière grâce à la structure unique de ses ailes."
+        "question": "Quel oiseau est connu pour son comportement kleptoparasite, volant la nourriture d'autres oiseaux ?",
+        "correctAnswer": "Labbe",
+        "choices": ["Labbe", "Corbeau", "Pie", "Goéland"],
+        "anecdote": "Les labbes sont connus pour leur comportement kleptoparasite, où ils volent la nourriture d'autres oiseaux en les harcelant."
     },
     {
-      "question": "Quel est le plus grand carnivore terrestre ?",
-      "correctAnswer": "Ours polaire",
-      "choices": ["Ours polaire", "Tigre de Sibérie", "Lion", "Loup gris"],
-      "anecdote": "L'ours polaire est le plus grand carnivore terrestre, pesant jusqu'à 700 kg."
+        "question": "Quel animal possède le venin le plus toxique du règne animal ?",
+        "correctAnswer": "Cubozoaire (méduse-boîte)",
+        "choices": ["Cubozoaire (méduse-boîte)", "Serpent Taïpan", "Poulpe à anneaux bleus", "Escargot cône"],
+        "anecdote": "La cubozoaire, ou méduse-boîte, possède un venin extrêmement toxique capable de tuer un humain en quelques minutes."
     },
     {
-      "question": "Quel mammifère possède la plus grande densité de fourrure ?",
-      "correctAnswer": "Loutre de mer",
-      "choices": ["Loutre de mer", "Castor", "Renard arctique", "Vison"],
-      "anecdote": "La loutre de mer possède la plus grande densité de fourrure de tous les mammifères, avec environ 100 000 poils par centimètre carré."
+        "question": "Quel mammifère possède le plus grand nombre de côtes ?",
+        "correctAnswer": "Baleine",
+        "choices": ["Baleine", "Éléphant", "Gorille", "Cheval"],
+        "anecdote": "Les baleines ont le plus grand nombre de côtes parmi les mammifères, avec certaines espèces ayant jusqu'à 17 paires de côtes."
+    },
+    {
+        "question": "Quel poisson cartilagineux est capable de détecter les champs électriques de ses proies ?",
+        "correctAnswer": "Requin",
+        "choices": ["Requin", "Raie", "Poisson-scie", "Esturgeon"],
+        "anecdote": "Les requins utilisent des ampoules de Lorenzini pour détecter les champs électriques produits par les mouvements des proies."
+    },
+    {
+        "question": "Quel est le plus grand prédateur d'eau douce ?",
+        "correctAnswer": "Crocodile du Nil",
+        "choices": ["Crocodile du Nil", "Anaconda", "Piranha", "Silure"],
+        "anecdote": "Le crocodile du Nil est le plus grand prédateur d'eau douce, atteignant des longueurs de plus de 5 mètres."
+    },
+    {
+        "question": "Quel est le nom scientifique du loup gris ?",
+        "correctAnswer": "Canis lupus",
+        "choices": ["Canis lupus", "Canis latrans", "Canis aureus", "Canis rufus"],
+        "anecdote": "Le loup gris, également appelé loup commun, est scientifiquement nommé Canis lupus."
+    },
+    {
+        "question": "Quel animal marin possède des cellules spéciales appelées cnidocytes pour capturer ses proies ?",
+        "correctAnswer": "Méduse",
+        "choices": ["Méduse", "Corail", "Anémone de mer", "Éponge"],
+        "anecdote": "Les méduses utilisent des cnidocytes, des cellules urticantes, pour capturer leurs proies et se défendre."
+    },
+    {
+        "question": "Quel oiseau possède les plus longues migrations en termes de distance parcourue chaque année ?",
+        "correctAnswer": "Sterne arctique",
+        "choices": ["Sterne arctique", "Bécasseau maubèche", "Goéland argenté", "Hirondelle"],
+        "anecdote": "La sterne arctique migre chaque année de l'Arctique à l'Antarctique, parcourant environ 70 000 km aller-retour."
+    },
+    {
+        "question": "Quel est le seul mammifère marin capable de se tenir debout sur sa queue hors de l'eau ?",
+        "correctAnswer": "Dauphin",
+        "choices": ["Dauphin", "Orque", "Phoque", "Lamantin"],
+        "anecdote": "Les dauphins peuvent se tenir debout sur leur queue hors de l'eau, une technique souvent utilisée dans les spectacles."
+    },
+    {
+        "question": "Quel est le plus grand reptile vivant en termes de masse corporelle ?",
+        "correctAnswer": "Crocodile marin",
+        "choices": ["Crocodile marin", "Anaconda", "Varan de Komodo", "Python réticulé"],
+        "anecdote": "Le crocodile marin est le plus grand reptile vivant, atteignant des masses corporelles de plus de 1 000 kg."
+    },
+    {
+        "question": "Quel poisson est capable de produire des sons en contractant ses muscles de la vessie natatoire ?",
+        "correctAnswer": "Poisson-chat",
+        "choices": ["Poisson-chat", "Carpe", "Tilapia", "Poisson-globe"],
+        "anecdote": "Les poissons-chats peuvent produire des sons en contractant des muscles spéciaux autour de leur vessie natatoire."
+    },
+    {
+        "question": "Quel mammifère est connu pour ses griffes rétractiles ?",
+        "correctAnswer": "Chat",
+        "choices": ["Chat", "Chien", "Raton laveur", "Furet"],
+        "anecdote": "Les chats ont des griffes rétractiles, leur permettant de les garder aiguisées pour la chasse et la défense."
+    },
+    {
+        "question": "Quel est le nom scientifique du gorille des montagnes ?",
+        "correctAnswer": "Gorilla beringei beringei",
+        "choices": ["Gorilla beringei beringei", "Gorilla gorilla gorilla", "Gorilla beringei graueri", "Gorilla gorilla diehli"],
+        "anecdote": "Le gorille des montagnes est une sous-espèce de gorille de l'Est, scientifiquement nommée Gorilla beringei beringei."
+    },
+    {
+        "question": "Quel insecte possède le cycle de vie le plus long, avec une phase larvaire de 17 ans ?",
+        "correctAnswer": "Cigale périodique",
+        "choices": ["Cigale périodique", "Fourmi", "Termite", "Scarabée"],
+        "anecdote": "Les cigales périodiques ont une phase larvaire de 17 ans, passant la majorité de leur vie sous terre avant d'émerger pour se reproduire."
+    },
+    {
+        "question": "Quel animal possède le plus grand nombre de chromosomes parmi les mammifères ?",
+        "correctAnswer": "Cheval",
+        "choices": ["Cheval", "Chien", "Humain", "Rat"],
+        "anecdote": "Les chevaux possèdent 64 chromosomes, le plus grand nombre parmi les mammifères domestiques."
+    },
+    {
+        "question": "Quel oiseau est capable de tourner sa tête à 270 degrés ?",
+        "correctAnswer": "Hibou",
+        "choices": ["Hibou", "Aigle", "Faucon", "Corbeau"],
+        "anecdote": "Les hiboux peuvent tourner leur tête à 270 degrés grâce à une structure osseuse spéciale dans leur cou."
+    },
+    {
+        "question": "Quel est le seul invertébré capable de régénérer ses membres et son cerveau ?",
+        "correctAnswer": "Étoile de mer",
+        "choices": ["Étoile de mer", "Poulpe", "Anémone de mer", "Ver plat"],
+        "anecdote": "Les étoiles de mer peuvent régénérer leurs bras et même certaines parties de leur système nerveux central."
+    },
+    {
+        "question": "Quel mammifère possède la morsure la plus puissante en termes de force ?",
+        "correctAnswer": "Hyène",
+        "choices": ["Hyène", "Tigre", "Ours polaire", "Crocodile"],
+        "anecdote": "La hyène a une morsure incroyablement puissante, capable de broyer les os les plus durs pour accéder à la moelle nutritive."
+    },
+    {
+        "question": "Quel oiseau possède le plus grand nombre de plumes ?",
+        "correctAnswer": "Cygne",
+        "choices": ["Cygne", "Aigle", "Autruche", "Colibri"],
+        "anecdote": "Les cygnes possèdent plus de 25 000 plumes, le plus grand nombre parmi les oiseaux."
+    },
+    {
+        "question": "Quel est le seul mammifère à avoir des écailles ?",
+        "correctAnswer": "Pangolin",
+        "choices": ["Pangolin", "Tatou", "Aardvark", "Oryctérope"],
+        "anecdote": "Le pangolin est le seul mammifère à posséder des écailles kératineuses, qui le protègent des prédateurs."
+    },
+    {
+        "question": "Quel animal a les plus grands yeux proportionnellement à la taille de son corps ?",
+        "correctAnswer": "Calmar colossal",
+        "choices": ["Calmar colossal", "Chouette", "Tarsier", "Hibou"],
+        "anecdote": "Le calmar colossal a les plus grands yeux du règne animal, atteignant jusqu'à 27 cm de diamètre."
+    },
+    {
+        "question": "Quel mammifère possède la gestation la plus longue parmi les marsupiaux ?",
+        "correctAnswer": "Opossum",
+        "choices": ["Opossum", "Kangourou", "Koala", "Wombat"],
+        "anecdote": "L'opossum a une période de gestation relativement courte pour un marsupial, mais la plus longue parmi ses proches, d'environ 12 à 13 jours."
+    },
+    {
+        "question": "Quel oiseau possède la plus grande capacité pulmonaire proportionnelle à sa taille ?",
+        "correctAnswer": "Colibri",
+        "choices": ["Colibri", "Aigle", "Faucon", "Albatros"],
+        "anecdote": "Les colibris ont une capacité pulmonaire exceptionnellement grande proportionnellement à leur taille, leur permettant un vol stationnaire énergique."
+    },
+    {
+        "question": "Quel est le seul mammifère marin à posséder des nageoires dorsales ?",
+        "correctAnswer": "Orque",
+        "choices": ["Orque", "Dauphin", "Baleine bleue", "Lamantin"],
+        "anecdote": "Les orques, ou épaulards, possèdent des nageoires dorsales distinctives qui les aident à stabiliser leur corps pendant la nage."
+    },
+    {
+        "question": "Quel mammifère possède le plus grand cerveau proportionnellement à la taille de son corps ?",
+        "correctAnswer": "Humain",
+        "choices": ["Humain", "Dauphin", "Éléphant", "Chimpanzé"],
+        "anecdote": "Les humains ont le plus grand cerveau proportionnellement à la taille de leur corps, ce qui est lié à notre capacité cognitive avancée."
+    },
+    {
+        "question": "Quel est le seul poisson capable de respirer à la fois dans l'eau et sur terre ?",
+        "correctAnswer": "Poisson-poumon",
+        "choices": ["Poisson-poumon", "Poisson-globe", "Poisson-perroquet", "Poisson-chat"],
+        "anecdote": "Les poissons-poumons peuvent respirer à la fois dans l'eau et sur terre grâce à leurs poumons rudimentaires et leurs branchies."
+    },
+    {
+        "question": "Quel animal possède le système nerveux le plus complexe parmi les invertébrés ?",
+        "correctAnswer": "Poulpe",
+        "choices": ["Poulpe", "Calmar", "Méduse", "Anémone de mer"],
+        "anecdote": "Les poulpes ont un système nerveux très complexe, avec la majorité de leurs neurones situés dans leurs bras, leur permettant une grande dextérité."
+    },
+    {
+        "question": "Quel mammifère possède le plus grand nombre de vertèbres cervicales ?",
+        "correctAnswer": "Paresseux",
+        "choices": ["Paresseux", "Girafe", "Éléphant", "Humain"],
+        "anecdote": "Les paresseux ont jusqu'à 10 vertèbres cervicales, leur permettant une grande flexibilité de la tête."
+    },
+    {
+        "question": "Quel est le plus grand animal bioluminescent connu ?",
+        "correctAnswer": "Calmar géant",
+        "choices": ["Calmar géant", "Méduse", "Poisson lanterne", "Calmar vampire"],
+        "anecdote": "Le calmar géant est le plus grand animal bioluminescent, utilisant la bioluminescence pour communiquer et attirer des proies."
+    },
+    {
+        "question": "Quel mammifère possède les poils les plus fins du règne animal ?",
+        "correctAnswer": "Loutre de mer",
+        "choices": ["Loutre de mer", "Chinchilla", "Vison", "Chat persan"],
+        "anecdote": "La loutre de mer possède les poils les plus fins et les plus denses du règne animal, avec jusqu'à 1 million de poils par cm²."
+    },
+    {
+        "question": "Quel oiseau possède la plus longue durée de vie documentée ?",
+        "correctAnswer": "Albatros",
+        "choices": ["Albatros", "Perroquet", "Corbeau", "Aigle"],
+        "anecdote": "Les albatros peuvent vivre plus de 60 ans, avec certains individus documentés ayant atteint 70 ans."
+    },
+    {
+        "question": "Quel est le seul mammifère à posséder une carapace ?",
+        "correctAnswer": "Tatou",
+        "choices": ["Tatou", "Pangolin", "Échidné", "Ornithorynque"],
+        "anecdote": "Le tatou est le seul mammifère à posséder une carapace, constituée de plaques osseuses recouvertes de peau."
+    },
+    {
+        "question": "Quel poisson est capable de survivre hors de l'eau pendant plusieurs jours grâce à ses poumons ?",
+        "correctAnswer": "Poisson-poumon",
+        "choices": ["Poisson-poumon", "Poisson-grenouille", "Poisson-chat", "Carpe"],
+        "anecdote": "Le poisson-poumon peut survivre hors de l'eau pendant plusieurs jours en respirant de l'air grâce à ses poumons rudimentaires."
+    },
+    {
+        "question": "Quel est le seul oiseau capable de nager sous l'eau et de voler dans les airs ?",
+        "correctAnswer": "Pingouin",
+        "choices": ["Pingouin", "Cormoran", "Canard", "Pélican"],
+        "anecdote": "Les pingouins sont d'excellents nageurs et peuvent voler dans l'eau en utilisant leurs ailes, mais ils ne peuvent pas voler dans les airs."
+    },
+    {
+        "question": "Quel mammifère possède la plus longue période d'allaitement parmi les animaux terrestres ?",
+        "correctAnswer": "Éléphant",
+        "choices": ["Éléphant", "Orque", "Gorille", "Chimpanzé"],
+        "anecdote": "Les éléphants ont la plus longue période d'allaitement parmi les mammifères terrestres, allaitant leurs petits pendant environ 5 ans."
+    },
+    {
+        "question": "Quel poisson possède des organes lumineux appelés photophores pour attirer ses proies dans les profondeurs marines ?",
+        "correctAnswer": "Poisson lanterne",
+        "choices": ["Poisson lanterne", "Calmar", "Méduse", "Anguille électrique"],
+        "anecdote": "Les poissons lanternes utilisent des photophores, des organes lumineux, pour attirer leurs proies dans les profondeurs marines."
+    },
+    {
+        "question": "Quel mammifère possède une langue aussi longue que son corps pour attraper des insectes ?",
+        "correctAnswer": "Tamanoir",
+        "choices": ["Tamanoir", "Pangolin", "Tatou", "Lémurien"],
+        "anecdote": "Le tamanoir, ou fourmilier géant, possède une langue aussi longue que son corps, lui permettant d'attraper des insectes dans les nids."
+    },
+    {
+        "question": "Quel est le mécanisme principal utilisé par les tardigrades pour survivre à des conditions extrêmes, telles que le vide spatial ?",
+        "correctAnswer": "Cryptobiose",
+        "choices": ["Cryptobiose", "Anhydrobiose", "Anoxie", "Torpor"],
+        "anecdote": "Les tardigrades entrent en cryptobiose, un état dans lequel leur métabolisme est presque complètement arrêté, leur permettant de survivre à des conditions extrêmes."
+    },
+    {
+        "question": "Quelle est la fonction du 'corps gras' dans le système nerveux des insectes ?",
+        "correctAnswer": "Stockage des lipides",
+        "choices": ["Stockage des lipides", "Production d'hormones", "Isolation thermique", "Protection mécanique"],
+        "anecdote": "Le corps gras chez les insectes stocke des lipides et joue un rôle crucial dans le métabolisme énergétique et la régulation hormonale."
+    },
+    {
+        "question": "Quelle molécule permet à certaines pieuvres de modifier la texture de leur peau pour le camouflage ?",
+        "correctAnswer": "Cephalotoxine",
+        "choices": ["Cephalotoxine", "Chromatophore", "Opsine", "Rhodopsine"],
+        "anecdote": "Les pieuvres utilisent la cephalotoxine pour contrôler les muscles de leur peau, modifiant ainsi sa texture pour se camoufler efficacement."
+    },
+    {
+        "question": "Quel est le type de symbiose entre les fourmis coupeuses de feuilles et les champignons qu'elles cultivent ?",
+        "correctAnswer": "Mutualisme",
+        "choices": ["Mutualisme", "Commensalisme", "Parasitisme", "Amensalisme"],
+        "anecdote": "Les fourmis coupeuses de feuilles et les champignons qu'elles cultivent ont une relation mutualiste où les champignons digèrent les feuilles pour les fourmis, et les fourmis fournissent des feuilles fraîches pour les champignons."
+    },
+    {
+        "question": "Quel est le nom du processus par lequel les cnidaires, comme les méduses, régénèrent leurs tentacules ?",
+        "correctAnswer": "Morphallaxis",
+        "choices": ["Morphallaxis", "Epimorphose", "Blastomérisation", "Histogénèse"],
+        "anecdote": "La morphallaxis est le processus par lequel les cnidaires régénèrent leurs tentacules, impliquant une réorganisation des cellules existantes sans prolifération cellulaire majeure."
+    },
+    {
+        "question": "Quelle est la principale adaptation des poissons abyssaux pour attirer les proies dans l'obscurité totale ?",
+        "correctAnswer": "Bioluminescence",
+        "choices": ["Bioluminescence", "Écholocation", "Thermoréception", "Phototropisme"],
+        "anecdote": "Les poissons abyssaux utilisent la bioluminescence pour attirer les proies, émettant de la lumière via des organes spéciaux appelés photophores."
+    },
+    {
+        "question": "Quel est le rôle principal des ostioles dans le système circulatoire ouvert des insectes ?",
+        "correctAnswer": "Entrée de l'hémolymphe dans le cœur",
+        "choices": ["Entrée de l'hémolymphe dans le cœur", "Filtration des déchets", "Échange gazeux", "Pompage de l'oxygène"],
+        "anecdote": "Les ostioles sont des ouvertures dans le cœur des insectes qui permettent à l'hémolymphe de circuler dans le système circulatoire ouvert."
+    },
+    {
+        "question": "Quel est le nom du gène qui régule la différenciation des segments corporels chez les arthropodes ?",
+        "correctAnswer": "Gène Hox",
+        "choices": ["Gène Hox", "Gène Pax", "Gène Sox", "Gène Notch"],
+        "anecdote": "Les gènes Hox régulent la différenciation des segments corporels chez les arthropodes, déterminant l'identité de chaque segment pendant le développement."
+    },
+    {
+        "question": "Quel est le pigment respiratoire utilisé par les crustacés pour transporter l'oxygène dans leur hémolymphe ?",
+        "correctAnswer": "Hémocyanine",
+        "choices": ["Hémocyanine", "Hémoglobine", "Myoglobine", "Chlorocruorine"],
+        "anecdote": "L'hémocyanine est le pigment respiratoire des crustacés, contenant du cuivre pour transporter l'oxygène dans leur hémolymphe."
+    },
+    {
+        "question": "Quel mécanisme de défense utilise le calmar pour échapper à ses prédateurs ?",
+        "correctAnswer": "Inking",
+        "choices": ["Inking", "Mimicry", "Autotomy", "Detoxification"],
+        "anecdote": "Le calmar libère de l'encre pour créer un écran de fumée dans l'eau, lui permettant d'échapper à ses prédateurs."
+    },
+    {
+        "question": "Quel est le mécanisme principal des rotifères pour survivre à la dessiccation ?",
+        "correctAnswer": "Anhydrobiose",
+        "choices": ["Anhydrobiose", "Cryptobiose", "Osmose", "Diapause"],
+        "anecdote": "Les rotifères entrent en anhydrobiose, un état de dormance métabolique qui leur permet de survivre à la dessiccation en perdant presque toute leur eau corporelle."
+    },
+    {
+        "question": "Quel est le nom de la protéine structurale principale trouvée dans les soies des araignées ?",
+        "correctAnswer": "Fibroïne",
+        "choices": ["Fibroïne", "Kératine", "Collagène", "Elastine"],
+        "anecdote": "La fibroïne est la protéine principale des soies d'araignée, conférant aux fils leur force et leur élasticité exceptionnelles."
+    },
+    {
+        "question": "Quelle molécule agit comme photorécepteur principal chez les insectes ?",
+        "correctAnswer": "Rhodopsine",
+        "choices": ["Rhodopsine", "Opsine", "Melanopsine", "Cryptochrome"],
+        "anecdote": "La rhodopsine est le photorécepteur principal dans les yeux des insectes, permettant la perception de la lumière."
+    },
+    {
+        "question": "Quelle est la structure osseuse spécialisée chez les serpents venimeux qui permet l'injection du venin ?",
+        "correctAnswer": "Crochet",
+        "choices": ["Crochet", "Dent", "Griffe", "Aiguillon"],
+        "anecdote": "Les serpents venimeux utilisent des crochets, des structures dentaires spécialisées, pour injecter leur venin dans leurs proies."
+    },
+    {
+        "question": "Quel est le nom du tissu responsable de la bioluminescence chez les méduses ?",
+        "correctAnswer": "Photocytes",
+        "choices": ["Photocytes", "Chromatophores", "Leucophores", "Melanocytes"],
+        "anecdote": "Les photocytes sont les cellules responsables de la production de lumière chez les méduses bioluminescentes."
+    },
+    {
+        "question": "Quel est le terme pour les ailes de papillons ayant des motifs imitant les yeux de prédateurs ?",
+        "correctAnswer": "Ocelles",
+        "choices": ["Ocelles", "Élytres", "Nervures", "Téguments"],
+        "anecdote": "Les ocelles sont des motifs en forme d'œil sur les ailes des papillons, utilisés pour effrayer les prédateurs."
+    },
+    {
+        "question": "Quelle hormone est principalement responsable de la mue chez les arthropodes ?",
+        "correctAnswer": "Écdyson",
+        "choices": ["Écdyson", "Juvénile", "Thyroxine", "Insuline"],
+        "anecdote": "L'écdyson est l'hormone principale régulant la mue chez les arthropodes, permettant la croissance et le développement."
+    },
+    {
+        "question": "Quel est le nom de la structure chez les poissons qui détecte les vibrations dans l'eau ?",
+        "correctAnswer": "Ligne latérale",
+        "choices": ["Ligne latérale", "Ampoule", "Papille", "Électrocyte"],
+        "anecdote": "La ligne latérale est un système de récepteurs sensoriels chez les poissons, permettant de détecter les vibrations et les mouvements dans l'eau."
+    },
+    {
+        "question": "Quelle est la principale composante des écailles des poissons osseux ?",
+        "correctAnswer": "Ganoïne",
+        "choices": ["Ganoïne", "Émail", "Kératine", "Collagène"],
+        "anecdote": "La ganoïne est la principale composante des écailles des poissons osseux, leur conférant une surface dure et brillante."
+    },
+    {
+        "question": "Quel est le nom du pigment respiratoire utilisé par les annélides pour le transport de l'oxygène ?",
+        "correctAnswer": "Hémérythrine",
+        "choices": ["Hémérythrine", "Hémocyanine", "Hémoglobine", "Myoglobine"],
+        "anecdote": "L'hémérythrine est le pigment respiratoire utilisé par certaines annélides pour transporter l'oxygène, distinct des autres pigments courants."
     }
   ]
 }
