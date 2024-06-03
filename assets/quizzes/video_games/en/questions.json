@@ -1,11 +1,416 @@
 {
-  "results": [
+  "Beginner": [
     {
-      "question": "What is the capital of France?",
-      "correctAnswer": "Paris",
-      "choices": ["Paris", "London", "Berlin", "Madrid"],
-      "anecdote": "Paris is the capital city of France.",
-      "wikipedia": "https://en.wikipedia.org/wiki/Paris"
+      "question": "What is the name of the princess Mario often rescues in his games?",
+      "correctAnswer": "Peach",
+      "choices": ["Peach", "Daisy", "Zelda", "Rosalina"],
+      "anecdote": "Princess Peach is the damsel in distress in most Mario games, first appearing in 'Super Mario Bros.' in 1985."
+    },
+    {
+        "question": "Which game features a character named Link?",
+        "correctAnswer": "The Legend of Zelda",
+        "choices": ["The Legend of Zelda", "Final Fantasy", "Dragon Quest", "Super Mario"],
+        "anecdote": "Link is the main protagonist in 'The Legend of Zelda' series, created by Nintendo."
+    },
+    {
+        "question": "What color is Pac-Man?",
+        "correctAnswer": "Yellow",
+        "choices": ["Yellow", "Red", "Blue", "Green"],
+        "anecdote": "Pac-Man is the iconic yellow character from the arcade game first released in 1980."
+    },
+    {
+        "question": "In which game do players build with blocks in a 3D world?",
+        "correctAnswer": "Minecraft",
+        "choices": ["Minecraft", "Roblox", "Terraria", "Lego Worlds"],
+        "anecdote": "Minecraft, developed by Mojang Studios, allows players to build and explore infinite worlds."
+    },
+    {
+        "question": "Which company developed the PlayStation console?",
+        "correctAnswer": "Sony",
+        "choices": ["Sony", "Microsoft", "Nintendo", "Sega"],
+        "anecdote": "Sony released the first PlayStation console in 1994, which became a major competitor in the gaming industry."
+    },
+    {
+        "question": "Which game series features characters like Ryu and Chun-Li?",
+        "correctAnswer": "Street Fighter",
+        "choices": ["Street Fighter", "Tekken", "Mortal Kombat", "Virtua Fighter"],
+        "anecdote": "Street Fighter, developed by Capcom, is a popular fighting game series known for its diverse characters and complex moves."
+    },
+    {
+        "question": "In which game do players catch and train creatures called Pokémon?",
+        "correctAnswer": "Pokémon",
+        "choices": ["Pokémon", "Digimon", "Yu-Gi-Oh!", "Monster Hunter"],
+        "anecdote": "Pokémon, created by Satoshi Tajiri, has become a global phenomenon with games, TV shows, and merchandise."
+    },
+    {
+        "question": "What is the name of the blue hedgehog that is the mascot for Sega?",
+        "correctAnswer": "Sonic",
+        "choices": ["Sonic", "Knuckles", "Tails", "Shadow"],
+        "anecdote": "Sonic the Hedgehog is known for his incredible speed and has been a popular character since his debut in 1991."
+    },
+    {
+        "question": "What is the main objective in the game 'Tetris'?",
+        "correctAnswer": "Clear lines",
+        "choices": ["Clear lines", "Match colors", "Collect coins", "Defeat enemies"],
+        "anecdote": "In Tetris, players must clear lines by arranging falling blocks into complete rows."
+    },
+    {
+        "question": "Which game series features a post-apocalyptic world and the character Vault Boy?",
+        "correctAnswer": "Fallout",
+        "choices": ["Fallout", "Metro", "The Last of Us", "Bioshock"],
+        "anecdote": "Fallout, developed by Bethesda, is set in a post-apocalyptic world and features the iconic Vault Boy mascot."
+    },
+    {
+        "question": "In which game do players explore a haunted mansion to capture ghosts?",
+        "correctAnswer": "Luigi's Mansion",
+        "choices": ["Luigi's Mansion", "Resident Evil", "Silent Hill", "Fatal Frame"],
+        "anecdote": "In Luigi's Mansion, players control Luigi as he explores a haunted mansion to capture ghosts and save Mario."
+    },
+    {
+        "question": "What is the primary weapon used by characters in the 'Halo' series?",
+        "correctAnswer": "Energy sword",
+        "choices": ["Energy sword", "Pulse rifle", "Blaster", "Plasma cannon"],
+        "anecdote": "The energy sword is an iconic weapon in the Halo series, known for its powerful melee attacks."
+    },
+    {
+        "question": "Which game series is known for the character Master Chief?",
+        "correctAnswer": "Halo",
+        "choices": ["Halo", "Gears of War", "Mass Effect", "Destiny"],
+        "anecdote": "Master Chief is the main protagonist in the Halo series, a popular first-person shooter developed by Bungie and 343 Industries."
+    },
+    {
+        "question": "In which game do players fight against the Covenant and the Flood?",
+        "correctAnswer": "Halo",
+        "choices": ["Halo", "Destiny", "Mass Effect", "Warframe"],
+        "anecdote": "In Halo, players battle against alien races known as the Covenant and the parasitic Flood."
+    },
+    {
+        "question": "Which game series is known for its sandbox gameplay and blocky graphics?",
+        "correctAnswer": "Minecraft",
+        "choices": ["Minecraft", "Terraria", "Roblox", "Lego Worlds"],
+        "anecdote": "Minecraft, created by Markus 'Notch' Persson, is famous for its blocky graphics and open-ended gameplay."
+    },
+    {
+        "question": "Which company developed the game 'The Sims'?",
+        "correctAnswer": "Maxis",
+        "choices": ["Maxis", "EA", "Ubisoft", "Bethesda"],
+        "anecdote": "The Sims, developed by Maxis and published by EA, allows players to create and manage virtual people in a simulated world."
+    },
+    {
+        "question": "Which game series features characters such as Cloud Strife and Sephiroth?",
+        "correctAnswer": "Final Fantasy",
+        "choices": ["Final Fantasy", "Kingdom Hearts", "Dragon Quest", "Tales of"],
+        "anecdote": "Final Fantasy VII, part of the Final Fantasy series, features Cloud Strife and Sephiroth, two of the most iconic characters in gaming."
+    },
+    {
+        "question": "What is the name of the main protagonist in the 'Assassin's Creed' series?",
+        "correctAnswer": "Desmond Miles",
+        "choices": ["Desmond Miles", "Ezio Auditore", "Altair Ibn-La'Ahad", "Connor Kenway"],
+        "anecdote": "Desmond Miles is the main protagonist in the modern-day storyline of the Assassin's Creed series."
+    },
+    {
+        "question": "Which game series features a plumber and his brother traveling through the Mushroom Kingdom?",
+        "correctAnswer": "Super Mario",
+        "choices": ["Super Mario", "Donkey Kong", "Metroid", "Kirby"],
+        "anecdote": "The Super Mario series, created by Nintendo, features Mario and his brother Luigi on adventures to save Princess Peach."
+    },
+    {
+        "question": "In which game do players navigate through test chambers using a portal gun?",
+        "correctAnswer": "Portal",
+        "choices": ["Portal", "Half-Life", "BioShock", "Prey"],
+        "anecdote": "Portal, developed by Valve, is a puzzle-platformer where players use a portal gun to solve physics-based puzzles."
+    },
+    {
+        "question": "Which game is known for the phrase 'The cake is a lie'?",
+        "correctAnswer": "Portal",
+        "choices": ["Portal", "Half-Life 2", "BioShock", "Prey"],
+        "anecdote": "The phrase 'The cake is a lie' became popular from the game Portal, referring to a false promise made by the AI character GLaDOS."
+    },
+    {
+        "question": "Which game series features a space marine battling the forces of Hell?",
+        "correctAnswer": "DOOM",
+        "choices": ["DOOM", "Quake", "Halo", "Dead Space"],
+        "anecdote": "DOOM, developed by id Software, is a pioneering first-person shooter where players fight demons from Hell."
+    },
+    {
+        "question": "Which game series involves players building and managing their own cities?",
+        "correctAnswer": "SimCity",
+        "choices": ["SimCity", "The Sims", "Cities: Skylines", "RollerCoaster Tycoon"],
+        "anecdote": "SimCity, developed by Maxis, allows players to build and manage their own cities, dealing with various urban challenges."
+    },
+    {
+        "question": "Which company developed the game 'Half-Life'?",
+        "correctAnswer": "Valve",
+        "choices": ["Valve", "id Software", "Bungie", "Epic Games"],
+        "anecdote": "Valve developed the critically acclaimed game Half-Life, which introduced innovative storytelling and gameplay mechanics."
+    }
+  ],
+  "Confirmed": [
+    {
+      "question": "Which game in the 'Elder Scrolls' series is set in the province of Skyrim?",
+      "correctAnswer": "The Elder Scrolls V: Skyrim",
+      "choices": ["The Elder Scrolls V: Skyrim", "The Elder Scrolls IV: Oblivion", "The Elder Scrolls III: Morrowind", "The Elder Scrolls Online"],
+      "anecdote": "The Elder Scrolls V: Skyrim is renowned for its expansive open world and intricate lore, offering players vast freedom in their adventures."
+    },
+    {
+        "question": "In the 'Mass Effect' series, what is the name of the ancient race that created the mass relays and the Citadel?",
+        "correctAnswer": "Protheans",
+        "choices": ["Protheans", "Reapers", "Asari", "Quarians"],
+        "anecdote": "The Protheans are an ancient race in the Mass Effect universe, known for their advanced technology and mysterious disappearance."
+    },
+    {
+        "question": "What is the primary setting of 'BioShock Infinite'?",
+        "correctAnswer": "Columbia",
+        "choices": ["Columbia", "Rapture", "New York", "Washington D.C."],
+        "anecdote": "BioShock Infinite is set in the floating city of Columbia, which serves as a stark contrast to the underwater city of Rapture from previous games."
+    },
+    {
+        "question": "In 'Red Dead Redemption 2', what is the name of the protagonist?",
+        "correctAnswer": "Arthur Morgan",
+        "choices": ["Arthur Morgan", "John Marston", "Dutch van der Linde", "Micah Bell"],
+        "anecdote": "Arthur Morgan is the main protagonist in Red Dead Redemption 2, a member of the Van der Linde gang navigating the challenges of the American frontier."
+    },
+    {
+        "question": "Which game features a hero named Geralt of Rivia?",
+        "correctAnswer": "The Witcher",
+        "choices": ["The Witcher", "Dragon Age", "Skyrim", "Dark Souls"],
+        "anecdote": "Geralt of Rivia is the protagonist of The Witcher series, known for his monster hunting skills and complex moral choices."
+    },
+    {
+        "question": "In 'Dark Souls', what is the name of the first area players typically explore?",
+        "correctAnswer": "Undead Asylum",
+        "choices": ["Undead Asylum", "Firelink Shrine", "Anor Londo", "Blighttown"],
+        "anecdote": "Players start their journey in the Undead Asylum, where they learn the basics of the game before moving on to the larger world of Lordran."
+    },
+    {
+        "question": "Which game is known for the phrase 'War. War never changes'?",
+        "correctAnswer": "Fallout",
+        "choices": ["Fallout", "Call of Duty", "Battlefield", "Gears of War"],
+        "anecdote": "The phrase 'War. War never changes' is iconic in the Fallout series, setting the tone for its post-apocalyptic narrative."
+    },
+    {
+        "question": "In 'Half-Life', what is the name of the main protagonist?",
+        "correctAnswer": "Gordon Freeman",
+        "choices": ["Gordon Freeman", "Alyx Vance", "Isaac Kleiner", "Adrian Shephard"],
+        "anecdote": "Gordon Freeman is the silent protagonist of the Half-Life series, a physicist who becomes humanity's unlikely hero."
+    },
+    {
+        "question": "What is the primary currency used in the 'Legend of Zelda' series?",
+        "correctAnswer": "Rupees",
+        "choices": ["Rupees", "Gems", "Coins", "Gil"],
+        "anecdote": "Rupees are the main form of currency in the Legend of Zelda series, used to purchase items and services throughout Hyrule."
+    },
+    {
+        "question": "In 'Overwatch', what is the real name of the character known as 'Tracer'?",
+        "correctAnswer": "Lena Oxton",
+        "choices": ["Lena Oxton", "Amélie Lacroix", "Angela Ziegler", "Fareeha Amari"],
+        "anecdote": "Tracer, whose real name is Lena Oxton, is known for her speed and time-manipulation abilities in the team-based shooter Overwatch."
+    },
+    {
+        "question": "Which game features the phrase 'The cake is a lie'?",
+        "correctAnswer": "Portal",
+        "choices": ["Portal", "Half-Life", "BioShock", "Prey"],
+        "anecdote": "The phrase 'The cake is a lie' became a popular meme from the game Portal, referencing a false promise made by the AI character GLaDOS."
+    },
+    {
+        "question": "In 'The Last of Us', what is the name of Joel's companion?",
+        "correctAnswer": "Ellie",
+        "choices": ["Ellie", "Tess", "Sarah", "Marlene"],
+        "anecdote": "Ellie is Joel's young companion in The Last of Us, and their relationship is central to the game's emotional narrative."
+    },
+    {
+        "question": "Which game is set in the underwater city of Rapture?",
+        "correctAnswer": "BioShock",
+        "choices": ["BioShock", "Subnautica", "The Sinking City", "Dishonored"],
+        "anecdote": "BioShock takes place in the dystopian underwater city of Rapture, exploring themes of objectivism and human nature."
+    },
+    {
+        "question": "In 'Final Fantasy VII', what is the name of the main antagonist?",
+        "correctAnswer": "Sephiroth",
+        "choices": ["Sephiroth", "Kefka", "Ultimecia", "Sin"],
+        "anecdote": "Sephiroth is the main antagonist in Final Fantasy VII, known for his iconic appearance and tragic backstory."
+    },
+    {
+        "question": "What is the name of the planet where the 'Mass Effect' series begins?",
+        "correctAnswer": "Eden Prime",
+        "choices": ["Eden Prime", "Tuchanka", "Thessia", "Omega"],
+        "anecdote": "The events of the Mass Effect series begin on the planet Eden Prime, where Commander Shepard discovers the threat of the Reapers."
+    },
+    {
+        "question": "In 'League of Legends', what is the name of the map used for the primary game mode?",
+        "correctAnswer": "Summoner's Rift",
+        "choices": ["Summoner's Rift", "Twisted Treeline", "Howling Abyss", "Crystal Scar"],
+        "anecdote": "Summoner's Rift is the primary map used in League of Legends, known for its three lanes and strategic gameplay."
+    },
+    {
+        "question": "Which game series is known for the character Solid Snake?",
+        "correctAnswer": "Metal Gear",
+        "choices": ["Metal Gear", "Splinter Cell", "Hitman", "Deus Ex"],
+        "anecdote": "Solid Snake is the iconic protagonist of the Metal Gear series, created by Hideo Kojima and known for its stealth-based gameplay."
+    },
+    {
+        "question": "In 'Dark Souls', what is the name of the blacksmith located in Anor Londo?",
+        "correctAnswer": "Giant Blacksmith",
+        "choices": ["Giant Blacksmith", "Andre", "Rickert", "Vamos"],
+        "anecdote": "The Giant Blacksmith in Anor Londo is known for his towering size and ability to forge powerful weapons."
+    },
+    {
+        "question": "What is the primary objective in the game 'Stardew Valley'?",
+        "correctAnswer": "Manage a farm",
+        "choices": ["Manage a farm", "Explore dungeons", "Build a city", "Defeat enemies"],
+        "anecdote": "In Stardew Valley, players manage a farm by growing crops, raising animals, and building relationships with townspeople."
+    },
+    {
+        "question": "In 'The Witcher 3', what is the name of Geralt's horse?",
+        "correctAnswer": "Roach",
+        "choices": ["Roach", "Silver", "Shadowfax", "Epona"],
+        "anecdote": "Roach is the name Geralt gives to all of his horses in The Witcher 3, a trusted companion throughout his journeys."
+    },
+    {
+        "question": "In 'Assassin's Creed', what is the name of the device used to experience ancestral memories?",
+        "correctAnswer": "Animus",
+        "choices": ["Animus", "Eagle Vision", "Memory Chamber", "Time Capsule"],
+        "anecdote": "The Animus is a device in Assassin's Creed that allows characters to experience the memories of their ancestors."
+    },
+    {
+        "question": "Which game developer is known for creating 'The Elder Scrolls' and 'Fallout' series?",
+        "correctAnswer": "Bethesda",
+        "choices": ["Bethesda", "Bioware", "Square Enix", "CD Projekt Red"],
+        "anecdote": "Bethesda is known for creating expansive open-world games like The Elder Scrolls and Fallout series."
+    }
+  ],
+  "Expert": [
+    {
+      "question": "What is the primary programming language used to develop games in the Unity engine?",
+      "correctAnswer": "C#",
+      "choices": ["C#", "Java", "Python", "C++"],
+      "anecdote": "Unity primarily uses C# for scripting, making it accessible for developers and versatile for various types of games."
+    },
+    {
+        "question": "What year was the original 'Doom' released, revolutionizing the first-person shooter genre?",
+        "correctAnswer": "1993",
+        "choices": ["1993", "1991", "1995", "1997"],
+        "anecdote": "Released in 1993 by id Software, 'Doom' set the standard for the first-person shooter genre with its fast-paced action and 3D graphics."
+    },
+    {
+        "question": "Which game is considered the first widely recognized esports tournament with a grand prize of a Ferrari?",
+        "correctAnswer": "Space Invaders Championship",
+        "choices": ["Space Invaders Championship", "QuakeCon", "The International", "EVO"],
+        "anecdote": "The Space Invaders Championship, held by Atari in 1980, is often credited as the first major esports tournament."
+    },
+    {
+        "question": "In 'Half-Life 2', what is the name of the floating city that serves as the primary setting?",
+        "correctAnswer": "City 17",
+        "choices": ["City 17", "Rapture", "Midgar", "New Mombasa"],
+        "anecdote": "City 17 is the primary setting of 'Half-Life 2', a dystopian city controlled by the Combine."
+    },
+    {
+        "question": "What is the name of the AI antagonist in the game 'System Shock'?",
+        "correctAnswer": "SHODAN",
+        "choices": ["SHODAN", "GLaDOS", "AM", "Cortana"],
+        "anecdote": "SHODAN is the malevolent AI in 'System Shock', known for her chilling voice and sinister intentions."
+    },
+    {
+        "question": "Which game is credited with popularizing the 'roguelike' genre with its procedural generation and permadeath mechanics?",
+        "correctAnswer": "Rogue",
+        "choices": ["Rogue", "Nethack", "Diablo", "Dark Souls"],
+        "anecdote": "'Rogue', released in 1980, laid the groundwork for the roguelike genre with its dungeon crawling and permadeath mechanics."
+    },
+    {
+        "question": "What is the maximum level a character can reach in 'World of Warcraft' as of the 'Shadowlands' expansion?",
+        "correctAnswer": "60",
+        "choices": ["60", "120", "100", "70"],
+        "anecdote": "In 'World of Warcraft: Shadowlands', the maximum character level was reduced to 60 as part of a level squish."
+    },
+    {
+        "question": "Which game development company created the 'Unreal Engine'?",
+        "correctAnswer": "Epic Games",
+        "choices": ["Epic Games", "Crytek", "Unity Technologies", "Valve"],
+        "anecdote": "Epic Games developed the Unreal Engine, a powerful game engine used in many AAA games and known for its impressive graphical capabilities."
+    },
+    {
+        "question": "What is the name of the main protagonist in the 'Metal Gear' series?",
+        "correctAnswer": "Solid Snake",
+        "choices": ["Solid Snake", "Big Boss", "Raiden", "Otacon"],
+        "anecdote": "Solid Snake is the main protagonist of the 'Metal Gear' series, known for his stealth missions and complex backstory."
+    },
+    {
+        "question": "Which game features a protagonist named Isaac Clarke battling necromorphs on a spaceship?",
+        "correctAnswer": "Dead Space",
+        "choices": ["Dead Space", "System Shock", "Alien: Isolation", "Prey"],
+        "anecdote": "Isaac Clarke is the protagonist of 'Dead Space', a survival horror game set on the spaceship USG Ishimura."
+    },
+    {
+        "question": "In 'The Witcher 3', who is Geralt of Rivia's main love interest?",
+        "correctAnswer": "Yennefer",
+        "choices": ["Yennefer", "Triss", "Ciri", "Shani"],
+        "anecdote": "Yennefer of Vengerberg is Geralt's main love interest in 'The Witcher 3', with a complex and tumultuous relationship."
+    },
+    {
+        "question": "What is the name of the dark, parallel dimension in 'The Legend of Zelda: Twilight Princess'?",
+        "correctAnswer": "Twilight Realm",
+        "choices": ["Twilight Realm", "Dark World", "Termina", "Lorule"],
+        "anecdote": "The Twilight Realm is a dark, parallel dimension in 'Twilight Princess' that players explore as both Link and a wolf."
+    },
+    {
+        "question": "Which game developer is known for the 'Dark Souls' series?",
+        "correctAnswer": "FromSoftware",
+        "choices": ["FromSoftware", "Capcom", "Square Enix", "Bandai Namco"],
+        "anecdote": "FromSoftware developed the 'Dark Souls' series, renowned for its challenging gameplay and intricate world design."
+    },
+    {
+        "question": "What is the primary setting of the game 'Deus Ex: Human Revolution'?",
+        "correctAnswer": "Detroit",
+        "choices": ["Detroit", "Paris", "Hong Kong", "New York"],
+        "anecdote": "'Deus Ex: Human Revolution' is set in a cyberpunk version of Detroit, exploring themes of transhumanism and corporate control."
+    },
+    {
+        "question": "In 'Final Fantasy VII', what is the name of the corporation exploiting the planet's resources?",
+        "correctAnswer": "Shinra",
+        "choices": ["Shinra", "Avalanche", "Wutai", "Midgar"],
+        "anecdote": "Shinra Electric Power Company is the main antagonist in 'Final Fantasy VII', responsible for draining the planet's life force."
+    },
+    {
+        "question": "What is the name of the virus in the 'Resident Evil' series that turns people into zombies?",
+        "correctAnswer": "T-virus",
+        "choices": ["T-virus", "G-virus", "C-virus", "Progenitor virus"],
+        "anecdote": "The T-virus is the primary virus in the 'Resident Evil' series, causing outbreaks of zombies and other bio-organic weapons."
+    },
+    {
+        "question": "Which game is known for the line 'Would you kindly' and a major plot twist involving player control?",
+        "correctAnswer": "BioShock",
+        "choices": ["BioShock", "Spec Ops: The Line", "Portal", "Metal Gear Solid"],
+        "anecdote": "'BioShock' features the line 'Would you kindly', leading to a major plot twist about player control and manipulation."
+    },
+    {
+        "question": "In 'Overwatch', which character is known for using a grappling hook and a venom mine?",
+        "correctAnswer": "Widowmaker",
+        "choices": ["Widowmaker", "Tracer", "Sombra", "Hanzo"],
+        "anecdote": "Widowmaker is a sniper character in 'Overwatch' who uses a grappling hook for mobility and a venom mine to trap enemies."
+    },
+    {
+        "question": "What is the name of the main antagonist in the game 'Far Cry 3'?",
+        "correctAnswer": "Vaas Montenegro",
+        "choices": ["Vaas Montenegro", "Pagan Min", "Joseph Seed", "Hoyt Volker"],
+        "anecdote": "Vaas Montenegro is the iconic antagonist in 'Far Cry 3', known for his charismatic and unpredictable nature."
+    },
+    {
+        "question": "In 'Bloodborne', what is the name of the city where the game takes place?",
+        "correctAnswer": "Yharnam",
+        "choices": ["Yharnam", "Drangleic", "Lothric", "Boletaria"],
+        "anecdote": "'Bloodborne' is set in the gothic city of Yharnam, a place plagued by a mysterious blood-borne disease."
+    },
+    {
+        "question": "What is the main objective in the game 'Shadow of the Colossus'?",
+        "correctAnswer": "Defeat colossi",
+        "choices": ["Defeat colossi", "Rescue a princess", "Collect artifacts", "Explore dungeons"],
+        "anecdote": "In 'Shadow of the Colossus', players must defeat 16 giant colossi to bring a girl back to life."
+    },
+    {
+        "question": "In 'Mass Effect', what is the name of the starship commanded by Shepard?",
+        "correctAnswer": "Normandy",
+        "choices": ["Normandy", "Endurance", "Serenity", "Nebuchadnezzar"],
+        "anecdote": "The Normandy is Commander Shepard's starship in 'Mass Effect', known for its stealth capabilities and advanced technology."
     }
   ]
 }

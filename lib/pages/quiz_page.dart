@@ -61,7 +61,7 @@ class _QuizPageState extends State<QuizPage> with SingleTickerProviderStateMixin
   Future<void> _loadQuizQuestions() async {
     try {
       List<QuizQuestion> questions = await QuizService().fetchQuizQuestions(
-        widget.theme.name.toLowerCase(),
+        widget.theme.value.toLowerCase(),
         widget.language,
         widget.difficulty,
       );

@@ -1,11 +1,344 @@
 {
-  "results": [
+  "Beginner": [
     {
-      "question": "Quelle est la capitale de la France ?",
-      "correctAnswer": "Paris",
-      "choices": ["Paris", "Londres", "Berlin", "Madrid"],
-      "anecdote": "Paris est la capitale de la France.",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Paris"
+      "question": "Quel est le nom du plombier célèbre dans les jeux vidéo créés par Nintendo ?",
+      "correctAnswer": "Mario",
+      "choices": ["Mario", "Luigi", "Sonic", "Link"],
+      "anecdote": "Mario est l'un des personnages de jeux vidéo les plus emblématiques et est apparu pour la première fois dans 'Donkey Kong' en 1981."
+    },
+    {
+        "question": "Quel jeu vidéo est connu pour ses blocs colorés qui tombent du haut de l'écran et doivent être empilés pour former des lignes complètes ?",
+        "correctAnswer": "Tetris",
+        "choices": ["Tetris", "Minecraft", "Pac-Man", "Candy Crush"],
+        "anecdote": "Tetris, créé par Alexey Pajitnov en 1984, est l'un des jeux les plus populaires de tous les temps."
+    },
+    {
+        "question": "Dans quel jeu vidéo le personnage principal doit-il sauver la princesse Zelda ?",
+        "correctAnswer": "The Legend of Zelda",
+        "choices": ["The Legend of Zelda", "Super Mario", "Metroid", "Final Fantasy"],
+        "anecdote": "Dans 'The Legend of Zelda', le joueur incarne Link, un héros chargé de sauver la princesse Zelda et de protéger le royaume d'Hyrule."
+    },
+    {
+        "question": "Quel est le nom du célèbre hérisson bleu dans les jeux vidéo de Sega ?",
+        "correctAnswer": "Sonic",
+        "choices": ["Sonic", "Tails", "Knuckles", "Shadow"],
+        "anecdote": "Sonic the Hedgehog, apparu pour la première fois en 1991, est le personnage emblématique de Sega."
+    },
+    {
+        "question": "Quel jeu vidéo de type sandbox permet aux joueurs de construire et de détruire différents types de blocs dans un monde en 3D ?",
+        "correctAnswer": "Minecraft",
+        "choices": ["Minecraft", "Terraria", "Roblox", "Fortnite"],
+        "anecdote": "Minecraft, développé par Mojang Studios, est l'un des jeux les plus vendus et les plus joués au monde."
+    },
+    {
+        "question": "Dans quel jeu vidéo les joueurs doivent-ils attraper des créatures appelées Pokémon ?",
+        "correctAnswer": "Pokémon",
+        "choices": ["Pokémon", "Digimon", "Yu-Gi-Oh!", "Monster Hunter"],
+        "anecdote": "Pokémon, créé par Satoshi Tajiri, a débuté en 1996 et est devenu une franchise mondiale comprenant des jeux, des cartes à collectionner et une série télévisée."
+    },
+    {
+        "question": "Quel jeu vidéo populaire se déroule dans un monde post-apocalyptique infesté de zombies et de créatures mutantes ?",
+        "correctAnswer": "The Last of Us",
+        "choices": ["The Last of Us", "Resident Evil", "Fallout", "Days Gone"],
+        "anecdote": "The Last of Us, développé par Naughty Dog, est acclamé pour son récit captivant et ses personnages profonds."
+    },
+    {
+        "question": "Quel jeu de tir à la première personne se déroule dans un futur dystopique et met en scène un personnage nommé Master Chief ?",
+        "correctAnswer": "Halo",
+        "choices": ["Halo", "Call of Duty", "Destiny", "Gears of War"],
+        "anecdote": "Halo, développé par Bungie et maintenant par 343 Industries, est l'une des franchises les plus emblématiques de Microsoft Xbox."
+    },
+    {
+        "question": "Quel jeu vidéo de combat met en scène des personnages emblématiques de Nintendo s'affrontant sur diverses arènes ?",
+        "correctAnswer": "Super Smash Bros.",
+        "choices": ["Super Smash Bros.", "Street Fighter", "Tekken", "Mortal Kombat"],
+        "anecdote": "Super Smash Bros., créé par Masahiro Sakurai, permet aux joueurs de contrôler leurs personnages Nintendo préférés dans des combats intenses."
+    },
+    {
+        "question": "Quel jeu vidéo de stratégie en temps réel met en scène des races comme les Protoss, les Terrans et les Zergs ?",
+        "correctAnswer": "StarCraft",
+        "choices": ["StarCraft", "Warcraft", "Age of Empires", "Command & Conquer"],
+        "anecdote": "StarCraft, développé par Blizzard Entertainment, est un jeu de stratégie en temps réel extrêmement populaire, surtout en Corée du Sud."
+    },
+    {
+        "question": "Dans quel jeu vidéo les joueurs explorent-ils une terre post-apocalyptique appelée Hyrule ?",
+        "correctAnswer": "The Legend of Zelda: Breath of the Wild",
+        "choices": ["The Legend of Zelda: Breath of the Wild", "Fallout 4", "Horizon Zero Dawn", "The Witcher 3"],
+        "anecdote": "The Legend of Zelda: Breath of the Wild, sorti en 2017, a été salué pour son monde ouvert immersif et sa liberté de jeu."
+    },
+    {
+        "question": "Quel jeu vidéo de rôle (RPG) se déroule dans le monde fantastique de Tamriel ?",
+        "correctAnswer": "The Elder Scrolls",
+        "choices": ["The Elder Scrolls", "Dragon Age", "Final Fantasy", "Dark Souls"],
+        "anecdote": "La série The Elder Scrolls, développée par Bethesda Game Studios, est connue pour ses vastes mondes ouverts et ses quêtes immersives."
+    },
+    {
+        "question": "Quel jeu de rôle en ligne massivement multijoueur (MMORPG) se déroule dans le monde de Warcraft ?",
+        "correctAnswer": "World of Warcraft",
+        "choices": ["World of Warcraft", "Guild Wars 2", "Final Fantasy XIV", "Elder Scrolls Online"],
+        "anecdote": "World of Warcraft, lancé par Blizzard Entertainment en 2004, est l'un des MMORPG les plus populaires de tous les temps."
+    },
+    {
+        "question": "Quel jeu vidéo de sport met en scène des voitures jouant au football ?",
+        "correctAnswer": "Rocket League",
+        "choices": ["Rocket League", "FIFA", "Madden NFL", "NBA 2K"],
+        "anecdote": "Rocket League, développé par Psyonix, combine le football et des voitures acrobatiques dans un jeu compétitif unique."
+    },
+    {
+        "question": "Quel est le nom du jeu vidéo où les joueurs construisent et gèrent leur propre ferme ?",
+        "correctAnswer": "Stardew Valley",
+        "choices": ["Stardew Valley", "FarmVille", "Harvest Moon", "Animal Crossing"],
+        "anecdote": "Stardew Valley, créé par Eric Barone, permet aux joueurs de cultiver des cultures, élever des animaux et développer des relations avec les habitants du village."
+    },
+    {
+        "question": "Quel jeu vidéo de tir en équipe est connu pour ses héros et ses capacités uniques ?",
+        "correctAnswer": "Overwatch",
+        "choices": ["Overwatch", "Team Fortress 2", "Rainbow Six Siege", "Apex Legends"],
+        "anecdote": "Overwatch, développé par Blizzard Entertainment, met en scène une variété de héros avec des capacités uniques dans des batailles en équipe."
+    },
+    {
+        "question": "Quel jeu vidéo de survie et de construction a été développé par Epic Games et propose un mode Battle Royale ?",
+        "correctAnswer": "Fortnite",
+        "choices": ["Fortnite", "PUBG", "Apex Legends", "Minecraft"],
+        "anecdote": "Fortnite, particulièrement populaire pour son mode Battle Royale, permet à 100 joueurs de s'affronter jusqu'à ce qu'il n'en reste plus qu'un."
+    },
+    {
+        "question": "Quel jeu vidéo de course automobile est connu pour sa simulation réaliste et ses graphismes détaillés ?",
+        "correctAnswer": "Gran Turismo",
+        "choices": ["Gran Turismo", "Forza Horizon", "Need for Speed", "Mario Kart"],
+        "anecdote": "Gran Turismo, développé par Polyphony Digital, est célèbre pour son réalisme et est l'une des franchises de course les plus vendues."
+    },
+    {
+        "question": "Quel jeu vidéo de rôle se déroule dans un monde ouvert et permet aux joueurs de devenir le 'Dovahkiin' ?",
+        "correctAnswer": "The Elder Scrolls V: Skyrim",
+        "choices": ["The Elder Scrolls V: Skyrim", "The Witcher 3", "Dragon Age: Inquisition", "Fallout 4"],
+        "anecdote": "The Elder Scrolls V: Skyrim, lancé en 2011, est acclamé pour son monde ouvert vaste et ses possibilités de jeu infinies."
+    },
+    {
+        "question": "Quel jeu vidéo de stratégie au tour par tour se déroule dans une galaxie en guerre entre plusieurs civilisations ?",
+        "correctAnswer": "Civilization",
+        "choices": ["Civilization", "StarCraft", "Age of Empires", "Command & Conquer"],
+        "anecdote": "La série Civilization, créée par Sid Meier, permet aux joueurs de développer une civilisation de l'âge de pierre à l'ère moderne."
+    }
+  ],
+  "Confirmed": [
+    {
+      "question": "Dans quel jeu vidéo les joueurs incarnent-ils un chasseur de primes appelé Samus Aran ?",
+      "correctAnswer": "Metroid",
+      "choices": ["Metroid", "Halo", "Mass Effect", "Borderlands"],
+      "anecdote": "Samus Aran, équipée de sa combinaison de puissance, explore des mondes extraterrestres et combat des créatures hostiles dans la série Metroid."
+    },
+    {
+        "question": "Quel jeu de rôle en ligne massivement multijoueur (MMORPG) est développé par Square Enix et se déroule dans le monde d'Eorzea ?",
+        "correctAnswer": "Final Fantasy XIV",
+        "choices": ["Final Fantasy XIV", "World of Warcraft", "Guild Wars 2", "The Elder Scrolls Online"],
+        "anecdote": "Final Fantasy XIV est acclamé pour ses graphismes impressionnants, son histoire captivante et son gameplay riche en contenu."
+    },
+    {
+        "question": "Quel est le nom du principal antagoniste dans la série de jeux vidéo 'The Legend of Zelda' ?",
+        "correctAnswer": "Ganon",
+        "choices": ["Ganon", "Bowser", "Sephiroth", "Dr. Robotnik"],
+        "anecdote": "Ganon, également connu sous le nom de Ganondorf, est le principal méchant récurrent dans la série The Legend of Zelda."
+    },
+    {
+        "question": "Quel jeu de tir à la première personne (FPS) a popularisé le genre Battle Royale en 2017 ?",
+        "correctAnswer": "PUBG",
+        "choices": ["PUBG", "Fortnite", "Apex Legends", "Call of Duty: Warzone"],
+        "anecdote": "PUBG (PlayerUnknown's Battlegrounds) a été l'un des premiers jeux à populariser le genre Battle Royale, où 100 joueurs s'affrontent jusqu'à ce qu'il n'en reste qu'un."
+    },
+    {
+        "question": "Quel jeu de rôle en monde ouvert de CD Projekt Red se déroule dans une version futuriste dystopique de Night City ?",
+        "correctAnswer": "Cyberpunk 2077",
+        "choices": ["Cyberpunk 2077", "The Witcher 3", "Deus Ex", "Fallout 4"],
+        "anecdote": "Cyberpunk 2077, bien que controversé pour ses bugs à la sortie, offre une expérience immersive dans un monde cyberpunk riche en détails."
+    },
+    {
+        "question": "Quel jeu de stratégie en temps réel (RTS) de Blizzard Entertainment se déroule dans l'univers de Warcraft ?",
+        "correctAnswer": "Warcraft III",
+        "choices": ["Warcraft III", "StarCraft II", "Age of Empires II", "Command & Conquer"],
+        "anecdote": "Warcraft III a été crucial pour l'évolution des jeux RTS et a introduit des éléments RPG avec ses héros et ses quêtes."
+    },
+    {
+        "question": "Quel jeu de rôle japonais (JRPG) met en scène des personnages luttant contre des divinités appelées Fal'Cie ?",
+        "correctAnswer": "Final Fantasy XIII",
+        "choices": ["Final Fantasy XIII", "Persona 5", "Xenoblade Chronicles", "Tales of Symphonia"],
+        "anecdote": "Final Fantasy XIII, avec son système de combat unique et ses graphismes impressionnants, a suscité des avis partagés parmi les fans de la série."
+    },
+    {
+        "question": "Dans quel jeu les joueurs peuvent-ils incarner un soldat nommé Big Boss ?",
+        "correctAnswer": "Metal Gear Solid V",
+        "choices": ["Metal Gear Solid V", "Splinter Cell", "Call of Duty", "Battlefield"],
+        "anecdote": "Metal Gear Solid V: The Phantom Pain suit les aventures de Big Boss et est connu pour son gameplay furtif et son monde ouvert."
+    },
+    {
+        "question": "Quel est le nom du développeur de jeux vidéo célèbre pour les séries 'Half-Life' et 'Portal' ?",
+        "correctAnswer": "Valve",
+        "choices": ["Valve", "Bethesda", "Ubisoft", "EA"],
+        "anecdote": "Valve est un studio de développement acclamé pour ses jeux innovants comme Half-Life et Portal, ainsi que pour sa plateforme Steam."
+    },
+    {
+        "question": "Quel jeu de tir à la première personne (FPS) se déroule sur la planète Pandora et est connu pour son style graphique en cel-shading ?",
+        "correctAnswer": "Borderlands",
+        "choices": ["Borderlands", "Destiny", "Halo", "Mass Effect"],
+        "anecdote": "Borderlands est apprécié pour son humour, ses armes variées et son style artistique distinctif en cel-shading."
+    },
+    {
+        "question": "Quel jeu de survie en monde ouvert développé par Mojang a été vendu à Microsoft en 2014 pour 2,5 milliards de dollars ?",
+        "correctAnswer": "Minecraft",
+        "choices": ["Minecraft", "Rust", "ARK: Survival Evolved", "Terraria"],
+        "anecdote": "Minecraft, avec ses blocs et son gameplay sandbox, est devenu un phénomène mondial et continue de captiver des millions de joueurs."
+    },
+    {
+        "question": "Quel jeu vidéo de FromSoftware est connu pour sa difficulté extrême et ses combats exigeants contre des boss ?",
+        "correctAnswer": "Dark Souls",
+        "choices": ["Dark Souls", "Bloodborne", "Sekiro: Shadows Die Twice", "Nioh"],
+        "anecdote": "Dark Souls a défini un nouveau standard pour les jeux exigeants, avec son gameplay punitif et son atmosphère sombre."
+    },
+    {
+        "question": "Dans quel jeu vidéo les joueurs incarnent-ils un sorceleur nommé Geralt de Riv ?",
+        "correctAnswer": "The Witcher 3",
+        "choices": ["The Witcher 3", "Dragon Age: Inquisition", "Skyrim", "Divinity: Original Sin 2"],
+        "anecdote": "The Witcher 3: Wild Hunt, basé sur les romans de Andrzej Sapkowski, est acclamé pour son monde ouvert détaillé et ses quêtes immersives."
+    },
+    {
+        "question": "Quel jeu de simulation de vie développé par Maxis permet aux joueurs de créer et de contrôler des personnages appelés Sims ?",
+        "correctAnswer": "Les Sims",
+        "choices": ["Les Sims", "Animal Crossing", "Stardew Valley", "Harvest Moon"],
+        "anecdote": "Les Sims, lancé en 2000, est l'une des franchises de jeux les plus vendues, offrant aux joueurs la possibilité de créer et de gérer des vies virtuelles."
+    },
+    {
+        "question": "Quel jeu d'aventure point-and-click de LucasArts suit les aventures d'un pirate nommé Guybrush Threepwood ?",
+        "correctAnswer": "Monkey Island",
+        "choices": ["Monkey Island", "Grim Fandango", "Day of the Tentacle", "Sam & Max"],
+        "anecdote": "La série Monkey Island, avec son humour unique et ses puzzles créatifs, est un classique du genre aventure point-and-click."
+    },
+    {
+        "question": "Quel jeu de tir à la première personne (FPS) de 2016 a été acclamé pour son retour aux racines du genre avec un gameplay rapide et brutal ?",
+        "correctAnswer": "DOOM",
+        "choices": ["DOOM", "Wolfenstein", "Quake", "Halo 5"],
+        "anecdote": "DOOM (2016) est un reboot de la série classique, connu pour son action intense et sa bande-son énergique."
+    },
+    {
+        "question": "Quel jeu vidéo de Capcom met en scène des chasseurs traquant des créatures gigantesques dans des environnements variés ?",
+        "correctAnswer": "Monster Hunter",
+        "choices": ["Monster Hunter", "Dark Souls", "The Witcher", "Shadow of the Colossus"],
+        "anecdote": "Monster Hunter, en particulier Monster Hunter: World, est célèbre pour ses combats contre des monstres impressionnants et son gameplay coopératif."
+    },
+    {
+        "question": "Quel jeu de stratégie au tour par tour développé par Firaxis Games permet aux joueurs de diriger une civilisation de l'Antiquité à l'ère moderne ?",
+        "correctAnswer": "Civilization",
+        "choices": ["Civilization", "Total War", "Age of Empires", "Stellaris"],
+        "anecdote": "La série Civilization, créée par Sid Meier, permet aux joueurs de développer et de diriger une civilisation à travers les âges."
+    },
+    {
+        "question": "Quel jeu vidéo d'horreur psychologique de Konami se déroule dans une ville brumeuse pleine de créatures cauchemardesques ?",
+        "correctAnswer": "Silent Hill",
+        "choices": ["Silent Hill", "Resident Evil", "Outlast", "Amnesia"],
+        "anecdote": "Silent Hill est acclamé pour son atmosphère oppressante et ses récits psychologiquement complexes."
+    }
+  ],
+  "Expert": [
+    {
+      "question": "Quel est le nom complet du créateur de la série 'Metal Gear' ?",
+      "correctAnswer": "Hideo Kojima",
+      "choices": ["Hideo Kojima", "Shigeru Miyamoto", "Hironobu Sakaguchi", "Yu Suzuki"],
+      "anecdote": "Hideo Kojima est une figure emblématique de l'industrie du jeu vidéo, connu pour ses concepts novateurs et ses scénarios complexes."
+    },
+    {
+        "question": "Quel est le nom du jeu de tir à la première personne développé par Rare en 2000 pour la Nintendo 64, souvent considéré comme l'un des meilleurs de son époque ?",
+        "correctAnswer": "Perfect Dark",
+        "choices": ["Perfect Dark", "GoldenEye 007", "Turok", "Quake II"],
+        "anecdote": "Perfect Dark, développé par Rare, a été salué pour ses graphismes avancés et son gameplay innovant pour l'époque."
+    },
+    {
+        "question": "Quel jeu de rôle japonais (JRPG) de 1995, développé par Square, est souvent cité comme l'un des meilleurs jeux de tous les temps ?",
+        "correctAnswer": "Chrono Trigger",
+        "choices": ["Chrono Trigger", "Final Fantasy VI", "EarthBound", "Secret of Mana"],
+        "anecdote": "Chrono Trigger est célèbre pour son système de voyage dans le temps, ses multiples fins et son développement par une équipe de rêve."
+    },
+    {
+        "question": "Quel jeu de combat de 1999 sur Dreamcast est souvent crédité comme ayant révolutionné les graphismes 3D dans les jeux de combat ?",
+        "correctAnswer": "Soulcalibur",
+        "choices": ["Soulcalibur", "Tekken 3", "Virtua Fighter 3", "Dead or Alive 2"],
+        "anecdote": "Soulcalibur a été acclamé pour ses graphismes exceptionnels, son gameplay fluide et ses personnages mémorables."
+    },
+    {
+        "question": "Quel jeu de rôle développé par Obsidian Entertainment en 2010 est un spin-off de la célèbre série Fallout ?",
+        "correctAnswer": "Fallout: New Vegas",
+        "choices": ["Fallout: New Vegas", "Fallout 3", "Fallout 4", "Wasteland 2"],
+        "anecdote": "Fallout: New Vegas est apprécié pour sa narration riche, ses quêtes variées et son cadre immersif dans le désert du Mojave."
+    },
+    {
+        "question": "Quel est le nom du jeu de plateforme sorti en 1994 sur Super Nintendo, où le joueur incarne un chevalier squelette nommé Arthur ?",
+        "correctAnswer": "Super Ghouls 'n Ghosts",
+        "choices": ["Super Ghouls 'n Ghosts", "Castlevania", "ActRaiser", "Demon's Crest"],
+        "anecdote": "Super Ghouls 'n Ghosts est connu pour sa difficulté extrême et ses graphismes détaillés pour l'époque."
+    },
+    {
+        "question": "Quel est le nom du développeur japonais connu pour la série 'Castlevania' et pour avoir quitté Konami pour fonder son propre studio en 2014 ?",
+        "correctAnswer": "Koji Igarashi",
+        "choices": ["Koji Igarashi", "Hideo Kojima", "Shinji Mikami", "Hideki Kamiya"],
+        "anecdote": "Koji Igarashi, souvent surnommé IGA, est connu pour son travail sur la série Castlevania et a fondé ArtPlay après avoir quitté Konami."
+    },
+    {
+        "question": "Dans quel jeu vidéo de stratégie en temps réel de 1998 les joueurs peuvent-ils contrôler des races comme les Zergs, les Terrans et les Protoss ?",
+        "correctAnswer": "StarCraft",
+        "choices": ["StarCraft", "Warcraft III", "Command & Conquer", "Total Annihilation"],
+        "anecdote": "StarCraft, développé par Blizzard Entertainment, est un jeu de stratégie en temps réel qui a défini le genre avec son gameplay équilibré et sa narration riche."
+    },
+    {
+        "question": "Quel est le nom de l'univers dans lequel se déroulent les événements du jeu de rôle 'The Elder Scrolls III: Morrowind' ?",
+        "correctAnswer": "Tamriel",
+        "choices": ["Tamriel", "Hyrule", "Ferelden", "Gaia"],
+        "anecdote": "Tamriel est le continent fictif où se déroulent tous les jeux de la série The Elder Scrolls, offrant un riche lore et une grande liberté d'exploration."
+    },
+    {
+        "question": "Quel est le nom du jeu d'horreur de survie développé par Frictional Games en 2010, acclamé pour son ambiance et son gameplay sans combat ?",
+        "correctAnswer": "Amnesia: The Dark Descent",
+        "choices": ["Amnesia: The Dark Descent", "Outlast", "Silent Hill", "Fatal Frame"],
+        "anecdote": "Amnesia: The Dark Descent est connu pour son atmosphère terrifiante et son gameplay axé sur la furtivité et la gestion de la santé mentale du personnage."
+    },
+    {
+        "question": "Quel est le nom du jeu de rôle de 1994 développé par Interplay, considéré comme l'un des précurseurs des RPG occidentaux modernes ?",
+        "correctAnswer": "Fallout",
+        "choices": ["Fallout", "Baldur's Gate", "Planescape: Torment", "The Elder Scrolls II: Daggerfall"],
+        "anecdote": "Fallout a établi de nombreuses conventions pour les RPG occidentaux avec son monde post-apocalyptique riche et ses choix moraux complexes."
+    },
+    {
+        "question": "Quel est le nom du jeu de simulation de gestion spatiale développé par Paradox Interactive en 2016 ?",
+        "correctAnswer": "Stellaris",
+        "choices": ["Stellaris", "Galactic Civilizations III", "Endless Space 2", "Homeworld"],
+        "anecdote": "Stellaris est un jeu de gestion spatiale qui permet aux joueurs de construire et de gérer un empire galactique, avec des mécaniques complexes et une grande profondeur stratégique."
+    },
+    {
+        "question": "Quel est le nom du jeu d'aventure graphique de 1993 développé par Cyan Worlds, connu pour ses puzzles complexes et son univers immersif ?",
+        "correctAnswer": "Myst",
+        "choices": ["Myst", "Riven", "The Longest Journey", "Syberia"],
+        "anecdote": "Myst est un jeu pionnier dans le genre de l'aventure graphique, acclamé pour ses graphismes révolutionnaires et ses énigmes stimulantes."
+    },
+    {
+        "question": "Quel est le nom du jeu de tir en coopération développé par Valve, où les joueurs doivent survivre à des hordes de zombies ?",
+        "correctAnswer": "Left 4 Dead",
+        "choices": ["Left 4 Dead", "Dead Island", "Killing Floor", "Dead Rising"],
+        "anecdote": "Left 4 Dead est un jeu de tir en coopération intense, où la coordination et le travail d'équipe sont essentiels pour survivre aux vagues de zombies."
+    },
+    {
+        "question": "Quel est le nom du jeu de rôle tactique de 2012 développé par Firaxis Games, reboot de la série des années 90 ?",
+        "correctAnswer": "XCOM: Enemy Unknown",
+        "choices": ["XCOM: Enemy Unknown", "Fire Emblem", "Advance Wars", "Jagged Alliance"],
+        "anecdote": "XCOM: Enemy Unknown a revitalisé la série XCOM avec des mécaniques de jeu modernisées et un défi stratégique intense."
+    },
+    {
+        "question": "Quel est le nom du jeu de rôle de 2007 développé par CD Projekt Red, basé sur une série de romans polonais ?",
+        "correctAnswer": "The Witcher",
+        "choices": ["The Witcher", "Dragon Age", "Divinity: Original Sin", "Baldur's Gate"],
+        "anecdote": "The Witcher, basé sur les romans de Andrzej Sapkowski, a été acclamé pour son scénario mature et ses personnages complexes."
+    },
+    {
+        "question": "Quel est le nom du jeu de plateforme acclamé pour ses mécaniques de jeu novatrices et son design de niveau, développé par Playdead en 2010 ?",
+        "correctAnswer": "Limbo",
+        "choices": ["Limbo", "Braid", "Fez", "Inside"],
+        "anecdote": "Limbo est un jeu de plateforme indépendant, salué pour son esthétique sombre et ses puzzles ingénieux."
     }
   ]
 }

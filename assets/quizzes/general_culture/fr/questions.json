@@ -1,11 +1,518 @@
 {
-  "results": [
+  "Beginner": [
     {
-      "question": "Quelle est la capitale de la France ?",
-      "correctAnswer": "Paris",
-      "choices": ["Paris", "Londres", "Berlin", "Madrid"],
-      "anecdote": "Paris est la capitale de la France.",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Paris"
+      "question": "Quel est le plus long fleuve du monde ?",
+      "correctAnswer": "Nil",
+      "choices": ["Nil", "Amazone", "Yangtsé", "Mississippi"],
+      "anecdote": "Le Nil, qui traverse l'Afrique du nord-est, mesure environ 6 650 km de long."
+    },
+    {
+        "question": "Quel pays est connu pour avoir une tour penchée dans la ville de Pise ?",
+        "correctAnswer": "Italie",
+        "choices": ["Italie", "Espagne", "France", "Grèce"],
+        "anecdote": "La tour penchée de Pise est un célèbre clocher en Italie, connu pour son inclinaison involontaire."
+    },
+    {
+        "question": "Quelle planète est la plus proche du Soleil ?",
+        "correctAnswer": "Mercure",
+        "choices": ["Mercure", "Vénus", "Terre", "Mars"],
+        "anecdote": "Mercure est la planète la plus proche du Soleil et a des températures extrêmement élevées sur sa surface."
+    },
+    {
+        "question": "Quel animal est le symbole national de l'Australie ?",
+        "correctAnswer": "Kangourou",
+        "choices": ["Kangourou", "Koala", "Émeu", "Wombat"],
+        "anecdote": "Le kangourou est un symbole emblématique de l'Australie et figure sur le blason national du pays."
+    },
+    {
+        "question": "Quel artiste est connu pour avoir peint la 'Joconde' ?",
+        "correctAnswer": "Léonard de Vinci",
+        "choices": ["Léonard de Vinci", "Michel-Ange", "Raphaël", "Donatello"],
+        "anecdote": "La 'Joconde', également connue sous le nom de 'Mona Lisa', est l'une des peintures les plus célèbres de Léonard de Vinci."
+    },
+    {
+        "question": "Quelle est la capitale de l'Espagne ?",
+        "correctAnswer": "Madrid",
+        "choices": ["Madrid", "Barcelone", "Séville", "Valence"],
+        "anecdote": "Madrid est la capitale de l'Espagne et la plus grande ville du pays, connue pour son palais royal et ses musées d'art."
+    },
+    {
+        "question": "Quel est l'élément chimique représenté par le symbole 'O' ?",
+        "correctAnswer": "Oxygène",
+        "choices": ["Oxygène", "Or", "Osmium", "Oganesson"],
+        "anecdote": "L'oxygène, représenté par le symbole 'O', est un élément essentiel à la respiration des êtres vivants."
+    },
+    {
+        "question": "Quel est le plus grand océan du monde ?",
+        "correctAnswer": "Pacifique",
+        "choices": ["Pacifique", "Atlantique", "Indien", "Arctique"],
+        "anecdote": "L'océan Pacifique est le plus grand océan du monde, couvrant plus de 63 millions de kilomètres carrés."
+    },
+    {
+        "question": "Quel est le sport national du Japon ?",
+        "correctAnswer": "Sumo",
+        "choices": ["Sumo", "Judo", "Karate", "Kendo"],
+        "anecdote": "Le sumo est un sport de lutte traditionnelle japonaise où les lutteurs cherchent à pousser leur adversaire hors du cercle."
+    },
+    {
+        "question": "Quelle ville est surnommée 'La Grosse Pomme' ?",
+        "correctAnswer": "New York",
+        "choices": ["New York", "Los Angeles", "Chicago", "Miami"],
+        "anecdote": "New York est surnommée 'La Grosse Pomme', un terme popularisé dans les années 1920 par des journalistes sportifs."
+    },
+    {
+        "question": "Quelle est la langue officielle du Brésil ?",
+        "correctAnswer": "Portugais",
+        "choices": ["Portugais", "Espagnol", "Français", "Anglais"],
+        "anecdote": "Le portugais est la langue officielle du Brésil, résultat de la colonisation portugaise au 16ème siècle."
+    },
+    {
+        "question": "Quel est le plus haut sommet du monde ?",
+        "correctAnswer": "Everest",
+        "choices": ["Everest", "K2", "Kangchenjunga", "Lhotse"],
+        "anecdote": "Le mont Everest, avec une altitude de 8 848 mètres, est le plus haut sommet du monde, situé dans l'Himalaya."
+    },
+    {
+        "question": "Quelle est la plus grande île du monde ?",
+        "correctAnswer": "Groenland",
+        "choices": ["Groenland", "Australie", "Nouvelle-Guinée", "Bornéo"],
+        "anecdote": "Le Groenland est la plus grande île du monde, bien que l'Australie soit plus grande, elle est considérée comme un continent."
+    },
+    {
+        "question": "Quel écrivain a créé le personnage de Sherlock Holmes ?",
+        "correctAnswer": "Arthur Conan Doyle",
+        "choices": ["Arthur Conan Doyle", "Agatha Christie", "Edgar Allan Poe", "Jules Verne"],
+        "anecdote": "Arthur Conan Doyle a créé le célèbre détective Sherlock Holmes, apparu pour la première fois en 1887 dans 'Une étude en rouge'."
+    },
+    {
+        "question": "Quelle est la monnaie officielle du Royaume-Uni ?",
+        "correctAnswer": "Livre sterling",
+        "choices": ["Livre sterling", "Euro", "Dollar", "Franc"],
+        "anecdote": "La livre sterling est la monnaie officielle du Royaume-Uni, symbolisée par le signe £."
+    },
+    {
+        "question": "Quel pays est le plus grand producteur de café au monde ?",
+        "correctAnswer": "Brésil",
+        "choices": ["Brésil", "Colombie", "Vietnam", "Éthiopie"],
+        "anecdote": "Le Brésil est le plus grand producteur de café au monde, représentant environ un tiers de la production mondiale."
+    },
+    {
+        "question": "Quel auteur est connu pour avoir écrit 'Les Misérables' ?",
+        "correctAnswer": "Victor Hugo",
+        "choices": ["Victor Hugo", "Émile Zola", "Gustave Flaubert", "Honoré de Balzac"],
+        "anecdote": "Victor Hugo a écrit 'Les Misérables', une œuvre majeure de la littérature française publiée en 1862."
+    },
+    {
+        "question": "Quel animal est le plus rapide du monde sur terre ?",
+        "correctAnswer": "Guépard",
+        "choices": ["Guépard", "Lion", "Léopard", "Antilope"],
+        "anecdote": "Le guépard est l'animal terrestre le plus rapide, capable d'atteindre des vitesses allant jusqu'à 112 km/h en courtes distances."
+    },
+    {
+        "question": "Quel est le symbole chimique de l'eau ?",
+        "correctAnswer": "H2O",
+        "choices": ["H2O", "HO2", "H2O2", "OH2"],
+        "anecdote": "L'eau est représentée par la formule chimique H2O, indiquant deux atomes d'hydrogène et un atome d'oxygène."
+    },
+    {
+        "question": "Quelle ville abrite le musée du Louvre ?",
+        "correctAnswer": "Paris",
+        "choices": ["Paris", "Londres", "Rome", "Madrid"],
+        "anecdote": "Le musée du Louvre, situé à Paris, est le plus grand musée d'art du monde et abrite des œuvres célèbres comme la 'Joconde'."
+    },
+    {
+        "question": "Quel pays est surnommé 'Le pays du Soleil-Levant' ?",
+        "correctAnswer": "Japon",
+        "choices": ["Japon", "Chine", "Corée du Sud", "Thaïlande"],
+        "anecdote": "Le Japon est surnommé 'Le pays du Soleil-Levant' en raison de sa position à l'extrémité est de l'Asie."
+    },
+    {
+        "question": "Quelle est la plus petite planète du système solaire ?",
+        "correctAnswer": "Mercure",
+        "choices": ["Mercure", "Mars", "Vénus", "Pluton"],
+        "anecdote": "Mercure est la plus petite planète du système solaire et la plus proche du Soleil."
+    },
+    {
+        "question": "Quel est le plus grand désert du monde ?",
+        "correctAnswer": "Sahara",
+        "choices": ["Sahara", "Gobi", "Kalahari", "Atacama"],
+        "anecdote": "Le désert du Sahara, situé en Afrique du Nord, est le plus grand désert chaud du monde, couvrant environ 9 millions de km²."
+    }
+  ],
+  "Confirmed": [
+    {
+      "question": "Quel est le nom du premier satellite artificiel lancé dans l'espace en 1957 ?",
+      "correctAnswer": "Spoutnik",
+      "choices": ["Spoutnik", "Apollo", "Vostok", "Soyouz"],
+      "anecdote": "Spoutnik 1, lancé par l'Union soviétique en 1957, est le premier satellite artificiel de l'histoire."
+    },
+    {
+        "question": "Quel pays a remporté la Coupe du Monde de football en 1998 ?",
+        "correctAnswer": "France",
+        "choices": ["France", "Brésil", "Allemagne", "Italie"],
+        "anecdote": "La France a remporté la Coupe du Monde de football en 1998 en battant le Brésil 3-0 en finale."
+    },
+    {
+        "question": "Quelle est la capitale de l'Australie ?",
+        "correctAnswer": "Canberra",
+        "choices": ["Canberra", "Sydney", "Melbourne", "Brisbane"],
+        "anecdote": "Canberra a été choisie comme capitale de l'Australie pour résoudre la rivalité entre Sydney et Melbourne."
+    },
+    {
+        "question": "Quel physicien a formulé la théorie de la relativité ?",
+        "correctAnswer": "Albert Einstein",
+        "choices": ["Albert Einstein", "Isaac Newton", "Niels Bohr", "Galilée"],
+        "anecdote": "Albert Einstein a formulé la théorie de la relativité, qui a révolutionné notre compréhension de l'espace, du temps et de la gravité."
+    },
+    {
+        "question": "Quel écrivain français est l'auteur du roman 'Madame Bovary' ?",
+        "correctAnswer": "Gustave Flaubert",
+        "choices": ["Gustave Flaubert", "Honoré de Balzac", "Émile Zola", "Victor Hugo"],
+        "anecdote": "Gustave Flaubert a écrit 'Madame Bovary', un roman publié en 1857 qui est considéré comme un chef-d'œuvre du réalisme."
+    },
+    {
+        "question": "Quel est le plus grand océan de la Terre ?",
+        "correctAnswer": "Pacifique",
+        "choices": ["Pacifique", "Atlantique", "Indien", "Arctique"],
+        "anecdote": "L'océan Pacifique est le plus grand océan de la Terre, couvrant plus de 63 millions de kilomètres carrés."
+    },
+    {
+        "question": "Quelle est la monnaie utilisée au Japon ?",
+        "correctAnswer": "Yen",
+        "choices": ["Yen", "Won", "Yuan", "Roupie"],
+        "anecdote": "Le yen est la monnaie officielle du Japon et l'une des devises les plus échangées dans le monde."
+    },
+    {
+        "question": "Quel compositeur est connu pour ses symphonies, dont la cinquième et la neuvième ?",
+        "correctAnswer": "Beethoven",
+        "choices": ["Beethoven", "Mozart", "Bach", "Chopin"],
+        "anecdote": "Ludwig van Beethoven est un compositeur allemand célèbre pour ses symphonies, en particulier la cinquième et la neuvième."
+    },
+    {
+        "question": "Quel pays est le plus grand producteur de cacao au monde ?",
+        "correctAnswer": "Côte d'Ivoire",
+        "choices": ["Côte d'Ivoire", "Ghana", "Brésil", "Nigéria"],
+        "anecdote": "La Côte d'Ivoire est le plus grand producteur de cacao au monde, fournissant environ 40 % du cacao mondial."
+    },
+    {
+        "question": "Quelle est la capitale de la Suisse ?",
+        "correctAnswer": "Berne",
+        "choices": ["Berne", "Zurich", "Genève", "Lausanne"],
+        "anecdote": "Berne est la capitale de la Suisse, bien que Zurich soit la plus grande ville du pays."
+    },
+    {
+        "question": "Quel est le plus long fleuve d'Afrique ?",
+        "correctAnswer": "Nil",
+        "choices": ["Nil", "Congo", "Niger", "Zambèze"],
+        "anecdote": "Le Nil est le plus long fleuve d'Afrique, s'étendant sur environ 6 650 km."
+    },
+    {
+        "question": "Quel artiste a peint le plafond de la chapelle Sixtine ?",
+        "correctAnswer": "Michel-Ange",
+        "choices": ["Michel-Ange", "Raphaël", "Léonard de Vinci", "Botticelli"],
+        "anecdote": "Michel-Ange a peint le plafond de la chapelle Sixtine au Vatican, une œuvre magistrale de la Renaissance."
+    },
+    {
+        "question": "Quelle est la langue officielle du Brésil ?",
+        "correctAnswer": "Portugais",
+        "choices": ["Portugais", "Espagnol", "Français", "Anglais"],
+        "anecdote": "Le portugais est la langue officielle du Brésil, une héritage de la colonisation portugaise."
+    },
+    {
+        "question": "Quel est le plus grand désert du monde ?",
+        "correctAnswer": "Sahara",
+        "choices": ["Sahara", "Gobi", "Kalahari", "Atacama"],
+        "anecdote": "Le Sahara est le plus grand désert chaud du monde, couvrant une grande partie de l'Afrique du Nord."
+    },
+    {
+        "question": "Quel est le symbole chimique du fer ?",
+        "correctAnswer": "Fe",
+        "choices": ["Fe", "F", "Ir", "I"],
+        "anecdote": "Le symbole chimique du fer est 'Fe', dérivé du latin 'ferrum'."
+    },
+    {
+        "question": "Quel est le plus grand océan du monde ?",
+        "correctAnswer": "Pacifique",
+        "choices": ["Pacifique", "Atlantique", "Indien", "Arctique"],
+        "anecdote": "L'océan Pacifique est le plus grand océan du monde, couvrant plus de 63 millions de kilomètres carrés."
+    },
+    {
+        "question": "Quel est le sport national du Japon ?",
+        "correctAnswer": "Sumo",
+        "choices": ["Sumo", "Judo", "Karate", "Kendo"],
+        "anecdote": "Le sumo est un sport de lutte traditionnelle japonaise où les lutteurs cherchent à pousser leur adversaire hors du cercle."
+    },
+    {
+        "question": "Quelle ville est surnommée 'La Grosse Pomme' ?",
+        "correctAnswer": "New York",
+        "choices": ["New York", "Los Angeles", "Chicago", "Miami"],
+        "anecdote": "New York est surnommée 'La Grosse Pomme', un terme popularisé dans les années 1920 par des journalistes sportifs."
+    },
+    {
+        "question": "Quelle est la langue officielle du Brésil ?",
+        "correctAnswer": "Portugais",
+        "choices": ["Portugais", "Espagnol", "Français", "Anglais"],
+        "anecdote": "Le portugais est la langue officielle du Brésil, résultat de la colonisation portugaise au 16ème siècle."
+    },
+    {
+        "question": "Quel est le plus haut sommet du monde ?",
+        "correctAnswer": "Everest",
+        "choices": ["Everest", "K2", "Kangchenjunga", "Lhotse"],
+        "anecdote": "Le mont Everest, avec une altitude de 8 848 mètres, est le plus haut sommet du monde, situé dans l'Himalaya."
+    },
+    {
+        "question": "Quelle est la plus grande île du monde ?",
+        "correctAnswer": "Groenland",
+        "choices": ["Groenland", "Australie", "Nouvelle-Guinée", "Bornéo"],
+        "anecdote": "Le Groenland est la plus grande île du monde, bien que l'Australie soit plus grande, elle est considérée comme un continent."
+    },
+    {
+        "question": "Quel écrivain a créé le personnage de Sherlock Holmes ?",
+        "correctAnswer": "Arthur Conan Doyle",
+        "choices": ["Arthur Conan Doyle", "Agatha Christie", "Edgar Allan Poe", "Jules Verne"],
+        "anecdote": "Arthur Conan Doyle a créé le célèbre détective Sherlock Holmes, apparu pour la première fois en 1887 dans 'Une étude en rouge'."
+    },
+    {
+        "question": "Quelle est la monnaie officielle du Royaume-Uni ?",
+        "correctAnswer": "Livre sterling",
+        "choices": ["Livre sterling", "Euro", "Dollar", "Franc"],
+        "anecdote": "La livre sterling est la monnaie officielle du Royaume-Uni, symbolisée par le signe £."
+    },
+    {
+      "question": "Quel pays est le plus grand producteur de café au monde ?",
+      "correctAnswer": "Brésil",
+      "choices": ["Brésil", "Colombie", "Vietnam", "Éthiopie"],
+      "anecdote": "Le Brésil est le plus grand producteur de café au monde, représentant environ un tiers de la production mondiale."
+    },
+    {
+      "question": "Quel explorateur portugais est connu pour avoir été le premier à naviguer directement de l'Europe à l'Inde ?",
+      "correctAnswer": "Vasco de Gama",
+      "choices": ["Vasco de Gama", "Christophe Colomb", "Ferdinand Magellan", "Bartolomeu Dias"],
+      "anecdote": "Vasco de Gama a été le premier à établir une route maritime directe entre l'Europe et l'Inde en 1498, ouvrant ainsi une nouvelle voie pour le commerce des épices."
+    },
+    {
+        "question": "Quel philosophe grec a été le maître d'Alexandre le Grand ?",
+        "correctAnswer": "Aristote",
+        "choices": ["Aristote", "Socrate", "Platon", "Pythagore"],
+        "anecdote": "Aristote, élève de Platon, a été le maître d'Alexandre le Grand et a grandement influencé sa pensée et sa vision du monde."
+    },
+    {
+        "question": "Quel roi anglais a signé la Magna Carta en 1215 ?",
+        "correctAnswer": "Jean sans Terre",
+        "choices": ["Jean sans Terre", "Richard Cœur de Lion", "Henri II", "Édouard Ier"],
+        "anecdote": "Le roi Jean sans Terre a signé la Magna Carta en 1215, un document qui limitait les pouvoirs royaux et établissait certains droits pour les nobles."
+    },
+    {
+        "question": "Quel célèbre peintre espagnol a réalisé le tableau 'Guernica' ?",
+        "correctAnswer": "Pablo Picasso",
+        "choices": ["Pablo Picasso", "Salvador Dalí", "Joan Miró", "Francisco Goya"],
+        "anecdote": "Pablo Picasso a peint 'Guernica' en 1937 en réponse au bombardement de la ville basque de Guernica pendant la guerre civile espagnole."
+    },
+    {
+        "question": "Quel était le nom de la première femme à voyager dans l'espace ?",
+        "correctAnswer": "Valentina Terechkova",
+        "choices": ["Valentina Terechkova", "Sally Ride", "Mae Jemison", "Laika"],
+        "anecdote": "Valentina Terechkova, une cosmonaute soviétique, est devenue la première femme à voyager dans l'espace en 1963 à bord de Vostok 6."
+    },
+    {
+        "question": "Quelle ancienne civilisation a construit la cité de Machu Picchu ?",
+        "correctAnswer": "Incas",
+        "choices": ["Incas", "Mayas", "Aztèques", "Olmèques"],
+        "anecdote": "Les Incas ont construit Machu Picchu au 15ème siècle, et cette cité est située dans les montagnes des Andes au Pérou."
+    },
+    {
+        "question": "Quel scientifique britannique est connu pour sa théorie de l'évolution par sélection naturelle ?",
+        "correctAnswer": "Charles Darwin",
+        "choices": ["Charles Darwin", "Isaac Newton", "Albert Einstein", "Gregor Mendel"],
+        "anecdote": "Charles Darwin a proposé la théorie de l'évolution par sélection naturelle dans son ouvrage 'L'Origine des espèces' publié en 1859."
+    },
+    {
+        "question": "Quel compositeur allemand a écrit la 'Symphonie No. 9' connue sous le nom d' 'Ode à la joie' ?",
+        "correctAnswer": "Beethoven",
+        "choices": ["Beethoven", "Bach", "Mozart", "Haydn"],
+        "anecdote": "Ludwig van Beethoven a composé la 'Symphonie No. 9', qui inclut l' 'Ode à la joie', un hymne à la fraternité humaine."
+    },
+    {
+        "question": "Quelle ville est connue pour ses canaux et ses gondoles en Italie ?",
+        "correctAnswer": "Venise",
+        "choices": ["Venise", "Rome", "Florence", "Milan"],
+        "anecdote": "Venise, surnommée la 'Sérénissime', est célèbre pour ses canaux et ses gondoles, offrant un cadre romantique et historique."
+    },
+    {
+        "question": "Quelle bataille a marqué la défaite finale de Napoléon en 1815 ?",
+        "correctAnswer": "Waterloo",
+        "choices": ["Waterloo", "Austerlitz", "Trafalgar", "Borodino"],
+        "anecdote": "La bataille de Waterloo en 1815 a marqué la défaite finale de Napoléon Bonaparte face aux armées alliées commandées par le duc de Wellington."
+    }
+  ],
+  "Expert": [
+    {
+      "question": "Quel scientifique italien a été le premier à observer les lunes de Jupiter en 1610 ?",
+      "correctAnswer": "Galilée",
+      "choices": ["Galilée", "Kepler", "Copernic", "Brahe"],
+      "anecdote": "Galilée a découvert les quatre plus grandes lunes de Jupiter, appelées aujourd'hui lunes galiléennes, avec son télescope en 1610."
+    },
+    {
+        "question": "Quel philosophe grec a été condamné à mort par empoisonnement pour avoir corrompu la jeunesse d'Athènes ?",
+        "correctAnswer": "Socrate",
+        "choices": ["Socrate", "Platon", "Aristote", "Pythagore"],
+        "anecdote": "Socrate a été condamné à boire la ciguë en 399 av. J.-C. pour avoir prétendument corrompu la jeunesse d'Athènes avec ses idées philosophiques."
+    },
+    {
+        "question": "Quel empire ancien était dirigé par les Hittites, connus pour leur usage précoce du fer ?",
+        "correctAnswer": "Empire hittite",
+        "choices": ["Empire hittite", "Empire assyrien", "Empire babylonien", "Empire égyptien"],
+        "anecdote": "Les Hittites ont établi un empire puissant en Anatolie (Turquie moderne) au deuxième millénaire avant J.-C. et sont reconnus pour leurs compétences en métallurgie du fer."
+    },
+    {
+        "question": "Quel physicien danois a développé le modèle atomique qui porte son nom, basé sur la quantification des niveaux d'énergie ?",
+        "correctAnswer": "Niels Bohr",
+        "choices": ["Niels Bohr", "Ernest Rutherford", "Max Planck", "Werner Heisenberg"],
+        "anecdote": "Niels Bohr a proposé le modèle atomique en 1913, dans lequel les électrons orbitent autour du noyau à des niveaux d'énergie quantifiés."
+    },
+    {
+        "question": "Quelle ville de l'ancienne Mésopotamie est souvent considérée comme la première véritable civilisation urbaine ?",
+        "correctAnswer": "Uruk",
+        "choices": ["Uruk", "Babylone", "Akkad", "Ninive"],
+        "anecdote": "Uruk, située en Mésopotamie, est souvent considérée comme la première véritable civilisation urbaine, ayant atteint son apogée vers 2900 av. J.-C."
+    },
+    {
+        "question": "Quel compositeur autrichien a écrit l'opéra 'Don Giovanni' ?",
+        "correctAnswer": "Mozart",
+        "choices": ["Mozart", "Beethoven", "Haydn", "Schubert"],
+        "anecdote": "Wolfgang Amadeus Mozart a composé 'Don Giovanni', un opéra en deux actes, qui a été créé en 1787 à Prague."
+    },
+    {
+        "question": "Quel est le nom du traité de paix qui a mis fin à la guerre de Trente Ans en 1648 ?",
+        "correctAnswer": "Traité de Westphalie",
+        "choices": ["Traité de Westphalie", "Traité de Versailles", "Traité de Paris", "Traité d'Utrecht"],
+        "anecdote": "Le Traité de Westphalie, signé en 1648, a mis fin à la guerre de Trente Ans et a marqué le début de l'État-nation moderne en Europe."
+    },
+    {
+        "question": "Quel est le nom de la première femme à recevoir un prix Nobel, et dans quel domaine l'a-t-elle reçu ?",
+        "correctAnswer": "Marie Curie, Physique",
+        "choices": ["Marie Curie, Physique", "Dorothy Hodgkin, Chimie", "Rosalind Franklin, Médecine", "Irène Joliot-Curie, Chimie"],
+        "anecdote": "Marie Curie a reçu le prix Nobel de physique en 1903 pour ses recherches sur la radioactivité, devenant la première femme à recevoir ce prix."
+    },
+    {
+        "question": "Quel philosophe a écrit 'Ainsi parlait Zarathoustra' ?",
+        "correctAnswer": "Nietzsche",
+        "choices": ["Nietzsche", "Kant", "Hegel", "Schopenhauer"],
+        "anecdote": "Friedrich Nietzsche a écrit 'Ainsi parlait Zarathoustra', une œuvre philosophique majeure publiée en plusieurs parties entre 1883 et 1885."
+    },
+    {
+        "question": "Quel empereur romain a divisé l'Empire romain en deux parties, orientale et occidentale, en 285 ?",
+        "correctAnswer": "Dioclétien",
+        "choices": ["Dioclétien", "Constantin", "Auguste", "Néron"],
+        "anecdote": "Dioclétien a divisé l'Empire romain en deux parties en 285, établissant la Tétrarchie pour une gestion plus efficace de l'empire."
+    },
+    {
+        "question": "Quel scientifique allemand a formulé la théorie de la relativité générale ?",
+        "correctAnswer": "Einstein",
+        "choices": ["Einstein", "Newton", "Bohr", "Feynman"],
+        "anecdote": "Albert Einstein a formulé la théorie de la relativité générale en 1915, une théorie qui décrit la gravitation comme une courbure de l'espace-temps."
+    },
+    {
+        "question": "Quel empereur byzantin est connu pour son code de lois, le 'Corpus Juris Civilis' ?",
+        "correctAnswer": "Justinien Ier",
+        "choices": ["Justinien Ier", "Constantin Ier", "Hadrien", "Dioclétien"],
+        "anecdote": "L'empereur Justinien Ier a compilé le 'Corpus Juris Civilis' au VIe siècle, une œuvre majeure qui a influencé le droit européen."
+    },
+    {
+        "question": "Quel auteur russe a écrit le roman 'Crime et Châtiment' ?",
+        "correctAnswer": "Dostoïevski",
+        "choices": ["Dostoïevski", "Tolstoï", "Tchekhov", "Gogol"],
+        "anecdote": "Fiodor Dostoïevski a écrit 'Crime et Châtiment', un roman publié en 1866 qui explore la psychologie de la culpabilité et du remords."
+    },
+    {
+        "question": "Quel philosophe des Lumières est connu pour son œuvre 'Candide' ?",
+        "correctAnswer": "Voltaire",
+        "choices": ["Voltaire", "Rousseau", "Diderot", "Montesquieu"],
+        "anecdote": "Voltaire a écrit 'Candide' en 1759, une satire philosophique qui critique l'optimisme et les institutions de son époque."
+    },
+    {
+        "question": "Quel pays a construit la Grande Muraille pour se protéger des invasions ?",
+        "correctAnswer": "Chine",
+        "choices": ["Chine", "Japon", "Mongolie", "Corée"],
+        "anecdote": "La Grande Muraille de Chine a été construite sur plusieurs dynasties pour protéger le pays des invasions nomades du nord."
+    },
+    {
+        "question": "Quel peintre néerlandais est connu pour ses œuvres de l'âge d'or comme 'La Jeune Fille à la perle' ?",
+        "correctAnswer": "Vermeer",
+        "choices": ["Vermeer", "Rembrandt", "Hals", "Rubens"],
+        "anecdote": "Johannes Vermeer est célèbre pour ses scènes de la vie quotidienne et ses portraits, notamment 'La Jeune Fille à la perle'."
+    },
+    {
+        "question": "Quel écrivain britannique est l'auteur de '1984' ?",
+        "correctAnswer": "George Orwell",
+        "choices": ["George Orwell", "Aldous Huxley", "J.R.R. Tolkien", "C.S. Lewis"],
+        "anecdote": "George Orwell a écrit '1984', un roman dystopique publié en 1949 qui explore les thèmes de la surveillance et du totalitarisme."
+    },
+    {
+        "question": "Quel ancien empire est connu pour ses guerriers redoutables et sa capitale à Tenochtitlan ?",
+        "correctAnswer": "Aztèque",
+        "choices": ["Aztèque", "Inca", "Maya", "Olmèque"],
+        "anecdote": "L'empire aztèque, avec sa capitale à Tenochtitlan (aujourd'hui Mexico), était connu pour ses guerriers et ses sacrifices humains."
+    },
+    {
+      "question": "Quel est le nom du traité de paix signé en 1713 qui a mis fin à la guerre de Succession d'Espagne ?",
+      "correctAnswer": "Traité d'Utrecht",
+      "choices": ["Traité d'Utrecht", "Traité de Paris", "Traité de Versailles", "Traité de Westphalie"],
+      "anecdote": "Le Traité d'Utrecht, signé en 1713, a mis fin à la guerre de Succession d'Espagne et a redistribué les territoires européens."
+    },
+    {
+        "question": "Quel architecte américain est célèbre pour la conception de la maison 'Fallingwater' ?",
+        "correctAnswer": "Frank Lloyd Wright",
+        "choices": ["Frank Lloyd Wright", "Le Corbusier", "Mies van der Rohe", "Philip Johnson"],
+        "anecdote": "Frank Lloyd Wright a conçu 'Fallingwater' en 1935, une maison emblématique intégrée à son environnement naturel en Pennsylvanie."
+    },
+    {
+        "question": "Quel philosophe allemand est l'auteur de 'La Critique de la raison pure' ?",
+        "correctAnswer": "Kant",
+        "choices": ["Kant", "Hegel", "Schopenhauer", "Nietzsche"],
+        "anecdote": "Immanuel Kant a écrit 'La Critique de la raison pure' en 1781, une œuvre majeure de la philosophie qui explore les limites de la connaissance humaine."
+    },
+    {
+        "question": "Quel ancien empire est connu pour sa capitale Pétra, une cité taillée dans la roche ?",
+        "correctAnswer": "Nabatéen",
+        "choices": ["Nabatéen", "Assyrien", "Babylonien", "Phénicien"],
+        "anecdote": "L'empire nabatéen, avec sa capitale Pétra en Jordanie, est célèbre pour ses structures monumentales taillées dans la roche."
+    },
+    {
+        "question": "Quel auteur français est célèbre pour son roman 'À la recherche du temps perdu' ?",
+        "correctAnswer": "Marcel Proust",
+        "choices": ["Marcel Proust", "Albert Camus", "Jean-Paul Sartre", "Émile Zola"],
+        "anecdote": "Marcel Proust est l'auteur de 'À la recherche du temps perdu', une œuvre monumentale publiée en sept volumes entre 1913 et 1927."
+    },
+    {
+        "question": "Quel est le nom du premier ordinateur programmable, créé en 1941 par Konrad Zuse ?",
+        "correctAnswer": "Z3",
+        "choices": ["Z3", "ENIAC", "UNIVAC", "Colossus"],
+        "anecdote": "Le Z3, créé par l'ingénieur allemand Konrad Zuse en 1941, est considéré comme le premier ordinateur programmable et pleinement fonctionnel."
+    },
+    {
+        "question": "Quel scientifique a découvert la pénicilline en 1928 ?",
+        "correctAnswer": "Alexander Fleming",
+        "choices": ["Alexander Fleming", "Louis Pasteur", "Robert Koch", "Paul Ehrlich"],
+        "anecdote": "Alexander Fleming a découvert la pénicilline en 1928, une révolution dans le traitement des infections bactériennes."
+    },
+    {
+        "question": "Quel empire précolombien avait sa capitale à Cuzco ?",
+        "correctAnswer": "Inca",
+        "choices": ["Inca", "Aztèque", "Maya", "Olmèque"],
+        "anecdote": "L'empire inca, dont la capitale était Cuzco au Pérou, est célèbre pour ses avancées en ingénierie et architecture, notamment Machu Picchu."
+    },
+    {
+        "question": "Quel écrivain russe est l'auteur du roman 'Anna Karénine' ?",
+        "correctAnswer": "Tolstoï",
+        "choices": ["Tolstoï", "Dostoïevski", "Tchekhov", "Gorki"],
+        "anecdote": "Léon Tolstoï a écrit 'Anna Karénine', un roman publié en 1877 qui explore la vie, l'amour et la société russe de l'époque."
+    },
+    {
+        "question": "Quel explorateur portugais a été le premier Européen à atteindre l'Inde par la mer en 1498 ?",
+        "correctAnswer": "Vasco de Gama",
+        "choices": ["Vasco de Gama", "Magellan", "Colomb", "Cabral"],
+        "anecdote": "Vasco de Gama a atteint l'Inde en 1498, ouvrant une nouvelle route maritime pour le commerce des épices entre l'Europe et l'Asie."
     }
   ]
 }

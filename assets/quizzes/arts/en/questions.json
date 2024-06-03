@@ -1,11 +1,404 @@
 {
-  "results": [
+  "Beginner": [
     {
-      "question": "What is the capital of France?",
-      "correctAnswer": "Paris",
-      "choices": ["Paris", "London", "Berlin", "Madrid"],
-      "anecdote": "Paris is the capital city of France.",
-      "wikipedia": "https://en.wikipedia.org/wiki/Paris"
+      "question": "Who painted the famous artwork 'Starry Night'?",
+      "correctAnswer": "Vincent van Gogh",
+      "choices": ["Vincent van Gogh", "Claude Monet", "Pablo Picasso", "Leonardo da Vinci"],
+      "anecdote": "'Starry Night' is one of Vincent van Gogh's most famous works, painted while he was in a mental asylum in 1889."
+    },
+    {
+        "question": "Which artist is known for his melting clocks in 'The Persistence of Memory'?",
+        "correctAnswer": "Salvador Dalí",
+        "choices": ["Salvador Dalí", "Pablo Picasso", "Joan Miró", "Max Ernst"],
+        "anecdote": "Salvador Dalí's 'The Persistence of Memory' features melting clocks and is a key example of Surrealism."
+    },
+    {
+        "question": "What nationality was the painter Frida Kahlo?",
+        "correctAnswer": "Mexican",
+        "choices": ["Mexican", "Spanish", "Italian", "French"],
+        "anecdote": "Frida Kahlo was a Mexican painter known for her vivid self-portraits and works inspired by the nature and artifacts of Mexico."
+    },
+    {
+        "question": "Which famous artist cut off part of his own ear?",
+        "correctAnswer": "Vincent van Gogh",
+        "choices": ["Vincent van Gogh", "Pablo Picasso", "Claude Monet", "Henri Matisse"],
+        "anecdote": "Vincent van Gogh cut off part of his ear in 1888, a well-documented event in his troubled life."
+    },
+    {
+        "question": "Who painted the 'Mona Lisa'?",
+        "correctAnswer": "Leonardo da Vinci",
+        "choices": ["Leonardo da Vinci", "Michelangelo", "Raphael", "Donatello"],
+        "anecdote": "Leonardo da Vinci's 'Mona Lisa' is one of the most famous portraits in the world, known for its mysterious smile."
+    },
+    {
+        "question": "Which artist is famous for the painting 'The Scream'?",
+        "correctAnswer": "Edvard Munch",
+        "choices": ["Edvard Munch", "Gustav Klimt", "Paul Klee", "Wassily Kandinsky"],
+        "anecdote": "'The Scream' by Edvard Munch is an iconic work of art, symbolizing modern existential angst."
+    },
+    {
+        "question": "Who painted the ceiling of the Sistine Chapel?",
+        "correctAnswer": "Michelangelo",
+        "choices": ["Michelangelo", "Leonardo da Vinci", "Raphael", "Titian"],
+        "anecdote": "Michelangelo spent four years painting the ceiling of the Sistine Chapel, creating a masterpiece of Renaissance art."
+    },
+    {
+        "question": "Which famous artist was also a scientist and inventor?",
+        "correctAnswer": "Leonardo da Vinci",
+        "choices": ["Leonardo da Vinci", "Galileo Galilei", "Isaac Newton", "Albert Einstein"],
+        "anecdote": "Leonardo da Vinci was a polymath whose interests included art, science, and invention, exemplified by his numerous sketches and designs."
+    },
+    {
+        "question": "Who is known for his 'Blue Period' and 'Rose Period'?",
+        "correctAnswer": "Pablo Picasso",
+        "choices": ["Pablo Picasso", "Salvador Dalí", "Joan Miró", "Henri Matisse"],
+        "anecdote": "Pablo Picasso's 'Blue Period' and 'Rose Period' were characterized by somber tones and themes followed by more cheerful and warm colors."
+    },
+    {
+        "question": "Which artist created the famous sculpture 'The Thinker'?",
+        "correctAnswer": "Auguste Rodin",
+        "choices": ["Auguste Rodin", "Michelangelo", "Donatello", "Gian Lorenzo Bernini"],
+        "anecdote": "Auguste Rodin's 'The Thinker' is one of his most famous works, depicting a man deep in thought."
+    },
+    {
+        "question": "Who painted 'The Last Supper'?",
+        "correctAnswer": "Leonardo da Vinci",
+        "choices": ["Leonardo da Vinci", "Michelangelo", "Raphael", "Titian"],
+        "anecdote": "Leonardo da Vinci's 'The Last Supper' is a renowned mural painting depicting Jesus and his disciples at the last supper."
+    },
+    {
+        "question": "Which artist is famous for his Campbell's Soup Can paintings?",
+        "correctAnswer": "Andy Warhol",
+        "choices": ["Andy Warhol", "Roy Lichtenstein", "Jackson Pollock", "Mark Rothko"],
+        "anecdote": "Andy Warhol's Campbell's Soup Can paintings are iconic works of the Pop Art movement."
+    },
+    {
+        "question": "Which Dutch artist is known for his self-portraits and 'The Night Watch'?",
+        "correctAnswer": "Rembrandt",
+        "choices": ["Rembrandt", "Vincent van Gogh", "Piet Mondrian", "Johannes Vermeer"],
+        "anecdote": "Rembrandt is renowned for his self-portraits and his painting 'The Night Watch', showcasing his mastery of light and shadow."
+    },
+    {
+        "question": "Who painted 'Water Lilies'?",
+        "correctAnswer": "Claude Monet",
+        "choices": ["Claude Monet", "Edgar Degas", "Pierre-Auguste Renoir", "Camille Pissarro"],
+        "anecdote": "Claude Monet's 'Water Lilies' series captures the beauty of his garden at Giverny and exemplifies Impressionism."
+    },
+    {
+        "question": "Which artist is famous for his abstract drip paintings?",
+        "correctAnswer": "Jackson Pollock",
+        "choices": ["Jackson Pollock", "Mark Rothko", "Willem de Kooning", "Franz Kline"],
+        "anecdote": "Jackson Pollock's abstract drip paintings, created by dripping and splashing paint onto a canvas, are iconic works of Abstract Expressionism."
+    },
+    {
+        "question": "Who created the sculpture 'David'?",
+        "correctAnswer": "Michelangelo",
+        "choices": ["Michelangelo", "Donatello", "Bernini", "Cellini"],
+        "anecdote": "Michelangelo's 'David' is a masterpiece of Renaissance sculpture, showcasing the artist's skill in depicting the human form."
+    },
+    {
+        "question": "Which artist painted 'The Birth of Venus'?",
+        "correctAnswer": "Botticelli",
+        "choices": ["Botticelli", "Titian", "Caravaggio", "Leonardo da Vinci"],
+        "anecdote": "Sandro Botticelli painted 'The Birth of Venus', a famous depiction of the goddess Venus emerging from the sea."
+    },
+    {
+        "question": "Which artist is known for his colorful squares and rectangles in the style of De Stijl?",
+        "correctAnswer": "Piet Mondrian",
+        "choices": ["Piet Mondrian", "Kazimir Malevich", "Wassily Kandinsky", "Paul Klee"],
+        "anecdote": "Piet Mondrian's works, characterized by geometric shapes and primary colors, are central to the De Stijl movement."
+    },
+    {
+        "question": "Which artist painted 'Girl with a Pearl Earring'?",
+        "correctAnswer": "Johannes Vermeer",
+        "choices": ["Johannes Vermeer", "Rembrandt", "Frans Hals", "Pieter de Hooch"],
+        "anecdote": "Johannes Vermeer's 'Girl with a Pearl Earring' is renowned for its delicate use of light and color."
+    },
+    {
+        "question": "Who created the 'Gates of Hell' sculpture?",
+        "correctAnswer": "Rodin",
+        "choices": ["Rodin", "Bernini", "Michelangelo", "Canova"],
+        "anecdote": "Auguste Rodin's 'Gates of Hell' is a monumental sculptural group inspired by Dante's 'Inferno'."
+    },
+    {
+        "question": "Which painter is famous for the painting 'American Gothic'?",
+        "correctAnswer": "Grant Wood",
+        "choices": ["Grant Wood", "Edward Hopper", "Georgia O'Keeffe", "Thomas Hart Benton"],
+        "anecdote": "Grant Wood's 'American Gothic' is one of the most iconic images of American art, depicting a farmer and his daughter."
+    },
+    {
+        "question": "Which Spanish artist painted 'Las Meninas'?",
+        "correctAnswer": "Velázquez",
+        "choices": ["Velázquez", "Goya", "El Greco", "Murillo"],
+        "anecdote": "Diego Velázquez's 'Las Meninas' is a complex and enigmatic painting that has fascinated viewers and art historians for centuries."
+    },
+    {
+        "question": "Which artist is known for his 'Sunflowers' series?",
+        "correctAnswer": "Vincent van Gogh",
+        "choices": ["Vincent van Gogh", "Claude Monet", "Paul Gauguin", "Édouard Manet"],
+        "anecdote": "Vincent van Gogh's 'Sunflowers' series is celebrated for its vibrant colors and expressive brushstrokes."
+    }
+  ],
+  "Confirmed": [
+    {
+      "question": "Which artist is known for his series of paintings featuring water lilies?",
+      "correctAnswer": "Claude Monet",
+      "choices": ["Claude Monet", "Vincent van Gogh", "Edgar Degas", "Paul Cézanne"],
+      "anecdote": "Claude Monet's water lilies series, painted in his garden at Giverny, are masterpieces of Impressionism, exploring light and reflection."
+    },
+    {
+        "question": "Who painted the 'School of Athens' fresco?",
+        "correctAnswer": "Raphael",
+        "choices": ["Raphael", "Michelangelo", "Leonardo da Vinci", "Titian"],
+        "anecdote": "Raphael's 'School of Athens' depicts various classical philosophers and is located in the Vatican's Apostolic Palace."
+    },
+    {
+        "question": "Which artist is known for pioneering the use of pointillism?",
+        "correctAnswer": "Georges Seurat",
+        "choices": ["Georges Seurat", "Paul Signac", "Henri Matisse", "Paul Gauguin"],
+        "anecdote": "Georges Seurat developed pointillism, a technique using small dots of color to create a cohesive image when viewed from a distance."
+    },
+    {
+        "question": "Who created the famous 'Nighthawks' painting?",
+        "correctAnswer": "Edward Hopper",
+        "choices": ["Edward Hopper", "Grant Wood", "Georgia O'Keeffe", "Andrew Wyeth"],
+        "anecdote": "Edward Hopper's 'Nighthawks' depicts an all-night diner in 1942 and is known for its use of light and shadow."
+    },
+    {
+        "question": "Which painter is famous for his works featuring ballerinas?",
+        "correctAnswer": "Edgar Degas",
+        "choices": ["Edgar Degas", "Claude Monet", "Pierre-Auguste Renoir", "Henri Toulouse-Lautrec"],
+        "anecdote": "Edgar Degas is renowned for his paintings and sculptures of ballerinas, capturing their grace and movement."
+    },
+    {
+        "question": "Which artist painted 'The Persistence of Memory' featuring melting clocks?",
+        "correctAnswer": "Salvador Dalí",
+        "choices": ["Salvador Dalí", "Pablo Picasso", "Joan Miró", "Max Ernst"],
+        "anecdote": "Salvador Dalí's 'The Persistence of Memory' is one of the most recognizable works of Surrealism, famous for its melting clocks."
+    },
+    {
+        "question": "Who was the main proponent of the color field painting style?",
+        "correctAnswer": "Mark Rothko",
+        "choices": ["Mark Rothko", "Jackson Pollock", "Barnett Newman", "Willem de Kooning"],
+        "anecdote": "Mark Rothko is known for his color field paintings, featuring large areas of color to evoke emotional responses."
+    },
+    {
+        "question": "Which artist is famous for the 'Demoiselles d'Avignon' painting?",
+        "correctAnswer": "Pablo Picasso",
+        "choices": ["Pablo Picasso", "Georges Braque", "Henri Matisse", "Juan Gris"],
+        "anecdote": "Pablo Picasso's 'Les Demoiselles d'Avignon' is considered a pivotal work in the development of Cubism."
+    },
+    {
+        "question": "Which sculptor created the work 'Bird in Space'?",
+        "correctAnswer": "Constantin Brancusi",
+        "choices": ["Constantin Brancusi", "Henry Moore", "Jean Arp", "Alexander Calder"],
+        "anecdote": "Constantin Brancusi's 'Bird in Space' series focuses on the essence of flight, simplified into sleek, elongated forms."
+    },
+    {
+        "question": "Who painted 'The Garden of Earthly Delights'?",
+        "correctAnswer": "Hieronymus Bosch",
+        "choices": ["Hieronymus Bosch", "Pieter Bruegel the Elder", "Albrecht Dürer", "Jan van Eyck"],
+        "anecdote": "'The Garden of Earthly Delights' by Hieronymus Bosch is a triptych depicting paradise, earthly pleasures, and hell."
+    },
+    {
+        "question": "Which artist is known for the 'Black Square' painting?",
+        "correctAnswer": "Kazimir Malevich",
+        "choices": ["Kazimir Malevich", "Piet Mondrian", "Wassily Kandinsky", "Paul Klee"],
+        "anecdote": "Kazimir Malevich's 'Black Square' is a seminal work of Suprematism, emphasizing basic geometric forms and pure abstraction."
+    },
+    {
+        "question": "Who is known for his expressive, swirling lines in paintings like 'The Starry Night'?",
+        "correctAnswer": "Vincent van Gogh",
+        "choices": ["Vincent van Gogh", "Claude Monet", "Paul Gauguin", "Henri Rousseau"],
+        "anecdote": "Vincent van Gogh's use of swirling lines in 'The Starry Night' conveys a sense of movement and emotional intensity."
+    },
+    {
+        "question": "Which artist created the mobile sculpture?",
+        "correctAnswer": "Alexander Calder",
+        "choices": ["Alexander Calder", "Jean Tinguely", "David Smith", "Naum Gabo"],
+        "anecdote": "Alexander Calder is credited with creating the mobile, a kinetic sculpture that moves with air currents."
+    },
+    {
+        "question": "Who painted the 'Olympia' in 1863, causing significant controversy?",
+        "correctAnswer": "Édouard Manet",
+        "choices": ["Édouard Manet", "Claude Monet", "Paul Cézanne", "Gustave Courbet"],
+        "anecdote": "Édouard Manet's 'Olympia' scandalized viewers with its portrayal of a nude woman, challenging traditional depictions of the female form."
+    },
+    {
+        "question": "Which artist painted 'The Hay Wain'?",
+        "correctAnswer": "John Constable",
+        "choices": ["John Constable", "J.M.W. Turner", "Thomas Gainsborough", "William Blake"],
+        "anecdote": "John Constable's 'The Hay Wain' is a quintessentially English landscape painting, celebrating the rural countryside."
+    },
+    {
+        "question": "Who was the leading figure of the Mexican muralism movement?",
+        "correctAnswer": "Diego Rivera",
+        "choices": ["Diego Rivera", "David Alfaro Siqueiros", "José Clemente Orozco", "Frida Kahlo"],
+        "anecdote": "Diego Rivera was a central figure in the Mexican muralism movement, known for his large-scale murals depicting social and political themes."
+    },
+    {
+        "question": "Which artist painted 'Guernica' to protest the bombing of the Basque town during the Spanish Civil War?",
+        "correctAnswer": "Pablo Picasso",
+        "choices": ["Pablo Picasso", "Salvador Dalí", "Joan Miró", "Francisco Goya"],
+        "anecdote": "Pablo Picasso's 'Guernica' is a powerful anti-war statement, depicting the horrors of the bombing of Guernica in 1937."
+    },
+    {
+        "question": "Which artist's work is characterized by his depiction of the harsh realities of the working class in the 19th century?",
+        "correctAnswer": "Gustave Courbet",
+        "choices": ["Gustave Courbet", "Honoré Daumier", "Jean-François Millet", "Edouard Manet"],
+        "anecdote": "Gustave Courbet was a leading figure of Realism, portraying the lives of ordinary people and the working class with unflinching honesty."
+    },
+    {
+        "question": "Who painted 'The Night Watch'?",
+        "correctAnswer": "Rembrandt",
+        "choices": ["Rembrandt", "Johannes Vermeer", "Frans Hals", "Peter Paul Rubens"],
+        "anecdote": "Rembrandt's 'The Night Watch' is famous for its dramatic use of light and shadow, as well as its dynamic composition."
+    },
+    {
+        "question": "Which French artist is known for his paintings of Tahitian life?",
+        "correctAnswer": "Paul Gauguin",
+        "choices": ["Paul Gauguin", "Henri Rousseau", "Camille Pissarro", "Edgar Degas"],
+        "anecdote": "Paul Gauguin's paintings of Tahitian life are celebrated for their vibrant colors and exotic subject matter, reflecting his search for a purer artistic expression."
+    },
+    {
+        "question": "Which Baroque artist is known for his dramatic use of chiaroscuro?",
+        "correctAnswer": "Caravaggio",
+        "choices": ["Caravaggio", "Peter Paul Rubens", "Rembrandt", "Diego Velázquez"],
+        "anecdote": "Caravaggio's use of chiaroscuro, the contrast between light and dark, revolutionized Baroque painting and influenced countless artists."
+    }
+  ],
+  "Expert": [
+    {
+      "question": "Who painted 'The Garden of Earthly Delights'?",
+      "correctAnswer": "Bosch",
+      "choices": ["Bosch", "Bruegel", "Dürer", "Rubens"],
+      "anecdote": "Hieronymus Bosch's triptych 'The Garden of Earthly Delights' is known for its detailed and imaginative scenes of paradise, earthly delights, and hell."
+    },
+    {
+        "question": "Which artist's 'The Raft of the Medusa' is a seminal work of Romanticism?",
+        "correctAnswer": "Géricault",
+        "choices": ["Géricault", "Delacroix", "Ingres", "David"],
+        "anecdote": "Théodore Géricault's 'The Raft of the Medusa' depicts the aftermath of a contemporary French shipwreck and is a powerful example of Romanticism."
+    },
+    {
+        "question": "Who is known for the painting 'The Death of Marat'?",
+        "correctAnswer": "David",
+        "choices": ["David", "Delacroix", "Géricault", "Ingres"],
+        "anecdote": "Jacques-Louis David's 'The Death of Marat' is a striking portrayal of the murdered French revolutionary leader Jean-Paul Marat."
+    },
+    {
+        "question": "Which artist is known for the fresco 'The School of Athens'?",
+        "correctAnswer": "Raphael",
+        "choices": ["Raphael", "Michelangelo", "Leonardo", "Titian"],
+        "anecdote": "Raphael's 'The School of Athens' is a masterpiece of High Renaissance art, representing philosophy and featuring figures like Plato and Aristotle."
+    },
+    {
+        "question": "Who created the sculpture 'The Kiss'?",
+        "correctAnswer": "Rodin",
+        "choices": ["Rodin", "Canova", "Bernini", "Michelangelo"],
+        "anecdote": "Auguste Rodin's sculpture 'The Kiss' is celebrated for its sensuality and detailed depiction of two lovers embracing."
+    },
+    {
+        "question": "Which artist painted 'The Night Watch'?",
+        "correctAnswer": "Rembrandt",
+        "choices": ["Rembrandt", "Vermeer", "Hals", "Rubens"],
+        "anecdote": "Rembrandt's 'The Night Watch' is notable for its large size, dramatic use of light and shadow, and dynamic composition."
+    },
+    {
+        "question": "Who painted 'The Third of May 1808'?",
+        "correctAnswer": "Goya",
+        "choices": ["Goya", "Velázquez", "El Greco", "Murillo"],
+        "anecdote": "Francisco Goya's 'The Third of May 1808' commemorates Spanish resistance to Napoleon's armies and is a powerful anti-war statement."
+    },
+    {
+        "question": "Which artist is known for the painting 'Impression, Sunrise'?",
+        "correctAnswer": "Monet",
+        "choices": ["Monet", "Manet", "Renoir", "Pissarro"],
+        "anecdote": "Claude Monet's 'Impression, Sunrise' is the work that gave the Impressionist movement its name, depicting the port of Le Havre at sunrise."
+    },
+    {
+        "question": "Who created the series of paintings known as 'The Disasters of War'?",
+        "correctAnswer": "Goya",
+        "choices": ["Goya", "Picasso", "Velázquez", "Dalí"],
+        "anecdote": "Francisco Goya's 'The Disasters of War' series of prints graphically depicts the horrors of the Peninsular War between Spain and Napoleon's France."
+    },
+    {
+        "question": "Who painted 'The Birth of Venus'?",
+        "correctAnswer": "Botticelli",
+        "choices": ["Botticelli", "Titian", "Raphael", "Michelangelo"],
+        "anecdote": "Sandro Botticelli's 'The Birth of Venus' is an iconic Renaissance painting depicting the goddess Venus emerging from the sea."
+    },
+    {
+        "question": "Who painted 'The Persistence of Memory'?",
+        "correctAnswer": "Dalí",
+        "choices": ["Dalí", "Picasso", "Miró", "Ernst"],
+        "anecdote": "Salvador Dalí's 'The Persistence of Memory' is famous for its surreal, melting clocks and dream-like landscape."
+    },
+    {
+        "question": "Who painted 'Guernica'?",
+        "correctAnswer": "Picasso",
+        "choices": ["Picasso", "Miró", "Dalí", "Goya"],
+        "anecdote": "Pablo Picasso's 'Guernica' is a powerful anti-war painting depicting the bombing of the Basque town of Guernica during the Spanish Civil War."
+    },
+    {
+        "question": "Which artist is known for the series of paintings titled 'Water Lilies'?",
+        "correctAnswer": "Monet",
+        "choices": ["Monet", "Manet", "Degas", "Cézanne"],
+        "anecdote": "Claude Monet's 'Water Lilies' series captures the beauty of his garden in Giverny and is a seminal work of Impressionism."
+    },
+    {
+        "question": "Who painted 'Liberty Leading the People'?",
+        "correctAnswer": "Delacroix",
+        "choices": ["Delacroix", "David", "Géricault", "Ingres"],
+        "anecdote": "Eugène Delacroix's 'Liberty Leading the People' commemorates the July Revolution of 1830 in France and is a symbol of freedom and resistance."
+    },
+    {
+        "question": "Which artist created 'The Arnolfini Portrait'?",
+        "correctAnswer": "Van Eyck",
+        "choices": ["Van Eyck", "Bosch", "Bruegel", "Dürer"],
+        "anecdote": "Jan van Eyck's 'The Arnolfini Portrait' is a highly detailed and symbolic work, often interpreted as a depiction of a marriage contract."
+    },
+    {
+        "question": "Who painted 'The Hay Wain'?",
+        "correctAnswer": "Constable",
+        "choices": ["Constable", "Turner", "Gainsborough", "Blake"],
+        "anecdote": "John Constable's 'The Hay Wain' is celebrated for its idyllic representation of the English countryside and mastery of light."
+    },
+    {
+        "question": "Which artist created 'The Kiss' (1907-1908) using gold leaf?",
+        "correctAnswer": "Klimt",
+        "choices": ["Klimt", "Schiele", "Kokoschka", "Munch"],
+        "anecdote": "Gustav Klimt's 'The Kiss' is a masterpiece of the Vienna Secession, known for its use of gold leaf and erotic symbolism."
+    },
+    {
+        "question": "Who painted 'The Scream'?",
+        "correctAnswer": "Munch",
+        "choices": ["Munch", "Klimt", "Schiele", "Hopper"],
+        "anecdote": "Edvard Munch's 'The Scream' is an iconic expressionist work that captures a moment of existential angst and despair."
+    },
+    {
+        "question": "Who is the artist behind the series 'Campbell's Soup Cans'?",
+        "correctAnswer": "Warhol",
+        "choices": ["Warhol", "Lichtenstein", "Oldenburg", "Rosenquist"],
+        "anecdote": "Andy Warhol's 'Campbell's Soup Cans' series is a defining work of Pop Art, reflecting the commercialization of modern society."
+    },
+    {
+        "question": "Which artist painted 'The Blue Rider'?",
+        "correctAnswer": "Kandinsky",
+        "choices": ["Kandinsky", "Klee", "Macke", "Marc"],
+        "anecdote": "Wassily Kandinsky's 'The Blue Rider' is a seminal work in the development of abstract art and was the namesake for the Blue Rider group."
+    },
+    {
+        "question": "Who painted 'The Death of Socrates'?",
+        "correctAnswer": "David",
+        "choices": ["David", "Delacroix", "Géricault", "Ingres"],
+        "anecdote": "Jacques-Louis David's 'The Death of Socrates' depicts the final moments of the philosopher Socrates as he prepares to drink hemlock."
+    },
+    {
+        "question": "Who created 'The Thinker' sculpture?",
+        "correctAnswer": "Rodin",
+        "choices": ["Rodin", "Brancusi", "Moore", "Giacometti"],
+        "anecdote": "Auguste Rodin's 'The Thinker' is one of his most famous works, representing a man in deep contemplation."
     }
   ]
 }

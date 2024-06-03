@@ -1,11 +1,8 @@
 {
-  "results": [
-    {
-      "question": "Quelle est la capitale de la France ?",
-      "correctAnswer": "Paris",
-      "choices": ["Paris", "Londres", "Berlin", "Madrid"],
-      "anecdote": "Paris est la capitale de la France.",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Paris"
-    }
+  "Beginner": [
+  ],
+  "Confirmed": [
+  ],
+  "Expert": [
   ]
 }

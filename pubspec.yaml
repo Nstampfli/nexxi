@@ -74,6 +74,8 @@ flutter:
     - assets/quizzes/cinema/en/questions.json
     - assets/quizzes/general_culture/fr/questions.json
     - assets/quizzes/general_culture/en/questions.json
+    - assets/quizzes/video_games/fr/questions.json
+    - assets/quizzes/video_games/en/questions.json
     - assets/quizzes/gastronomy/fr/questions.json
     - assets/quizzes/gastronomy/en/questions.json
     - assets/quizzes/geography/fr/questions.json

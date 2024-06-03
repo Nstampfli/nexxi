@@ -1,11 +1,386 @@
 {
-  "results": [
+  "Beginner": [
     {
-      "question": "What is the capital of France?",
-      "correctAnswer": "Paris",
-      "choices": ["Paris", "London", "Berlin", "Madrid"],
-      "anecdote": "Paris is the capital city of France.",
-      "wikipedia": "https://en.wikipedia.org/wiki/Paris"
+      "question": "Who was the first emperor of Rome?",
+      "correctAnswer": "Augustus",
+      "choices": ["Augustus", "Julius Caesar", "Nero", "Caligula"],
+      "anecdote": "Augustus, formerly known as Octavian, became the first emperor of Rome after the end of the Roman Republic."
+    },
+    {
+        "question": "Which ship did the Pilgrims sail on to reach America in 1620?",
+        "correctAnswer": "Mayflower",
+        "choices": ["Mayflower", "Santa Maria", "Endeavour", "Victoria"],
+        "anecdote": "The Mayflower transported the first Pilgrims from England to the New World, landing at Plymouth Rock."
+    },
+    {
+        "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
+        "correctAnswer": "Amelia Earhart",
+        "choices": ["Amelia Earhart", "Harriet Quimby", "Bessie Coleman", "Jacqueline Cochran"],
+        "anecdote": "Amelia Earhart made her historic solo flight across the Atlantic in 1932, becoming a pioneering aviator."
+    },
+    {
+        "question": "What ancient civilization built the Machu Picchu?",
+        "correctAnswer": "Inca",
+        "choices": ["Inca", "Maya", "Aztec", "Olmec"],
+        "anecdote": "Machu Picchu was constructed by the Inca civilization in the 15th century and is located in present-day Peru."
+    },
+    {
+        "question": "Who wrote the Declaration of Independence?",
+        "correctAnswer": "Thomas Jefferson",
+        "choices": ["Thomas Jefferson", "George Washington", "John Adams", "Benjamin Franklin"],
+        "anecdote": "Thomas Jefferson was the principal author of the Declaration of Independence, adopted on July 4, 1776."
+    },
+    {
+        "question": "Which war was fought between the North and South regions in the United States?",
+        "correctAnswer": "Civil War",
+        "choices": ["Civil War", "Revolutionary War", "War of 1812", "Mexican-American War"],
+        "anecdote": "The American Civil War was fought from 1861 to 1865, primarily over the issues of slavery and states' rights."
+    },
+    {
+        "question": "Who was the British Prime Minister during World War II?",
+        "correctAnswer": "Winston Churchill",
+        "choices": ["Winston Churchill", "Neville Chamberlain", "Clement Attlee", "Stanley Baldwin"],
+        "anecdote": "Winston Churchill led Britain through the darkest days of World War II with his inspirational speeches and leadership."
+    },
+    {
+        "question": "What wall was constructed to separate East and West Berlin during the Cold War?",
+        "correctAnswer": "Berlin Wall",
+        "choices": ["Berlin Wall", "Great Wall of China", "Iron Curtain", "Hadrian's Wall"],
+        "anecdote": "The Berlin Wall was built in 1961 to prevent East Germans from fleeing to the West and became a symbol of the Cold War."
+    },
+    {
+        "question": "Who discovered penicillin, the first antibiotic?",
+        "correctAnswer": "Alexander Fleming",
+        "choices": ["Alexander Fleming", "Louis Pasteur", "Joseph Lister", "Robert Koch"],
+        "anecdote": "Alexander Fleming discovered penicillin in 1928, revolutionizing the field of medicine by providing an effective treatment for bacterial infections."
+    },
+    {
+        "question": "What event is marked by the fall of the Bastille?",
+        "correctAnswer": "French Revolution",
+        "choices": ["French Revolution", "Industrial Revolution", "American Revolution", "Russian Revolution"],
+        "anecdote": "The storming of the Bastille on July 14, 1789, marked the beginning of the French Revolution and the eventual fall of the monarchy."
+    },
+    {
+        "question": "Which U.S. president issued the Emancipation Proclamation?",
+        "correctAnswer": "Abraham Lincoln",
+        "choices": ["Abraham Lincoln", "George Washington", "Thomas Jefferson", "Andrew Jackson"],
+        "anecdote": "President Abraham Lincoln issued the Emancipation Proclamation on January 1, 1863, declaring all slaves in Confederate territory to be free."
+    },
+    {
+        "question": "Who was the first man to walk on the moon?",
+        "correctAnswer": "Neil Armstrong",
+        "choices": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "John Glenn"],
+        "anecdote": "Neil Armstrong became the first human to set foot on the moon on July 20, 1969, during NASA's Apollo 11 mission."
+    },
+    {
+        "question": "Which ancient wonder was a large statue of the sun god Helios in the city of Rhodes?",
+        "correctAnswer": "Colossus of Rhodes",
+        "choices": ["Colossus of Rhodes", "Great Pyramid of Giza", "Hanging Gardens of Babylon", "Statue of Zeus at Olympia"],
+        "anecdote": "The Colossus of Rhodes stood approximately 33 meters high and was one of the Seven Wonders of the Ancient World."
+    },
+    {
+        "question": "Who was the first emperor of China, known for unifying the country and building parts of the Great Wall?",
+        "correctAnswer": "Qin Shi Huang",
+        "choices": ["Qin Shi Huang", "Liu Bang", "Sun Tzu", "Kublai Khan"],
+        "anecdote": "Qin Shi Huang became the first emperor of a unified China in 221 BC and initiated the construction of the Great Wall."
+    },
+    {
+        "question": "What document, signed in 1215, limited the powers of the English monarch and laid the foundation for parliamentary democracy?",
+        "correctAnswer": "Magna Carta",
+        "choices": ["Magna Carta", "Bill of Rights", "Constitution of Clarendon", "Petition of Right"],
+        "anecdote": "The Magna Carta, signed by King John of England, is considered a cornerstone of modern democratic principles and legal systems."
+    },
+    {
+        "question": "Which ancient city was buried by the eruption of Mount Vesuvius in AD 79?",
+        "correctAnswer": "Pompeii",
+        "choices": ["Pompeii", "Herculaneum", "Athens", "Rome"],
+        "anecdote": "The city of Pompeii was preserved under volcanic ash, providing a detailed glimpse into life during the Roman Empire."
+    },
+    {
+        "question": "Who was the main author of the Declaration of Independence?",
+        "correctAnswer": "Thomas Jefferson",
+        "choices": ["Thomas Jefferson", "George Washington", "Benjamin Franklin", "John Adams"],
+        "anecdote": "Thomas Jefferson was the primary author of the Declaration of Independence, adopted on July 4, 1776."
+    },
+    {
+        "question": "Which war was fought between the American colonies and Great Britain from 1775 to 1783?",
+        "correctAnswer": "American Revolutionary War",
+        "choices": ["American Revolutionary War", "Civil War", "War of 1812", "Spanish-American War"],
+        "anecdote": "The American Revolutionary War led to the independence of the thirteen colonies from British rule, resulting in the formation of the United States."
+    },
+    {
+        "question": "Who was the famous nurse known as 'The Lady with the Lamp' during the Crimean War?",
+        "correctAnswer": "Florence Nightingale",
+        "choices": ["Florence Nightingale", "Clara Barton", "Mary Seacole", "Edith Cavell"],
+        "anecdote": "Florence Nightingale is remembered for her pioneering work in nursing and her efforts to improve sanitary conditions during the Crimean War."
+    },
+    {
+        "question": "What major world event began in 1929 with the stock market crash and lasted through the 1930s?",
+        "correctAnswer": "The Great Depression",
+        "choices": ["The Great Depression", "World War II", "The Roaring Twenties", "The Cold War"],
+        "anecdote": "The Great Depression was a severe worldwide economic downturn that began with the stock market crash of 1929 and had devastating effects globally."
+    },
+    {
+        "question": "Who was the first female Prime Minister of the United Kingdom?",
+        "correctAnswer": "Margaret Thatcher",
+        "choices": ["Margaret Thatcher", "Theresa May", "Angela Merkel", "Indira Gandhi"],
+        "anecdote": "Margaret Thatcher, known as the 'Iron Lady', served as the Prime Minister of the United Kingdom from 1979 to 1990."
+    },
+    {
+        "question": "Which ancient civilization is known for its pyramids and hieroglyphic writing?",
+        "correctAnswer": "Egyptians",
+        "choices": ["Egyptians", "Greeks", "Romans", "Mesopotamians"],
+        "anecdote": "The ancient Egyptians are famous for their monumental pyramids, such as those at Giza, and their intricate system of hieroglyphic writing."
+    }
+  ],
+  "Confirmed": [
+    {
+      "question": "Which treaty ended the Thirty Years' War in 1648?",
+      "correctAnswer": "Treaty of Westphalia",
+      "choices": ["Treaty of Westphalia", "Treaty of Versailles", "Treaty of Paris", "Treaty of Utrecht"],
+      "anecdote": "The Treaty of Westphalia, signed in 1648, ended the Thirty Years' War and marked the beginning of the modern state system."
+    },
+    {
+        "question": "Who was the chancellor of Germany that unified the country in 1871?",
+        "correctAnswer": "Otto von Bismarck",
+        "choices": ["Otto von Bismarck", "Friedrich Ebert", "Paul von Hindenburg", "Wilhelm II"],
+        "anecdote": "Otto von Bismarck, known as the 'Iron Chancellor', unified Germany through a series of wars and diplomatic maneuvers."
+    },
+    {
+        "question": "Which event in 1917 led to the end of the Russian Empire and the rise of the Bolsheviks?",
+        "correctAnswer": "October Revolution",
+        "choices": ["October Revolution", "February Revolution", "Bloody Sunday", "Kronstadt Rebellion"],
+        "anecdote": "The October Revolution, led by Lenin and the Bolsheviks, overthrew the provisional government and established Soviet rule."
+    },
+    {
+        "question": "Who was the last absolute monarch of France before the French Revolution?",
+        "correctAnswer": "Louis XVI",
+        "choices": ["Louis XVI", "Louis XV", "Louis XIV", "Charles X"],
+        "anecdote": "Louis XVI was the last king of France before the French Revolution and was executed by guillotine in 1793."
+    },
+    {
+        "question": "Which battle in 331 BC marked Alexander the Great's decisive victory over the Persian Empire?",
+        "correctAnswer": "Battle of Gaugamela",
+        "choices": ["Battle of Gaugamela", "Battle of Chaeronea", "Battle of Issus", "Battle of Marathon"],
+        "anecdote": "The Battle of Gaugamela, also known as the Battle of Arbela, was a decisive victory for Alexander the Great over Darius III."
+    },
+    {
+        "question": "Which treaty in 843 divided the Carolingian Empire into three kingdoms?",
+        "correctAnswer": "Treaty of Verdun",
+        "choices": ["Treaty of Verdun", "Treaty of Paris", "Treaty of Meerssen", "Treaty of Saint-Clair-sur-Epte"],
+        "anecdote": "The Treaty of Verdun divided the Carolingian Empire among the three grandsons of Charlemagne, laying the foundations for modern Europe."
+    },
+    {
+        "question": "Which event in 1066 changed the English dynasty and began Norman influence in England?",
+        "correctAnswer": "Norman Conquest",
+        "choices": ["Norman Conquest", "Viking Invasion", "Anglo-Saxon Reform", "Danish Invasion"],
+        "anecdote": "The Norman Conquest of 1066, led by William the Conqueror, significantly impacted English culture, language, and governance."
+    },
+    {
+        "question": "Which religious movement initiated in the 16th century by Martin Luther led to the creation of Protestant churches?",
+        "correctAnswer": "Protestant Reformation",
+        "choices": ["Protestant Reformation", "Counter-Reformation", "Great Schism", "Council of Trent"],
+        "anecdote": "The Protestant Reformation began with Martin Luther's 95 Theses in 1517, challenging the practices of the Catholic Church and leading to widespread religious reform."
+    },
+    {
+        "question": "Which Byzantine emperor codified Roman laws in the Corpus Juris Civilis?",
+        "correctAnswer": "Justinian I",
+        "choices": ["Justinian I", "Constantine I", "Hadrian", "Diocletian"],
+        "anecdote": "Emperor Justinian I ordered the compilation of the Corpus Juris Civilis, a comprehensive codification of Roman law that influenced European legal systems for centuries."
+    },
+    {
+        "question": "Which dynasty ruled China during its golden age from 618 to 907?",
+        "correctAnswer": "Tang Dynasty",
+        "choices": ["Tang Dynasty", "Han Dynasty", "Song Dynasty", "Ming Dynasty"],
+        "anecdote": "The Tang Dynasty is often considered the golden age of Chinese civilization, marked by cultural, artistic, and technological advancements."
+    },
+    {
+        "question": "Which treaty ended the Seven Years' War in 1763?",
+        "correctAnswer": "Treaty of Paris",
+        "choices": ["Treaty of Paris", "Treaty of Vienna", "Treaty of Versailles", "Treaty of Tordesillas"],
+        "anecdote": "The Treaty of Paris of 1763 ended the Seven Years' War, redefining the colonial possessions of European powers, particularly between France, Britain, and Spain."
+    },
+    {
+        "question": "Which empire, led by Suleiman the Magnificent in the 16th century, reached its peak by expanding its control over three continents?",
+        "correctAnswer": "Ottoman Empire",
+        "choices": ["Ottoman Empire", "Persian Empire", "Mughal Empire", "Byzantine Empire"],
+        "anecdote": "Under Suleiman the Magnificent, the Ottoman Empire reached its zenith, controlling vast territories across Europe, Asia, and Africa."
+    },
+    {
+        "question": "Which 1944 event, known as D-Day, marked the beginning of the Allied liberation of Western Europe?",
+        "correctAnswer": "Normandy Invasion",
+        "choices": ["Normandy Invasion", "Operation Barbarossa", "Battle of the Bulge", "Italian Campaign"],
+        "anecdote": "The Normandy Invasion, or D-Day, on June 6, 1944, was a pivotal military operation by Allied forces to liberate Nazi-occupied Europe."
+    },
+    {
+        "question": "Which 1950-1953 conflict involved North and South Korea, with participation from the United Nations and China?",
+        "correctAnswer": "Korean War",
+        "choices": ["Korean War", "Vietnam War", "Chinese Civil War", "Bay of Pigs Invasion"],
+        "anecdote": "The Korean War began in 1950 with the invasion of South Korea by North Korea, leading to a prolonged conflict involving international forces."
+    },
+    {
+        "question": "Which pre-Columbian civilization built the city of Tenochtitlan, now Mexico City?",
+        "correctAnswer": "Aztecs",
+        "choices": ["Aztecs", "Mayas", "Incas", "Olmecs"],
+        "anecdote": "The Aztecs built the city of Tenochtitlan on an island in Lake Texcoco, which became the heart of their empire."
+    },
+    {
+        "question": "Which Carthaginian military leader is famous for crossing the Alps with elephants to attack Rome?",
+        "correctAnswer": "Hannibal",
+        "choices": ["Hannibal", "Scipio Africanus", "Julius Caesar", "Pompey"],
+        "anecdote": "Hannibal is renowned for his audacious and strategic crossing of the Alps during the Second Punic War to surprise and attack Rome."
+    },
+    {
+        "question": "Which 13th-century document, signed by King John of England, is considered a foundational text in the development of constitutional government?",
+        "correctAnswer": "Magna Carta",
+        "choices": ["Magna Carta", "English Bill of Rights", "Petition of Right", "Habeas Corpus Act"],
+        "anecdote": "The Magna Carta, signed in 1215, established principles of justice and limited the power of the monarchy, influencing future constitutional developments."
+    },
+    {
+        "question": "Which 1805 naval battle saw the British Royal Navy defeat the combined fleets of France and Spain during the Napoleonic Wars?",
+        "correctAnswer": "Battle of Trafalgar",
+        "choices": ["Battle of Trafalgar", "Battle of Austerlitz", "Battle of Leipzig", "Battle of Waterloo"],
+        "anecdote": "The Battle of Trafalgar was a decisive naval engagement where Admiral Nelson's fleet defeated the French and Spanish navies, ensuring British naval supremacy."
+    }
+  ],
+  "Expert": [
+    {
+      "question": "Who led the 1521 Diet of Worms?",
+      "correctAnswer": "Charles V",
+      "choices": ["Charles V", "Luther", "Frederick III", "Leo X"],
+      "anecdote": "Charles V presided over the Diet of Worms, where Martin Luther was asked to recant his theses."
+    },
+    {
+        "question": "Which battle in 216 BC is known for Hannibal's tactical genius?",
+        "correctAnswer": "Cannae",
+        "choices": ["Cannae", "Zama", "Trebia", "Lake Trasimene"],
+        "anecdote": "Hannibal's double envelopment at the Battle of Cannae is considered one of the greatest tactical feats in military history."
+    },
+    {
+        "question": "What was the codename for the D-Day invasion?",
+        "correctAnswer": "Overlord",
+        "choices": ["Overlord", "Neptune", "Torch", "Market Garden"],
+        "anecdote": "Operation Overlord was the codename for the Allied invasion of Normandy on June 6, 1944."
+    },
+    {
+        "question": "Who discovered the double helix structure of DNA?",
+        "correctAnswer": "Watson-Crick",
+        "choices": ["Watson-Crick", "Mendel", "Franklin", "Wilkins"],
+        "anecdote": "James Watson and Francis Crick, with contributions from Rosalind Franklin, discovered the double helix structure of DNA in 1953."
+    },
+    {
+        "question": "Which emperor issued the Edict of Milan?",
+        "correctAnswer": "Constantine",
+        "choices": ["Constantine", "Diocletian", "Theodosius", "Nero"],
+        "anecdote": "Constantine the Great issued the Edict of Milan in 313 AD, granting religious tolerance throughout the Roman Empire."
+    },
+    {
+        "question": "Who wrote 'The Prince'?",
+        "correctAnswer": "Machiavelli",
+        "choices": ["Machiavelli", "Plato", "Aristotle", "Cicero"],
+        "anecdote": "Niccolò Machiavelli wrote 'The Prince' as a political treatise on statecraft and the qualities of effective rulers."
+    },
+    {
+        "question": "Which treaty ended the War of Spanish Succession?",
+        "correctAnswer": "Utrecht",
+        "choices": ["Utrecht", "Versailles", "Paris", "Westphalia"],
+        "anecdote": "The Treaty of Utrecht in 1713 ended the War of Spanish Succession and marked the rise of the British Empire."
+    },
+    {
+        "question": "Which queen was known as 'The Virgin Queen'?",
+        "correctAnswer": "Elizabeth I",
+        "choices": ["Elizabeth I", "Mary I", "Victoria", "Anne"],
+        "anecdote": "Elizabeth I, the last monarch of the Tudor dynasty, was known as 'The Virgin Queen' because she never married."
+    },
+    {
+        "question": "Who led the Soviet Union during the Cuban Missile Crisis?",
+        "correctAnswer": "Khrushchev",
+        "choices": ["Khrushchev", "Stalin", "Brezhnev", "Gorbachev"],
+        "anecdote": "Nikita Khrushchev was the Premier of the Soviet Union during the Cuban Missile Crisis in 1962."
+    },
+    {
+        "question": "What was the first codified set of laws in ancient Rome?",
+        "correctAnswer": "Twelve Tables",
+        "choices": ["Twelve Tables", "Code of Justinian", "Lex Hortensia", "Law of Nations"],
+        "anecdote": "The Twelve Tables, established in 450 BC, were the first attempt at a code of law for ancient Rome."
+    },
+    {
+        "question": "Who was the first emperor of the Holy Roman Empire?",
+        "correctAnswer": "Charlemagne",
+        "choices": ["Charlemagne", "Otto I", "Frederick I", "Henry IV"],
+        "anecdote": "Charlemagne was crowned as the first Holy Roman Emperor by Pope Leo III on Christmas Day in 800 AD."
+    },
+    {
+        "question": "Which battle in 1066 changed the course of English history?",
+        "correctAnswer": "Hastings",
+        "choices": ["Hastings", "Agincourt", "Bosworth", "Bannockburn"],
+        "anecdote": "The Battle of Hastings in 1066 saw William the Conqueror defeat King Harold II, leading to Norman rule in England."
+    },
+    {
+        "question": "Which philosopher is known for his 'Cogito, ergo sum' statement?",
+        "correctAnswer": "Descartes",
+        "choices": ["Descartes", "Locke", "Hume", "Kant"],
+        "anecdote": "René Descartes is famous for the philosophical statement 'Cogito, ergo sum' which translates to 'I think, therefore I am.'"
+    },
+    {
+        "question": "Which Egyptian pharaoh built the Great Pyramid of Giza?",
+        "correctAnswer": "Khufu",
+        "choices": ["Khufu", "Tutankhamun", "Ramses II", "Sneferu"],
+        "anecdote": "Pharaoh Khufu, also known as Cheops, commissioned the construction of the Great Pyramid of Giza around 2580 BC."
+    },
+    {
+        "question": "Who was the leader of the Bolsheviks during the Russian Revolution?",
+        "correctAnswer": "Lenin",
+        "choices": ["Lenin", "Trotsky", "Stalin", "Kerensky"],
+        "anecdote": "Vladimir Lenin led the Bolshevik Party during the Russian Revolution of 1917, overthrowing the provisional government."
+    },
+    {
+        "question": "Which battle in 1815 marked the final defeat of Napoleon Bonaparte?",
+        "correctAnswer": "Waterloo",
+        "choices": ["Waterloo", "Austerlitz", "Leipzig", "Trafalgar"],
+        "anecdote": "The Battle of Waterloo in 1815 saw the final defeat of Napoleon Bonaparte by the Seventh Coalition forces."
+    },
+    {
+        "question": "Which civilization used cuneiform script for writing?",
+        "correctAnswer": "Sumerians",
+        "choices": ["Sumerians", "Egyptians", "Phoenicians", "Greeks"],
+        "anecdote": "The Sumerians developed cuneiform script, one of the earliest forms of writing, around 3400 BC in Mesopotamia."
+    },
+    {
+        "question": "Who was assassinated in Sarajevo in 1914, sparking World War I?",
+        "correctAnswer": "Franz Ferdinand",
+        "choices": ["Franz Ferdinand", "Wilhelm II", "Nicholas II", "Gavrilo Princip"],
+        "anecdote": "The assassination of Archduke Franz Ferdinand of Austria by Gavrilo Princip in Sarajevo triggered the outbreak of World War I."
+    },
+    {
+        "question": "Which ancient city was known for its hanging gardens?",
+        "correctAnswer": "Babylon",
+        "choices": ["Babylon", "Nineveh", "Persepolis", "Athens"],
+        "anecdote": "The Hanging Gardens of Babylon, one of the Seven Wonders of the Ancient World, were said to have been built by Nebuchadnezzar II."
+    },
+    {
+        "question": "Which Mughal emperor built the Taj Mahal?",
+        "correctAnswer": "Shah Jahan",
+        "choices": ["Shah Jahan", "Akbar", "Aurangzeb", "Babur"],
+        "anecdote": "Shah Jahan commissioned the construction of the Taj Mahal in memory of his wife Mumtaz Mahal, completing it in 1653."
+    },
+    {
+        "question": "Which Greek historian is known as the 'Father of History'?",
+        "correctAnswer": "Herodotus",
+        "choices": ["Herodotus", "Thucydides", "Xenophon", "Plutarch"],
+        "anecdote": "Herodotus, often referred to as the 'Father of History,' wrote 'The Histories,' documenting the Greco-Persian Wars."
+    },
+    {
+        "question": "Which Roman emperor split the empire into the Tetrarchy?",
+        "correctAnswer": "Diocletian",
+        "choices": ["Diocletian", "Constantine", "Augustus", "Nero"],
+        "anecdote": "Emperor Diocletian established the Tetrarchy in 293 AD to better manage the vast Roman Empire by dividing it among four rulers."
+    },
+    {
+        "question": "Which Chinese dynasty was the longest-lasting in history?",
+        "correctAnswer": "Zhou",
+        "choices": ["Zhou", "Han", "Qing", "Tang"],
+        "anecdote": "The Zhou Dynasty, lasting from around 1046 to 256 BC, was the longest-lasting dynasty in Chinese history."
     }
   ]
 }

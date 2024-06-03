@@ -1,11 +1,320 @@
 {
-  "results": [
+  "Beginner": [
     {
-      "question": "Quelle est la capitale de la France ?",
-      "correctAnswer": "Paris",
-      "choices": ["Paris", "Londres", "Berlin", "Madrid"],
-      "anecdote": "Paris est la capitale de la France.",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Paris"
+      "question": "Qui était le premier président des États-Unis ?",
+      "correctAnswer": "George Washington",
+      "choices": ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "John Adams"],
+      "anecdote": "George Washington est devenu le premier président des États-Unis en 1789 et a servi deux mandats jusqu'en 1797."
+    },
+    {
+        "question": "Quelle ville a été fondée par Romulus et Rémus selon la légende ?",
+        "correctAnswer": "Rome",
+        "choices": ["Rome", "Athènes", "Carthage", "Byzance"],
+        "anecdote": "Selon la légende, Rome a été fondée en 753 avant J.-C. par les jumeaux Romulus et Rémus, élevés par une louve."
+    },
+    {
+        "question": "Quel était le nom du célèbre pharaon égyptien dont la tombe a été découverte en 1922 par Howard Carter ?",
+        "correctAnswer": "Toutankhamon",
+        "choices": ["Toutankhamon", "Ramsès II", "Cléopâtre", "Akhenaton"],
+        "anecdote": "La tombe de Toutankhamon est l'une des découvertes archéologiques les plus importantes du 20e siècle, restée presque intacte depuis l'Antiquité."
+    },
+    {
+        "question": "En quelle année a eu lieu la prise de la Bastille, marquant le début de la Révolution française ?",
+        "correctAnswer": "1789",
+        "choices": ["1789", "1776", "1804", "1815"],
+        "anecdote": "La prise de la Bastille le 14 juillet 1789 est un événement symbolique de la Révolution française, marquant la chute de l'absolutisme royal."
+    },
+    {
+        "question": "Qui était le célèbre leader indien qui a mené la lutte pour l'indépendance de l'Inde par la non-violence ?",
+        "correctAnswer": "Mahatma Gandhi",
+        "choices": ["Mahatma Gandhi", "Jawaharlal Nehru", "Subhas Chandra Bose", "Bhagat Singh"],
+        "anecdote": "Mahatma Gandhi a utilisé la résistance passive et la non-violence pour mener l'Inde à l'indépendance du Royaume-Uni en 1947."
+    },
+    {
+        "question": "Quelle est la période historique qui a suivi le Moyen Âge en Europe ?",
+        "correctAnswer": "Renaissance",
+        "choices": ["Renaissance", "Antiquité", "Époque contemporaine", "Âge des Lumières"],
+        "anecdote": "La Renaissance est une période de renouveau culturel et artistique en Europe, commençant au 14e siècle et s'étendant jusqu'au 17e siècle."
+    },
+    {
+        "question": "Quel mur a été construit en 1961 pour diviser une ville allemande en deux ?",
+        "correctAnswer": "Mur de Berlin",
+        "choices": ["Mur de Berlin", "Mur de l'Atlantique", "Mur de la paix", "Mur de la honte"],
+        "anecdote": "Le Mur de Berlin a été construit pour séparer Berlin-Est, sous contrôle soviétique, de Berlin-Ouest, et il est tombé en 1989."
+    },
+    {
+        "question": "Quel célèbre navigateur a découvert l'Amérique en 1492 ?",
+        "correctAnswer": "Christophe Colomb",
+        "choices": ["Christophe Colomb", "Ferdinand Magellan", "Vasco de Gama", "Marco Polo"],
+        "anecdote": "Christophe Colomb, sous les auspices de l'Espagne, a découvert les Amériques en 1492, bien qu'il pensait avoir atteint les Indes."
+    },
+    {
+        "question": "Quel traité a mis fin à la Première Guerre mondiale ?",
+        "correctAnswer": "Traité de Versailles",
+        "choices": ["Traité de Versailles", "Traité de Paris", "Traité de Brest-Litovsk", "Traité de Vienne"],
+        "anecdote": "Le Traité de Versailles, signé en 1919, a mis fin officiellement à la Première Guerre mondiale et imposé de lourdes réparations à l'Allemagne."
+    },
+    {
+        "question": "Qui était le célèbre empereur français couronné en 1804 ?",
+        "correctAnswer": "Napoléon Bonaparte",
+        "choices": ["Napoléon Bonaparte", "Louis XIV", "Charles de Gaulle", "Henri IV"],
+        "anecdote": "Napoléon Bonaparte s'est couronné empereur des Français en 1804 et a établi un empire qui a influencé toute l'Europe."
+    },
+    {
+        "question": "Quelle guerre a opposé les États-Unis à l'Union soviétique sans confrontation directe ?",
+        "correctAnswer": "Guerre froide",
+        "choices": ["Guerre froide", "Guerre de Corée", "Guerre du Vietnam", "Guerre des Six Jours"],
+        "anecdote": "La Guerre froide (1947-1991) a opposé les États-Unis et l'Union soviétique dans une rivalité idéologique, militaire et technologique."
+    },
+    {
+        "question": "Quel révolutionnaire cubain a pris le pouvoir en 1959 ?",
+        "correctAnswer": "Fidel Castro",
+        "choices": ["Fidel Castro", "Che Guevara", "Raúl Castro", "Camilo Cienfuegos"],
+        "anecdote": "Fidel Castro a mené la Révolution cubaine et a pris le pouvoir en 1959, établissant un régime communiste à Cuba."
+    },
+    {
+        "question": "Quel était le nom de l'avion qui a largué la première bombe atomique sur Hiroshima ?",
+        "correctAnswer": "Enola Gay",
+        "choices": ["Enola Gay", "Bockscar", "Memphis Belle", "Spirit of St. Louis"],
+        "anecdote": "Le 6 août 1945, l'avion Enola Gay a largué la bombe atomique sur Hiroshima, contribuant à la fin de la Seconde Guerre mondiale."
+    },
+    {
+        "question": "Quel pays a été dirigé par Nelson Mandela après la fin de l'apartheid ?",
+        "correctAnswer": "Afrique du Sud",
+        "choices": ["Afrique du Sud", "Kenya", "Zimbabwe", "Namibie"],
+        "anecdote": "Nelson Mandela est devenu le premier président noir de l'Afrique du Sud en 1994, après la fin de l'apartheid."
+    },
+    {
+        "question": "Quel roi de France a été surnommé 'Le Roi Soleil' ?",
+        "correctAnswer": "Louis XIV",
+        "choices": ["Louis XIV", "François Ier", "Henri IV", "Louis XVI"],
+        "anecdote": "Louis XIV, surnommé 'Le Roi Soleil', a régné sur la France de 1643 à 1715 et est connu pour sa centralisation du pouvoir et son mécénat artistique."
+    },
+    {
+        "question": "Quelle révolution a eu lieu en Russie en 1917 ?",
+        "correctAnswer": "Révolution bolchevique",
+        "choices": ["Révolution bolchevique", "Révolution française", "Révolution américaine", "Révolution chinoise"],
+        "anecdote": "La Révolution bolchevique de 1917 a conduit à la chute du régime tsariste et à l'établissement de l'Union soviétique."
+    },
+    {
+        "question": "Quel célèbre mur a été construit par les Romains en Grande-Bretagne ?",
+        "correctAnswer": "Mur d'Hadrien",
+        "choices": ["Mur d'Hadrien", "Mur de Berlin", "Mur des Lamentations", "Mur de l'Atlantique"],
+        "anecdote": "Le Mur d'Hadrien, construit sous l'empereur romain Hadrien, était destiné à protéger la province romaine de Bretagne des invasions."
+    },
+    {
+        "question": "Quel célèbre leader britannique a mené le Royaume-Uni pendant la Seconde Guerre mondiale ?",
+        "correctAnswer": "Winston Churchill",
+        "choices": ["Winston Churchill", "Neville Chamberlain", "Margaret Thatcher", "David Lloyd George"],
+        "anecdote": "Winston Churchill, Premier ministre britannique, est connu pour son leadership pendant la Seconde Guerre mondiale et ses discours inspirants."
+    },
+    {
+        "question": "Quelle bataille de 1066 a vu la victoire de Guillaume le Conquérant en Angleterre ?",
+        "correctAnswer": "Bataille de Hastings",
+        "choices": ["Bataille de Hastings", "Bataille d'Azincourt", "Bataille de Waterloo", "Bataille de Marignan"],
+        "anecdote": "La Bataille de Hastings en 1066 a conduit à la conquête normande de l'Angleterre par Guillaume le Conquérant."
+    }
+  ],
+  "Confirmed": [
+    {
+      "question": "Quel traité a marqué la fin de la Première Guerre mondiale en 1919 ?",
+      "correctAnswer": "Traité de Versailles",
+      "choices": ["Traité de Versailles", "Traité de Brest-Litovsk", "Traité de Trianon", "Traité de Saint-Germain-en-Laye"],
+      "anecdote": "Le Traité de Versailles a imposé de lourdes réparations à l'Allemagne et redessiné les frontières européennes après la Première Guerre mondiale."
+    },
+    {
+        "question": "Quel empire était dirigé par Charlemagne au 9ème siècle ?",
+        "correctAnswer": "Empire carolingien",
+        "choices": ["Empire carolingien", "Empire romain", "Empire byzantin", "Empire ottoman"],
+        "anecdote": "Charlemagne a unifié une grande partie de l'Europe occidentale et centrale sous l'Empire carolingien, souvent considéré comme le 'Père de l'Europe'."
+    },
+    {
+        "question": "Quelle bataille navale décisive a eu lieu en 1805 pendant les guerres napoléoniennes ?",
+        "correctAnswer": "Bataille de Trafalgar",
+        "choices": ["Bataille de Trafalgar", "Bataille d'Austerlitz", "Bataille de la mer de Corail", "Bataille de Waterloo"],
+        "anecdote": "La bataille de Trafalgar a vu la flotte britannique, dirigée par l'amiral Nelson, vaincre les flottes combinées française et espagnole."
+    },
+    {
+        "question": "Quel document, signé en 1215, est considéré comme un précurseur des constitutions modernes ?",
+        "correctAnswer": "Magna Carta",
+        "choices": ["Magna Carta", "Déclaration des droits de l'homme", "Bill of Rights", "Constitution américaine"],
+        "anecdote": "La Magna Carta, signée par le roi Jean d'Angleterre, a limité le pouvoir royal et établi des principes de justice et de droits individuels."
+    },
+    {
+        "question": "Quel explorateur italien a entrepris quatre voyages à travers l'Atlantique et a ouvert la voie à la colonisation européenne des Amériques ?",
+        "correctAnswer": "Christophe Colomb",
+        "choices": ["Christophe Colomb", "Amerigo Vespucci", "Ferdinand Magellan", "John Cabot"],
+        "anecdote": "Christophe Colomb a effectué quatre voyages vers les Amériques entre 1492 et 1504, pensant avoir trouvé une nouvelle route vers l'Asie."
+    },
+    {
+        "question": "Quelle guerre civile a opposé les partisans de Charles Ier et les forces du Parlement en Angleterre au 17ème siècle ?",
+        "correctAnswer": "Guerre civile anglaise",
+        "choices": ["Guerre civile anglaise", "Guerre des Deux Roses", "Guerre de Cent Ans", "Guerre de Succession d'Espagne"],
+        "anecdote": "La guerre civile anglaise (1642-1651) a opposé les royalistes aux parlementaires, aboutissant à l'exécution de Charles Ier et à l'établissement de la République du Commonwealth."
+    },
+    {
+        "question": "Quel événement a déclenché la Seconde Guerre mondiale en 1939 ?",
+        "correctAnswer": "Invasion de la Pologne",
+        "choices": ["Invasion de la Pologne", "Annexion de l'Autriche", "Traité de Munich", "Invasion de la Tchécoslovaquie"],
+        "anecdote": "L'invasion de la Pologne par l'Allemagne nazie le 1er septembre 1939 a déclenché la Seconde Guerre mondiale, entraînant la déclaration de guerre du Royaume-Uni et de la France."
+    },
+    {
+        "question": "Quelle révolution a conduit à la chute de la monarchie en France en 1789 ?",
+        "correctAnswer": "Révolution française",
+        "choices": ["Révolution française", "Révolution américaine", "Révolution haïtienne", "Révolution de Juillet"],
+        "anecdote": "La Révolution française a commencé en 1789, entraînant la fin de la monarchie absolue, la montée de la République et des changements sociaux et politiques majeurs."
+    },
+    {
+        "question": "Quel empire a été dirigé par Alexandre le Grand, qui a conquis une grande partie de l'Asie ?",
+        "correctAnswer": "Empire macédonien",
+        "choices": ["Empire macédonien", "Empire perse", "Empire romain", "Empire ottoman"],
+        "anecdote": "Alexandre le Grand a étendu l'Empire macédonien de la Grèce à l'Égypte et jusqu'aux frontières de l'Inde, créant l'un des plus grands empires de l'histoire."
+    },
+    {
+        "question": "Quel document, signé en 1776, a proclamé l'indépendance des treize colonies américaines de la Grande-Bretagne ?",
+        "correctAnswer": "Déclaration d'indépendance",
+        "choices": ["Déclaration d'indépendance", "Constitution américaine", "Articles de la Confédération", "Bill of Rights"],
+        "anecdote": "La Déclaration d'indépendance, rédigée principalement par Thomas Jefferson, a été adoptée le 4 juillet 1776, marquant la naissance des États-Unis."
+    },
+    {
+        "question": "Quel empire contrôlait la majeure partie de l'Europe centrale et orientale jusqu'à sa dissolution en 1918 ?",
+        "correctAnswer": "Empire austro-hongrois",
+        "choices": ["Empire austro-hongrois", "Empire ottoman", "Empire russe", "Empire allemand"],
+        "anecdote": "L'Empire austro-hongrois était une double monarchie composée de l'Autriche et de la Hongrie, et a été dissous après la Première Guerre mondiale."
+    },
+    {
+        "question": "Quelle bataille de 1815 a marqué la défaite finale de Napoléon Bonaparte ?",
+        "correctAnswer": "Bataille de Waterloo",
+        "choices": ["Bataille de Waterloo", "Bataille de Leipzig", "Bataille d'Austerlitz", "Bataille de Borodino"],
+        "anecdote": "La bataille de Waterloo, en Belgique, a vu la défaite de Napoléon Bonaparte face aux forces alliées commandées par le duc de Wellington et le maréchal Blücher."
+    },
+    {
+        "question": "Quel mouvement social et politique du 19ème siècle visait à abolir l'esclavage ?",
+        "correctAnswer": "Abolitionnisme",
+        "choices": ["Abolitionnisme", "Suffragisme", "Socialisme", "Réformisme"],
+        "anecdote": "L'abolitionnisme était un mouvement social et politique qui visait à mettre fin à l'esclavage et à la traite des esclaves, culminant avec l'abolition dans de nombreux pays au 19ème siècle."
+    },
+    {
+        "question": "Quelle civilisation ancienne a construit les pyramides de Gizeh ?",
+        "correctAnswer": "Égypte antique",
+        "choices": ["Égypte antique", "Mésopotamie", "Empire romain", "Empire maya"],
+        "anecdote": "Les pyramides de Gizeh, construites par les anciens Égyptiens, sont parmi les structures les plus emblématiques et les mieux préservées de l'Antiquité."
+    },
+    {
+        "question": "Quel événement tragique s'est produit à Hiroshima en 1945 ?",
+        "correctAnswer": "Bombardement atomique",
+        "choices": ["Bombardement atomique", "Séisme", "Invasion", "Incendie"],
+        "anecdote": "Le 6 août 1945, une bombe atomique a été larguée sur Hiroshima par les États-Unis, causant des destructions massives et la mort de milliers de personnes."
+    },
+    {
+        "question": "Quelle guerre a opposé les États du Nord et du Sud aux États-Unis entre 1861 et 1865 ?",
+        "correctAnswer": "Guerre de Sécession",
+        "choices": ["Guerre de Sécession", "Guerre d'Indépendance", "Guerre de 1812", "Guerre hispano-américaine"],
+        "anecdote": "La guerre de Sécession, ou guerre civile américaine, a opposé les États du Nord (Union) aux États du Sud (Confédération) principalement sur la question de l'esclavage."
+    },
+    {
+        "question": "Quel philosophe allemand est connu pour son ouvrage 'Le Capital' ?",
+        "correctAnswer": "Karl Marx",
+        "choices": ["Karl Marx", "Friedrich Engels", "Max Weber", "Immanuel Kant"],
+        "anecdote": "Karl Marx, avec son ouvrage 'Le Capital', a analysé les mécanismes du capitalisme et est devenu une figure centrale du socialisme et du communisme."
+    }
+  ],
+  "Expert": [
+    {
+      "question": "Quel traité signé en 1648 a mis fin à la guerre de Trente Ans ?",
+      "correctAnswer": "Traité de Westphalie",
+      "choices": ["Traité de Westphalie", "Traité de Verdun", "Traité de Paris", "Traité d'Utrecht"],
+      "anecdote": "Le Traité de Westphalie, signé en 1648, a mis fin à la guerre de Trente Ans et est souvent considéré comme le début de l'ordre international moderne."
+    },
+    {
+        "question": "Qui était le chancelier allemand qui a unifié l'Allemagne en 1871 ?",
+        "correctAnswer": "Otto von Bismarck",
+        "choices": ["Otto von Bismarck", "Friedrich Ebert", "Paul von Hindenburg", "Wilhelm II"],
+        "anecdote": "Otto von Bismarck, surnommé le 'Chancelier de fer', a orchestré l'unification de l'Allemagne à travers une série de guerres et de manœuvres diplomatiques."
+    },
+    {
+        "question": "Quel événement marquant de 1917 a conduit à la fin de l'Empire russe et à la montée au pouvoir des bolcheviks ?",
+        "correctAnswer": "Révolution d'Octobre",
+        "choices": ["Révolution d'Octobre", "Révolution de Février", "Dimanche Rouge", "Révolte de Kronstadt"],
+        "anecdote": "La Révolution d'Octobre, dirigée par Lénine et les bolcheviks, a renversé le gouvernement provisoire russe et conduit à l'établissement de l'Union soviétique."
+    },
+    {
+        "question": "Quel roi a été le dernier monarque absolu de France avant la Révolution française ?",
+        "correctAnswer": "Louis XVI",
+        "choices": ["Louis XVI", "Louis XV", "Louis XIV", "Charles X"],
+        "anecdote": "Louis XVI a été le dernier roi de France avant la Révolution française et a été guillotiné en 1793."
+    },
+    {
+        "question": "Quelle bataille de 331 avant J.-C. a marqué la défaite de l'Empire perse par Alexandre le Grand ?",
+        "correctAnswer": "Bataille de Gaugamèles",
+        "choices": ["Bataille de Gaugamèles", "Bataille de Chéronée", "Bataille d'Issos", "Bataille de Marathon"],
+        "anecdote": "La bataille de Gaugamèles, également connue sous le nom de bataille d'Arbèles, a été une victoire décisive pour Alexandre le Grand contre Darius III."
+    },
+    {
+        "question": "Quel célèbre chef militaire et politique a été vaincu à la bataille de Waterloo en 1815 ?",
+        "correctAnswer": "Napoléon Bonaparte",
+        "choices": ["Napoléon Bonaparte", "Duc de Wellington", "Horatio Nelson", "Louis XVIII"],
+        "anecdote": "La défaite de Napoléon Bonaparte à Waterloo a marqué la fin de ses Cent-Jours et a mis un terme à son règne en France."
+    },
+    {
+        "question": "Quel traité de 843 a divisé l'Empire carolingien en trois royaumes ?",
+        "correctAnswer": "Traité de Verdun",
+        "choices": ["Traité de Verdun", "Traité de Paris", "Traité de Meerssen", "Traité de Saint-Clair-sur-Epte"],
+        "anecdote": "Le Traité de Verdun a partagé l'Empire carolingien entre les trois petits-fils de Charlemagne, établissant les bases de la France, de l'Allemagne et de l'Italie modernes."
+    },
+    {
+        "question": "Quel événement de 1066 a changé la dynastie anglaise et marqué le début de l'influence normande en Angleterre ?",
+        "correctAnswer": "Conquête normande",
+        "choices": ["Conquête normande", "Conquête viking", "Réforme anglo-saxonne", "Invasion danoise"],
+        "anecdote": "La conquête normande de 1066, menée par Guillaume le Conquérant, a profondément influencé la culture, la langue et la politique anglaises."
+    },
+    {
+        "question": "Quel mouvement religieux initié au 16ème siècle par Martin Luther a conduit à la création des Églises protestantes ?",
+        "correctAnswer": "Réforme protestante",
+        "choices": ["Réforme protestante", "Contre-Réforme", "Grande Schisme", "Concile de Trente"],
+        "anecdote": "La Réforme protestante a débuté avec les 95 thèses de Martin Luther en 1517, critiquant les pratiques de l'Église catholique et menant à de vastes changements religieux en Europe."
+    },
+    {
+        "question": "Quel empereur byzantin a codifié les lois romaines dans le Corpus Juris Civilis ?",
+        "correctAnswer": "Justinien Ier",
+        "choices": ["Justinien Ier", "Constantin Ier", "Hadrien", "Dioclétien"],
+        "anecdote": "L'empereur Justinien Ier a ordonné la compilation du Corpus Juris Civilis, une codification des lois romaines qui a influencé le droit européen pendant des siècles."
+    },
+    {
+        "question": "Quelle dynastie a régné sur la Chine pendant l'âge d'or de la culture chinoise, de 618 à 907 ?",
+        "correctAnswer": "Dynastie Tang",
+        "choices": ["Dynastie Tang", "Dynastie Han", "Dynastie Song", "Dynastie Ming"],
+        "anecdote": "La dynastie Tang est souvent considérée comme l'âge d'or de la civilisation chinoise, marquée par des avancées culturelles, artistiques et technologiques."
+    },
+    {
+        "question": "Quel traité a mis fin à la guerre de Sept Ans en 1763 ?",
+        "correctAnswer": "Traité de Paris",
+        "choices": ["Traité de Paris", "Traité de Vienne", "Traité de Versailles", "Traité de Tordesillas"],
+        "anecdote": "Le Traité de Paris de 1763 a mis fin à la guerre de Sept Ans, redéfinissant les colonies et les possessions des puissances européennes, notamment entre la France, la Grande-Bretagne et l'Espagne."
+    },
+    {
+        "question": "Quel empire, dirigé par Soliman le Magnifique au 16ème siècle, a atteint son apogée en étendant son contrôle sur trois continents ?",
+        "correctAnswer": "Empire ottoman",
+        "choices": ["Empire ottoman", "Empire perse", "Empire moghol", "Empire byzantin"],
+        "anecdote": "Sous le règne de Soliman le Magnifique, l'Empire ottoman a atteint son apogée, contrôlant une grande partie de l'Europe de l'Est, du Moyen-Orient et de l'Afrique du Nord."
+    },
+    {
+        "question": "Quel événement de 1944, connu sous le nom de 'Jour J', a marqué le début de la libération de l'Europe de l'Ouest par les forces alliées ?",
+        "correctAnswer": "Débarquement de Normandie",
+        "choices": ["Débarquement de Normandie", "Opération Barbarossa", "Bataille des Ardennes", "Campagne d'Italie"],
+        "anecdote": "Le débarquement de Normandie, le 6 juin 1944, a été une opération militaire décisive menée par les forces alliées pour libérer l'Europe occupée par les nazis."
+    },
+    {
+        "question": "Quel conflit militaire de 1950 à 1953 a opposé la Corée du Nord à la Corée du Sud, impliquant les Nations Unies et la Chine ?",
+        "correctAnswer": "Guerre de Corée",
+        "choices": ["Guerre de Corée", "Guerre du Vietnam", "Guerre civile chinoise", "Guerre de la baie des Cochons"],
+        "anecdote": "La guerre de Corée a débuté en 1950 avec l'invasion de la Corée du Sud par la Corée du Nord, conduisant à un conflit prolongé impliquant des forces internationales."
+    },
+    {
+        "question": "Quelle civilisation précolombienne a construit la cité de Tenochtitlán, aujourd'hui Mexico ?",
+        "correctAnswer": "Aztèques",
+        "choices": ["Aztèques", "Mayas", "Incas", "Olmèques"],
+        "anecdote": "Les Aztèques ont construit la cité de Tenochtitlán sur une île du lac Texcoco, une métropole qui est devenue le cœur de leur empire."
     }
   ]
 }

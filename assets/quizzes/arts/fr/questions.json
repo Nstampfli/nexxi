@@ -1,11 +1,338 @@
 {
-  "results": [
+  "Beginner": [
     {
-      "question": "Quelle est la capitale de la France ?",
-      "correctAnswer": "Paris",
-      "choices": ["Paris", "Londres", "Berlin", "Madrid"],
-      "anecdote": "Paris est la capitale de la France.",
-      "wikipedia": "https://fr.wikipedia.org/wiki/Paris"
+      "question": "Quel artiste est connu pour avoir peint la 'Mona Lisa' ?",
+      "correctAnswer": "Léonard de Vinci",
+      "choices": ["Léonard de Vinci", "Vincent van Gogh", "Pablo Picasso", "Claude Monet"],
+      "anecdote": "La 'Mona Lisa', peinte par Léonard de Vinci au début du 16ème siècle, est l'un des portraits les plus célèbres au monde."
+    },
+    {
+        "question": "Quel mouvement artistique est associé à Claude Monet ?",
+        "correctAnswer": "Impressionnisme",
+        "choices": ["Impressionnisme", "Cubisme", "Surréalisme", "Expressionnisme"],
+        "anecdote": "Claude Monet est l'un des fondateurs de l'impressionnisme, un mouvement artistique du 19ème siècle caractérisé par l'utilisation de la lumière et des couleurs pour capturer des moments éphémères."
+    },
+    {
+        "question": "Quel artiste néerlandais est célèbre pour ses tableaux représentant des tournesols et des étoiles ?",
+        "correctAnswer": "Vincent van Gogh",
+        "choices": ["Vincent van Gogh", "Rembrandt", "Piet Mondrian", "Hieronymus Bosch"],
+        "anecdote": "Vincent van Gogh, un peintre post-impressionniste néerlandais, est célèbre pour ses œuvres vibrantes telles que 'Les Tournesols' et 'La Nuit étoilée'."
+    },
+    {
+        "question": "Quel artiste espagnol est connu pour ses œuvres cubistes comme 'Les Demoiselles d'Avignon' ?",
+        "correctAnswer": "Pablo Picasso",
+        "choices": ["Pablo Picasso", "Salvador Dalí", "Joan Miró", "Francisco Goya"],
+        "anecdote": "Pablo Picasso est l'un des fondateurs du cubisme, un mouvement artistique du début du 20ème siècle qui décompose les objets en formes géométriques."
+    },
+    {
+        "question": "Quelle peinture célèbre représente une scène de dîner avec Jésus et ses apôtres ?",
+        "correctAnswer": "La Cène",
+        "choices": ["La Cène", "La Dernière Cène", "La Nuit étoilée", "La Naissance de Vénus"],
+        "anecdote": "La Cène, peinte par Léonard de Vinci, représente le dernier repas de Jésus avec ses apôtres avant sa crucifixion."
+    },
+    {
+        "question": "Quel artiste surréaliste espagnol est connu pour ses montres molles dans 'La Persistance de la Mémoire' ?",
+        "correctAnswer": "Salvador Dalí",
+        "choices": ["Salvador Dalí", "Pablo Picasso", "Joan Miró", "Max Ernst"],
+        "anecdote": "Salvador Dalí est célèbre pour ses œuvres surréalistes, notamment 'La Persistance de la Mémoire', où des montres semblent fondre dans un paysage onirique."
+    },
+    {
+        "question": "Quel artiste français est connu pour ses peintures de danseuses et de scènes de ballet ?",
+        "correctAnswer": "Edgar Degas",
+        "choices": ["Edgar Degas", "Claude Monet", "Paul Cézanne", "Georges Seurat"],
+        "anecdote": "Edgar Degas est réputé pour ses représentations de danseuses et de scènes de ballet, capturant le mouvement et la grâce de ses sujets."
+    },
+    {
+        "question": "Quel artiste de la Renaissance italienne a peint le plafond de la Chapelle Sixtine ?",
+        "correctAnswer": "Michel-Ange",
+        "choices": ["Michel-Ange", "Raphaël", "Léonard de Vinci", "Donatello"],
+        "anecdote": "Michel-Ange a peint le plafond de la Chapelle Sixtine, une œuvre monumentale qui représente des scènes bibliques, y compris la célèbre 'Création d'Adam'."
+    },
+    {
+        "question": "Quel artiste est connu pour ses sculptures monumentales de femmes aux formes généreuses ?",
+        "correctAnswer": "Fernando Botero",
+        "choices": ["Fernando Botero", "Auguste Rodin", "Henry Moore", "Jean Arp"],
+        "anecdote": "Fernando Botero est célèbre pour ses sculptures et peintures représentant des personnages aux formes volumineuses, un style souvent qualifié de 'boterisme'."
+    },
+    {
+        "question": "Quel artiste est l'auteur du célèbre tableau 'La Jeune Fille à la perle' ?",
+        "correctAnswer": "Johannes Vermeer",
+        "choices": ["Johannes Vermeer", "Rembrandt", "Frans Hals", "Jan van Eyck"],
+        "anecdote": "Johannes Vermeer, un maître de la peinture néerlandaise, a créé 'La Jeune Fille à la perle', souvent surnommée la 'Mona Lisa du Nord'."
+    },
+    {
+        "question": "Quel mouvement artistique est caractérisé par l'utilisation de formes géométriques et a été co-fondé par Georges Braque ?",
+        "correctAnswer": "Cubisme",
+        "choices": ["Cubisme", "Surréalisme", "Impressionnisme", "Expressionnisme"],
+        "anecdote": "Le cubisme, co-fondé par Georges Braque et Pablo Picasso, est un mouvement du début du 20ème siècle qui décompose les objets en formes géométriques."
+    },
+    {
+        "question": "Quel peintre a réalisé la fresque 'La Naissance de Vénus' ?",
+        "correctAnswer": "Sandro Botticelli",
+        "choices": ["Sandro Botticelli", "Leonardo da Vinci", "Raphaël", "Michel-Ange"],
+        "anecdote": "Sandro Botticelli est l'auteur de 'La Naissance de Vénus', une peinture emblématique de la Renaissance italienne représentant la déesse Vénus émergeant de la mer."
+    },
+    {
+        "question": "Quel artiste est célèbre pour ses 'Nymphéas', une série de peintures de nénuphars ?",
+        "correctAnswer": "Claude Monet",
+        "choices": ["Claude Monet", "Paul Cézanne", "Vincent van Gogh", "Henri Matisse"],
+        "anecdote": "Claude Monet a peint la série des 'Nymphéas', capturant les nénuphars de son jardin à Giverny et explorant les variations de lumière et de couleur."
+    },
+    {
+        "question": "Quel artiste du 20ème siècle est connu pour ses tableaux abstraits composés de lignes noires et de couleurs primaires ?",
+        "correctAnswer": "Piet Mondrian",
+        "choices": ["Piet Mondrian", "Wassily Kandinsky", "Kazimir Malevich", "Paul Klee"],
+        "anecdote": "Piet Mondrian est un pionnier de l'art abstrait, connu pour ses compositions géométriques utilisant des lignes noires et des couleurs primaires."
+    },
+    {
+        "question": "Quel artiste a peint 'Guernica', une œuvre dénonçant les horreurs de la guerre ?",
+        "correctAnswer": "Pablo Picasso",
+        "choices": ["Pablo Picasso", "Joan Miró", "Salvador Dalí", "Diego Rivera"],
+        "anecdote": "Pablo Picasso a créé 'Guernica' en 1937, une peinture monumentale dénonçant les atrocités de la guerre civile espagnole."
+    },
+    {
+        "question": "Quel artiste mexicain est célèbre pour ses autoportraits et son mariage tumultueux avec Diego Rivera ?",
+        "correctAnswer": "Frida Kahlo",
+        "choices": ["Frida Kahlo", "Remedios Varo", "Leonora Carrington", "María Izquierdo"],
+        "anecdote": "Frida Kahlo est connue pour ses autoportraits vibrants qui explorent des thèmes tels que l'identité, la douleur et la culture mexicaine."
+    },
+    {
+        "question": "Quel sculpteur français est l'auteur de 'Le Penseur' ?",
+        "correctAnswer": "Auguste Rodin",
+        "choices": ["Auguste Rodin", "Camille Claudel", "Antoine Bourdelle", "Jean-Baptiste Carpeaux"],
+        "anecdote": "Auguste Rodin a sculpté 'Le Penseur', une figure emblématique représentant un homme en profonde réflexion."
+    },
+    {
+        "question": "Quel peintre et graveur espagnol est célèbre pour ses œuvres sombres et satiriques, comme 'Les Désastres de la guerre' ?",
+        "correctAnswer": "Francisco Goya",
+        "choices": ["Francisco Goya", "El Greco", "Diego Velázquez", "Joan Miró"],
+        "anecdote": "Francisco Goya est célèbre pour ses œuvres satiriques et sombres, dénonçant les horreurs de la guerre et les travers de la société."
+    }
+  ],
+  "Confirmed": [
+    {
+      "question": "Quel peintre néerlandais est célèbre pour avoir coupé une partie de son oreille ?",
+      "correctAnswer": "Vincent van Gogh",
+      "choices": ["Vincent van Gogh", "Rembrandt", "Johannes Vermeer", "Piet Mondrian"],
+      "anecdote": "Vincent van Gogh, célèbre pour ses œuvres comme 'La Nuit étoilée', s'est coupé une partie de son oreille gauche en 1888."
+    },
+    {
+        "question": "Quel artiste espagnol est connu pour ses périodes 'Bleue' et 'Rose' ?",
+        "correctAnswer": "Pablo Picasso",
+        "choices": ["Pablo Picasso", "Salvador Dalí", "Joan Miró", "Francisco Goya"],
+        "anecdote": "Pablo Picasso a traversé une période bleue (1901-1904) marquée par des œuvres mélancoliques et une période rose (1904-1906) caractérisée par des tons plus chaleureux."
+    },
+    {
+        "question": "Quel mouvement artistique a été fondé par André Breton en 1924 ?",
+        "correctAnswer": "Surréalisme",
+        "choices": ["Surréalisme", "Dadaïsme", "Futurisme", "Cubisme"],
+        "anecdote": "Le surréalisme, fondé par André Breton, vise à libérer l'imagination en explorant les rêves et l'inconscient, influençant des artistes comme Salvador Dalí et Max Ernst."
+    },
+    {
+        "question": "Quel artiste italien est connu pour ses fresques dans la Chapelle Sixtine, y compris 'Le Jugement dernier' ?",
+        "correctAnswer": "Michel-Ange",
+        "choices": ["Michel-Ange", "Raphaël", "Léonard de Vinci", "Botticelli"],
+        "anecdote": "Michel-Ange a peint 'Le Jugement dernier' sur le mur de l'autel de la Chapelle Sixtine entre 1536 et 1541, une œuvre monumentale de la Renaissance."
+    },
+    {
+        "question": "Quel artiste français a développé la technique du pointillisme avec Paul Signac ?",
+        "correctAnswer": "Georges Seurat",
+        "choices": ["Georges Seurat", "Claude Monet", "Edgar Degas", "Henri Matisse"],
+        "anecdote": "Georges Seurat a co-développé le pointillisme, une technique de peinture utilisant de petits points de couleur pure, visible dans son œuvre 'Un dimanche après-midi à l'Île de la Grande Jatte'."
+    },
+    {
+        "question": "Quel artiste mexicain est connu pour ses peintures murales célébrant l'histoire et la culture du Mexique ?",
+        "correctAnswer": "Diego Rivera",
+        "choices": ["Diego Rivera", "David Alfaro Siqueiros", "José Clemente Orozco", "Frida Kahlo"],
+        "anecdote": "Diego Rivera est célèbre pour ses peintures murales qui dépeignent des scènes de l'histoire mexicaine et la lutte sociale, souvent réalisées à grande échelle."
+    },
+    {
+        "question": "Quel peintre italien est considéré comme le maître de la Renaissance vénitienne et est connu pour ses portraits et ses scènes religieuses ?",
+        "correctAnswer": "Titien",
+        "choices": ["Titien", "Giorgione", "Véronèse", "Tintoret"],
+        "anecdote": "Titien est l'un des peintres les plus importants de la Renaissance vénitienne, connu pour ses portraits de la noblesse et ses représentations religieuses vibrantes."
+    },
+    {
+        "question": "Quel artiste français a peint 'Le Déjeuner sur l'herbe', une œuvre controversée de 1863 ?",
+        "correctAnswer": "Édouard Manet",
+        "choices": ["Édouard Manet", "Claude Monet", "Pierre-Auguste Renoir", "Paul Cézanne"],
+        "anecdote": "Édouard Manet a créé 'Le Déjeuner sur l'herbe', qui a choqué le public et les critiques de l'époque par son traitement réaliste et provocateur de la nudité."
+    },
+    {
+        "question": "Quel sculpteur italien de la Renaissance est célèbre pour sa statue de 'David' ?",
+        "correctAnswer": "Michel-Ange",
+        "choices": ["Michel-Ange", "Donatello", "Bernini", "Cellini"],
+        "anecdote": "Michel-Ange a sculpté le 'David' entre 1501 et 1504, une sculpture emblématique de la Renaissance représentant le héros biblique."
+    },
+    {
+        "question": "Quel mouvement artistique du début du 20ème siècle est caractérisé par l'utilisation de formes géométriques et de collages ?",
+        "correctAnswer": "Cubisme",
+        "choices": ["Cubisme", "Futurisme", "Expressionnisme", "Surréalisme"],
+        "anecdote": "Le cubisme, co-fondé par Pablo Picasso et Georges Braque, décompose les objets en formes géométriques et utilise la technique du collage pour intégrer différents matériaux."
+    },
+    {
+        "question": "Quel artiste américain est connu pour ses peintures de paysages de l'Ouest américain, notamment du Grand Canyon et des montagnes Rocheuses ?",
+        "correctAnswer": "Thomas Moran",
+        "choices": ["Thomas Moran", "Frederic Edwin Church", "Albert Bierstadt", "John Singer Sargent"],
+        "anecdote": "Thomas Moran est célèbre pour ses paysages époustouflants du Grand Canyon et des montagnes Rocheuses, contribuant à l'appréciation de la nature sauvage américaine."
+    },
+    {
+        "question": "Quel artiste autrichien est connu pour ses œuvres dorées et ornementées, telles que 'Le Baiser' ?",
+        "correctAnswer": "Gustav Klimt",
+        "choices": ["Gustav Klimt", "Egon Schiele", "Oskar Kokoschka", "Ferdinand Hodler"],
+        "anecdote": "Gustav Klimt est célèbre pour ses peintures dorées et ornementées, dont 'Le Baiser', une œuvre emblématique de l'Art nouveau."
+    },
+    {
+        "question": "Quel artiste français est considéré comme l'un des pionniers de l'art abstrait et a fondé le mouvement De Stijl ?",
+        "correctAnswer": "Piet Mondrian",
+        "choices": ["Piet Mondrian", "Wassily Kandinsky", "Kazimir Malevich", "Paul Klee"],
+        "anecdote": "Piet Mondrian est l'un des fondateurs de l'art abstrait et du mouvement De Stijl, connu pour ses compositions géométriques utilisant des lignes noires et des couleurs primaires."
+    },
+    {
+        "question": "Quel artiste américain est célèbre pour ses œuvres de dripping et d'action painting ?",
+        "correctAnswer": "Jackson Pollock",
+        "choices": ["Jackson Pollock", "Mark Rothko", "Willem de Kooning", "Barnett Newman"],
+        "anecdote": "Jackson Pollock est un pionnier de l'expressionnisme abstrait, connu pour sa technique de dripping qui consiste à faire couler ou éclabousser de la peinture sur la toile."
+    },
+    {
+        "question": "Quel peintre espagnol est connu pour ses œuvres de la période bleue et de la période rose ?",
+        "correctAnswer": "Pablo Picasso",
+        "choices": ["Pablo Picasso", "Joan Miró", "Salvador Dalí", "Antoni Gaudí"],
+        "anecdote": "Pablo Picasso a traversé des périodes artistiques distinctes, notamment la période bleue, marquée par des thèmes mélancoliques, et la période rose, caractérisée par des couleurs plus chaudes."
+    },
+    {
+        "question": "Quel artiste français est connu pour ses représentations de danseuses et de scènes de ballet ?",
+        "correctAnswer": "Edgar Degas",
+        "choices": ["Edgar Degas", "Claude Monet", "Paul Cézanne", "Henri de Toulouse-Lautrec"],
+        "anecdote": "Edgar Degas est réputé pour ses représentations de danseuses et de scènes de ballet, capturant le mouvement et la grâce de ses sujets."
+    },
+    {
+        "question": "Quel artiste du 20ème siècle est célèbre pour ses œuvres pop art, comme les sérigraphies de Marylin Monroe ?",
+        "correctAnswer": "Andy Warhol",
+        "choices": ["Andy Warhol", "Roy Lichtenstein", "David Hockney", "Jasper Johns"],
+        "anecdote": "Andy Warhol est une figure emblématique du pop art, connu pour ses sérigraphies de célébrités et ses œuvres sur la culture de consommation."
+    }
+  ],
+  "Expert": [
+    {
+      "question": "Qui a peint 'Les Ménines' en 1656 ?",
+      "correctAnswer": "Velázquez",
+      "choices": ["Velázquez", "Goya", "Zurbarán", "Murillo"],
+      "anecdote": "Diego Velázquez a peint 'Les Ménines', une œuvre complexe qui explore les thèmes de la perception et de la réalité."
+    },
+    {
+        "question": "Quel artiste est associé au manifeste 'Le Futurisme' ?",
+        "correctAnswer": "Marinetti",
+        "choices": ["Marinetti", "Boccioni", "Severini", "Carrà"],
+        "anecdote": "Filippo Tommaso Marinetti est l'auteur du manifeste 'Le Futurisme', publié en 1909, prônant la modernité et le dynamisme."
+    },
+    {
+        "question": "Quel artiste a créé le concept de 'Ready-made' ?",
+        "correctAnswer": "Duchamp",
+        "choices": ["Duchamp", "Man Ray", "Picabia", "Arp"],
+        "anecdote": "Marcel Duchamp a révolutionné l'art avec ses 'Ready-mades', des objets manufacturés élevés au rang d'œuvres d'art."
+    },
+    {
+        "question": "Qui a réalisé l'installation 'The Weather Project' en 2003 ?",
+        "correctAnswer": "Eliasson",
+        "choices": ["Eliasson", "Hirst", "Turrell", "Gormley"],
+        "anecdote": "Olafur Eliasson a créé 'The Weather Project', une installation monumentale au Tate Modern explorant la lumière et la perception."
+    },
+    {
+        "question": "Quel mouvement est représenté par l'œuvre 'Composition VII' de Kandinsky ?",
+        "correctAnswer": "Abstraction",
+        "choices": ["Abstraction", "Expressionnisme", "Cubisme", "Futurisme"],
+        "anecdote": "Wassily Kandinsky est l'un des pionniers de l'abstraction, et son 'Composition VII' est une œuvre clé du mouvement."
+    },
+    {
+        "question": "Quel artiste a conçu la sculpture 'Cloud Gate' à Chicago ?",
+        "correctAnswer": "Kapoor",
+        "choices": ["Kapoor", "Serra", "Koons", "Gehry"],
+        "anecdote": "Anish Kapoor est le créateur de 'Cloud Gate', une sculpture emblématique en acier inoxydable située à Millennium Park, Chicago."
+    },
+    {
+        "question": "Qui a écrit 'La Vie des artistes', un texte fondamental de la biographie artistique ?",
+        "correctAnswer": "Vasari",
+        "choices": ["Vasari", "Cellini", "Bellori", "Baldinucci"],
+        "anecdote": "Giorgio Vasari a écrit 'La Vie des artistes', une série de biographies d'artistes de la Renaissance qui a influencé l'histoire de l'art."
+    },
+    {
+        "question": "Quel artiste est connu pour ses 'Boîtes Brillo' ?",
+        "correctAnswer": "Warhol",
+        "choices": ["Warhol", "Lichtenstein", "Oldenburg", "Johns"],
+        "anecdote": "Andy Warhol a créé les 'Boîtes Brillo', des sculptures qui remettent en question les frontières entre l'art et le commerce."
+    },
+    {
+        "question": "Quel peintre du 16ème siècle est célèbre pour ses compositions complexes de la Sainte Famille, souvent appelées 'Tondo' ?",
+        "correctAnswer": "Michel-Ange",
+        "choices": ["Michel-Ange", "Raphaël", "Léonard de Vinci", "Botticelli"],
+        "anecdote": "Michel-Ange a réalisé plusieurs 'Tondi', des compositions circulaires représentant la Sainte Famille, qui montrent sa maîtrise de la forme et de l'émotion."
+    },
+    {
+        "question": "Qui est l'auteur de l'œuvre 'No Woman, No Cry' (2002) ?",
+        "correctAnswer": "Ofili",
+        "choices": ["Ofili", "Shonibare", "Hirst", "Perry"],
+        "anecdote": "Chris Ofili a créé 'No Woman, No Cry', une peinture qui utilise des matériaux inhabituels comme des excréments d'éléphant."
+    },
+    {
+        "question": "Quel artiste a développé la technique du 'dripping' ?",
+        "correctAnswer": "Pollock",
+        "choices": ["Pollock", "Rothko", "de Kooning", "Newman"],
+        "anecdote": "Jackson Pollock est connu pour sa technique du 'dripping', où il laisse la peinture couler ou éclabousser sur la toile."
+    },
+    {
+        "question": "Quel artiste est célèbre pour ses monochromes bleus et l'invention de l'IKB (International Klein Blue) ?",
+        "correctAnswer": "Klein",
+        "choices": ["Klein", "Fontana", "Manzoni", "Yves"],
+        "anecdote": "Yves Klein a développé l'IKB, une teinte de bleu intense utilisée dans ses œuvres monochromes emblématiques."
+    },
+    {
+        "question": "Quel peintre italien est connu pour ses scènes mythologiques et ses nus féminins idéalisés, comme dans 'La Vénus d'Urbino' ?",
+        "correctAnswer": "Titien",
+        "choices": ["Titien", "Giorgione", "Véronèse", "Tintoret"],
+        "anecdote": "Titien a peint 'La Vénus d'Urbino', une œuvre qui explore les thèmes de la beauté et de la sensualité à travers une représentation idéale du nu féminin."
+    },
+    {
+        "question": "Quel artiste est célèbre pour ses gravures de visions cauchemardesques, telles que 'Les Caprices' ?",
+        "correctAnswer": "Goya",
+        "choices": ["Goya", "Hogarth", "Blake", "Dürer"],
+        "anecdote": "Francisco Goya est connu pour ses gravures 'Les Caprices', qui satirisent la société espagnole de son époque avec des visions souvent cauchemardesques."
+    },
+    {
+        "question": "Quel architecte américain est connu pour ses maisons 'Prairie', notamment 'Fallingwater' ?",
+        "correctAnswer": "Wright",
+        "choices": ["Wright", "Gehry", "Le Corbusier", "Sullivan"],
+        "anecdote": "Frank Lloyd Wright est célèbre pour son style 'Prairie' et ses réalisations comme 'Fallingwater', une maison intégrée dans son environnement naturel."
+    },
+    {
+        "question": "Quel sculpteur a créé 'Le Penseur' et 'Les Bourgeois de Calais' ?",
+        "correctAnswer": "Rodin",
+        "choices": ["Rodin", "Brancusi", "Moore", "Giacometti"],
+        "anecdote": "Auguste Rodin est l'auteur de 'Le Penseur' et 'Les Bourgeois de Calais', des œuvres qui capturent l'émotion et la complexité humaine."
+    },
+    {
+        "question": "Qui a peint 'La Jeune Fille à la perle', parfois appelée la 'Mona Lisa du Nord' ?",
+        "correctAnswer": "Vermeer",
+        "choices": ["Vermeer", "Rembrandt", "Hals", "van Eyck"],
+        "anecdote": "Johannes Vermeer a peint 'La Jeune Fille à la perle', une œuvre célèbre pour son utilisation de la lumière et de la couleur."
+    },
+    {
+        "question": "Quel artiste est célèbre pour ses œuvres sur toile brûlée, appelées 'Combustions' ?",
+        "correctAnswer": "Burri",
+        "choices": ["Burri", "Fontana", "Manzoni", "Rotella"],
+        "anecdote": "Alberto Burri a créé les 'Combustions', des œuvres où il brûle la toile pour explorer les textures et les formes."
+    },
+    {
+        "question": "Quel artiste contemporain est connu pour ses sculptures hyperréalistes de personnes en silicone ?",
+        "correctAnswer": "Mueck",
+        "choices": ["Mueck", "Gormley", "Hirst", "Serra"],
+        "anecdote": "Ron Mueck crée des sculptures hyperréalistes en silicone et autres matériaux, capturant des détails incroyablement réalistes des sujets humains."
+    },
+    {
+        "question": "Quel peintre de la Renaissance est connu pour sa série de Madones, dont la 'Madone Sixtine' ?",
+        "correctAnswer": "Raphaël",
+        "choices": ["Raphaël", "Michel-Ange", "Léonard", "Botticelli"],
+        "anecdote": "Raphaël est célèbre pour ses représentations de la Vierge Marie, dont la 'Madone Sixtine', qui est l'une de ses œuvres les plus admirées."
     }
   ]
 }
