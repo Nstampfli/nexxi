@@ -5,6 +5,10 @@ import 'quiz_config_page.dart';
 class ThemeSelectionPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    // Sépare les thèmes avec et sans tag
+    final availableThemes = FakeData.quizThemes.where((theme) => theme.tag == null).toList();
+    final comingSoonThemes = FakeData.quizThemes.where((theme) => theme.tag == 'coming soon').toList();
+
     return Scaffold(
       appBar: AppBar(
         title: Text('Choose a Theme'),
@@ -17,45 +21,80 @@ class ThemeSelectionPage extends StatelessWidget {
           crossAxisSpacing: 16,
           mainAxisSpacing: 16,
         ),
-        itemCount: FakeData.quizThemes.length,
+        itemCount: availableThemes.length + comingSoonThemes.length,
         itemBuilder: (context, index) {
-          final theme = FakeData.quizThemes[index];
+          final isComingSoon = index >= availableThemes.length;
+          final theme = isComingSoon ? comingSoonThemes[index - availableThemes.length] : availableThemes[index];
+          final isDisabled = theme.tag == 'coming soon';
+
           return GestureDetector(
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => QuizConfigPage(theme: theme),
-                ),
-              );
-            },
+            onTap: isDisabled
+                ? null
+                : () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => QuizConfigPage(theme: theme),
+                      ),
+                    );
+                  },
             child: Card(
-              color: Color(0xFF1E2237), // Couleur de fond d'origine
+              color: Color(0xFF1E2237),
               elevation: 2,
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(10),
               ),
-              child: Container(
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(10),
-                  boxShadow: [
-                    BoxShadow(
-                      color: Color(int.parse(theme.color)).withOpacity(0.1),
-                      blurRadius: 100,
-                      offset: Offset(0, 1),
-                    ),
-                  ],
-                ),
-                padding: const EdgeInsets.all(16.0),
-                child: Center(
-                  child: Text(
-                    theme.name,
-                    style: TextStyle(
-                      color: Color(int.parse(theme.color)),
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold,
-                    ),
-                    textAlign: TextAlign.center,
+              child: Opacity(
+                opacity: isDisabled ? 0.5 : 1.0,
+                child: Container(
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(10),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Color(int.parse(theme.color)).withOpacity(0.1),
+                        blurRadius: 1,
+                        offset: Offset(0, 1),
+                      ),
+                    ],
+                  ),
+                  padding: const EdgeInsets.all(16.0),
+                  child: Stack(
+                    children: [
+                      Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Center(
+                            child: Text(
+                              theme.name,
+                              style: TextStyle(
+                                color: Color(int.parse(theme.color)),
+                                fontSize: 18,
+                                fontWeight: FontWeight.bold,
+                              ),
+                              textAlign: TextAlign.center,
+                            ),
+                          ),
+                          if (isDisabled)
+                            Container(
+                              margin: EdgeInsets.only(top: 8),
+                              padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                              decoration: BoxDecoration(
+                                color: Colors.amber,
+                                borderRadius: BorderRadius.circular(8),
+                              ),
+                              child: Text(
+                                'Coming Soon',
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 12,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                                textAlign: TextAlign.center,
+                              ),
+                            ),
+                        ],
+                      ),
+                    ],
                   ),
                 ),
               ),

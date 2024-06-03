@@ -116,15 +116,15 @@ static final Map<String, dynamic> userProfile = {
 
 static final List<QuizTheme> quizThemes = [
     QuizTheme(name: "Animals", color: "0xFF76B041", value: "animals"),
-    QuizTheme(name: "Archaeology", color: "0xFFD4A017", value: "archaeology"),
-    QuizTheme(name: "Arts", color: "0xFF3B7DD8", value: "arts"),
-    QuizTheme(name: "Comics", color: "0xFFE91E63", value: "comics"),
-    QuizTheme(name: "Celebrities", color: "0xFF9C27B0", value: "celebrities"),
-    QuizTheme(name: "Cinema", color: "0xFF673AB7", value: "cinema"),
-    QuizTheme(name: "General Culture", color: "0xFF4CAF50", value: "general_culture"),
-    QuizTheme(name: "Gastronomy", color: "0xFFFFC107", value: "gastronomy"),
-    QuizTheme(name: "Geography", color: "0xFF2196F3", value: "geography"),
     QuizTheme(name: "History", color: "0xFF795548", value: "history"),
-    // Ajoutez d'autres thèmes ici...
+    QuizTheme(name: "Arts", color: "0xFF3B7DD8", value: "arts"),
+    QuizTheme(name: "Video Games", color: "0xFFCC0000", value: "video_games"),
+    QuizTheme(name: "Comics", color: "0xFFE91E63", value: "comics", tag: 'coming soon'),
+    QuizTheme(name: "Celebrities", color: "0xFF9C27B0", value: "celebrities", tag: 'coming soon'),
+    QuizTheme(name: "Cinema", color: "0xFF673AB7", value: "cinema", tag: 'coming soon'),
+    QuizTheme(name: "General Culture", color: "0xFF4CAF50", value: "general_culture", tag: 'coming soon'),
+    QuizTheme(name: "Gastronomy", color: "0xFFFFC107", value: "gastronomy", tag: 'coming soon'),
+    QuizTheme(name: "Geography", color: "0xFF2196F3", value: "geography", tag: 'coming soon'),
+    QuizTheme(name: "Archaeology", color: "0xFFD4A017", value: "archaeology", tag: 'coming soon'),
   ];
 }

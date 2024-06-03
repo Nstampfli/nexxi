@@ -185,11 +185,7 @@ class _ResultPageState extends State<ResultPage> with TickerProviderStateMixin {
                 Center(
                   child: ElevatedButton(
                     onPressed: () {
-                      Navigator.pushAndRemoveUntil(
-                        context,
-                        MaterialPageRoute(builder: (context) => ThemeSelectionPage()),
-                        (route) => false,
-                      );
+                      Navigator.popUntil(context, (route) => route.isFirst);
                     },
                     style: ElevatedButton.styleFrom(
                       padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),

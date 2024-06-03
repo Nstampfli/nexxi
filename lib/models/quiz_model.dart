@@ -25,7 +25,8 @@ class QuizTheme {
   final String name;
   final String value;
   final String color;
+  final String? tag;
 
-  QuizTheme({required this.name, required this.value, required this.color});
+  QuizTheme({required this.name, required this.value, required this.color, this.tag});
 }
 
